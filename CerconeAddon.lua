@@ -175,7 +175,7 @@ function ShowSimpleData(name)
         d("No se encontró el control 'CerconePjSimpleUI'")
     end
   else
-    d("No hay resultados para" .. #CerconePjData)
+    d("Sin resultados")
   end
 end
 
@@ -190,43 +190,6 @@ local function OnCloseStore()
 end
 
 --FUNCIONES DE BUSQUEDA PJ
-SLASH_COMMANDS["/cerconepj"] = function(number)
-  -- Convierte el argumento a un número
-  local index = tonumber(number)
-  -- Verifica si el número es válido
-  if index and index >= 1 and index <= #CerconePjData then
-    local primerPersonaje = CerconePjData[index].Personaje
-    d("El num " .. index .. " es: " .. primerPersonaje)
-  else
-    d("El número proporcionado no es válido. Debe estar entre 1 y " .. #CerconePjData)
-  end
-end
-
-SLASH_COMMANDS["/searchpj"] = function(name)
-  local searchTerm = string.lower(name) -- Convertir a minúsculas para una búsqueda sin distinción de mayúsculas/minúsculas
-
-  local matches = {} -- Almacenará los resultados coincidentes
-
-  for index, pjInfo in ipairs(CerconePjData) do
-      local pjName = string.lower(pjInfo.Personaje) -- Convertir a minúsculas para comparar
-      -- Verificar si el nombre de personaje contiene el término de búsqueda
-      if string.find(pjName, searchTerm, 1, true) then
-          -- Añadir el resultado a la lista de coincidencias
-          table.insert(matches, {ID = pjInfo.ID, Personaje = pjInfo.Personaje, Index = index})
-      end
-  end
-
-  -- Verificar si se encontraron coincidencias
-  if #matches > 0 then
-      -- Imprimir los resultados
-      for _, match in ipairs(matches) do
-          d(string.format("ID: %s, Personaje: %s, numero: %d", match.ID, match.Personaje, match.Index))
-      end
-  else
-      d("No se encontraron coincidencias para el término de búsqueda: " .. name)
-  end
-end
-
 function CerconeAddon.ClosePjUI()
   ClosePjUI()
 end

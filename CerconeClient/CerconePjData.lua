@@ -658,6 +658,53 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Crisanto de la Perpetua",
+        ID="@MarieKapra0795",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 507",
+            FechaConvercion="2E 585",
+            Sire="Barakiel Cainhurst",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguno",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Dante",
         ID="@ShadowDante",
         DataGeneral={
@@ -948,6 +995,53 @@ CerconePjData = {
             Nacimiento="2E 330",
             FechaConvercion="2E 357",
             Sire="Lamae Bal",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguno",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Drek'Khar",
+        ID="@Thorigama",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Brujo",
+            Nacimiento="2E 561",
+            FechaConvercion="2E 591",
+            Sire="Desconocido",
             Armadura="Ninguna",
             Rango="Iniciado",
             Orden="Ninguna",
@@ -1342,6 +1436,53 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="0",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Hillydan",
+        ID="@Michahel112",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 596",
+            FechaConvercion="2E 619",
+            Sire="Malfurion",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguno",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3022,7 +3163,7 @@ CerconePjData = {
             Especializacion="Soldado",
             Profesion="Herrería"
         },
-        ProfLevel=2,
+        ProfLevel=1,
         HP=20,
         Magicka=10,
         Ataque="1D20",
@@ -3051,7 +3192,7 @@ CerconePjData = {
             Engano=0,
             Voluntad=0,
             Percepcion=0,
-            Fuerza=1
+            Fuerza=0
         }
     },
     {
@@ -3128,147 +3269,6 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hillydan",
-        ID="@Michahel112",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 596",
-            FechaConvercion="2E 619",
-            Sire="Malfurion",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Drek'Khar",
-        ID="@Thorigama",
-        DataGeneral={
-            Raza="Orco",
-            Clase="Brujo",
-            Nacimiento="2E 561",
-            FechaConvercion="2E 591",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hillydan ",
-        ID="@Michahel112",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 596",
-            FechaConvercion="2E 619",
-            Sire="Malfurion",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
             Misiones="0"
         },
         HabilidadesCombatientes={
