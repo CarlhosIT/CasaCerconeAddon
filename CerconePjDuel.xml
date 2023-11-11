@@ -1,0 +1,28 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="CerconePjDuel" clampedToScreen="true" movable="true" mouseEnabled="true" hidden="true" resizeHandleSize="10">
+            <Dimensions x="250" y="250"/>
+            <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="-1000" offsetY="20" />
+            <Controls>
+                <Label name="PjNameDuel" text="Seleccione Pj" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="CENTER" fontSize="15">
+                    <Anchor point="TOP" relativeTo="CerconePjDuel" relativePoint="TOP" offsetY="150" />
+                    <Dimensions x="250" y="15"/>
+                </Label>
+                <Label name="PjHPDuel" text="--" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="CerconePjDuel" relativePoint="TOP" offsetX="0" offsetY="62" />
+                </Label>
+                <Label name="PjDefDuel" text="--" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjHPDuel" relativePoint="BOTTOM" offsetX="0" offsetY="7" />
+                </Label>
+                <Label name="PjMagickaDuel" text="--" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjDefDuel" relativePoint="BOTTOM" offsetX="0" offsetY="7" />
+                </Label>
+
+                <Texture name="CombatUI" textureFile="CerconeAddon/Assets/Combat_Interface.dds">
+                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                    <Dimensions x="250" y="250"/>
+                </Texture>
+            </Controls>            
+        </TopLevelControl>
+    </Controls>
+</GuiXml>

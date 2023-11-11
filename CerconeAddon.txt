@@ -1,0 +1,10 @@
+## Title: CerconeAddon
+## Author: @CC77 y @Josh-CR
+## APIVersion: 101035
+## SavedVariables: FooAddonSavedVariables
+
+Bindings.xml
+CerconeAddon.lua
+CerconeClient/CerconePjData.lua
+CerconePjSimpleUI.xml
+CerconePjDuel.xml

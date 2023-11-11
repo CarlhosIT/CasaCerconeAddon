@@ -1,0 +1,229 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="CerconePjSimpleUI" clampedToScreen="false" movable="true" mouseEnabled="true" hidden="true" resizeHandleSize="10">
+            <Dimensions x="1100" y="1100"/>
+            <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+            <Controls>
+
+                <Label name="PjName" text="Cercone Pj UI" font="ZoFontWinH1" verticalAlignment="TOP" horizontalAlignment="CENTER" fontSize="50">
+                    <Anchor point="TOP" relativeTo="CerconePjSimpleUI" relativePoint="CENTER" offsetY="-297" />
+                </Label>
+                <Label name="DatosLabel" text="DATOS" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="30">
+                    <Anchor point="TOP" relativeTo="PjName" relativePoint="TOP" offsetX="-280" offsetY="60" />
+                </Label>
+                <Label name="ProgresoLabel" text="PROGRESO" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="30">
+                    <Anchor point="TOP" relativeTo="PjName" relativePoint="TOP" offsetX="-15" offsetY="60" />
+                </Label>
+                <Label name="PjRaza" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="DatosLabel" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjRango" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="ProgresoLabel" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjNacimiento" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjRaza" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjOrden" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjRango" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjSire" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjNacimiento" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjEspecializacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjOrden" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjConvertido" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjSire" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjArmadura" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjEspecializacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjMeritos" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjArmadura" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjMisiones" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjMeritos" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+
+                <Label name="PjHP" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjConvertido" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjDef" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjHP" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjMagicka" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjDef" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                
+
+                <Label name="HabilidadesLabel" text="HABILIDADES" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="30">
+                    <Anchor point="TOP" relativeTo="PjName" relativePoint="TOP" offsetX="270" offsetY="60" />
+                </Label>
+
+                <Label name="PjExploracion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="HabilidadesLabel" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjInvestigacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjExploracion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjInutilizar" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjInvestigacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjSigilo" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjInutilizar" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjPersuacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjSigilo" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjIntimidacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjPersuacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjEngano" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjIntimidacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjVoluntad" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjEngano" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjPercepcion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjVoluntad" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+                <Label name="PjFuerza" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjPercepcion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
+
+                <Label name="AcademiaLabel" text="Academia" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+                    <Anchor point="TOP" relativeTo="PjMisiones" relativePoint="TOP" offsetX="-15" offsetY="97" />
+                </Label>
+                <Label name="PjClaseAc" text="Academia" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+                    <Anchor point="TOP" relativeTo="AcademiaLabel" relativePoint="TOP" offsetX="-235" offsetY="47" />
+                </Label>
+                <Label name="PjArteGuerra" text="Arte de la Guerra:" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+                    <Anchor point="TOP" relativeTo="PjClaseAc" relativePoint="TOP" offsetX="0" offsetY="35" />
+                </Label>
+                <Label name="PjProfesion" text=" " font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+                    <Anchor point="TOP" relativeTo="PjArteGuerra" relativePoint="TOP" offsetX="0" offsetY="35" />
+                </Label>
+                <Label name="LinajeCercone" text="Linaje Cercone:" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+                    <Anchor point="TOP" relativeTo="PjProfesion" relativePoint="TOP" offsetX="0" offsetY="35" />
+                </Label>
+
+                <Button name="CerrarPjInfo" mouseover="CerconeAddon/Assets/Boton_X.dds" mouseDown="CerconeAddon/Assets/XMark.dds">
+                    <Dimensions x="85" y="90" />
+                    <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-175" offsetY="225" />
+                    <OnClicked>
+                        CerconeAddon.ClosePjUI()
+                    </OnClicked>
+                </Button>
+                
+                <Texture name="TexturePergamino" textureFile="CerconeAddon/Assets/Pergamino.dds">
+                <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                <Dimensions x="1100" y="1100"/>
+                </Texture>
+
+                <Texture name="MarkClass1" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="PjClaseAc" relativePoint="CENTER" offsetX="114" offsetY="2" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass2" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass1" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass3" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass2" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass4" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass3" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass5" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass4" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass6" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass5" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass7" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass6" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass8" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass7" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkClass9" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass8" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+
+
+
+                <Texture name="MarkWar1" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkClass1" relativePoint="CENTER" offsetX="0" offsetY="35" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkWar2" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar1" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkWar3" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar2" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkWar4" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar3" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkWar5" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar4" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkWar6" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar5" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+
+
+                <Texture name="MarkProf1" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkWar1" relativePoint="CENTER" offsetX="0" offsetY="32" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkProf2" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkProf1" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkProf3" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkProf2" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+
+                <Texture name="MarkLCf1" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkProf1" relativePoint="CENTER" offsetX="0" offsetY="32" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkLCf2" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkLCf1" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+                <Texture name="MarkLCf3" textureFile="CerconeAddon/Assets/Mark.dds">
+                <Anchor point="CENTER" relativeTo="MarkLCf2" relativePoint="CENTER" offsetX="32" offsetY="0" />
+                <Dimensions x="27" y="27"/>
+                </Texture>
+
+
+                <Texture name="XCerrar" textureFile="CerconeAddon/Assets/Boton_X.dds">
+                    <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-175" offsetY="225" />
+                    <Dimensions x="80" y="80" />
+                    <OnMouseEnter>
+                        self:SetTexture("CerconeAddon/Assets/X.Mark.dds")
+                    </OnMouseEnter>
+                    <OnMouseExit>
+                        self:SetTexture("CerconeAddon/Assets/X.dds")
+                    </OnMouseExit>
+                </Texture>               
+                
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>
