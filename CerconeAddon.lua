@@ -179,20 +179,99 @@ function ShowSimpleData(name)
   end
 end
 
-local function OnOpenStore()
-  CerconePjDuel:SetHidden(true)
-end
-
-local function OnCloseStore()
-  if CerconeAddon.haveDuelUI then
-    CerconePjDuel:SetHidden(false)
-  end
-end
 
 --FUNCIONES DE BUSQUEDA PJ
 function CerconeAddon.ClosePjUI()
   ClosePjUI()
 end
+
+function CerconeAddon.AddHp()
+  local currentText = PjHPDuel:GetText()
+  if currentText == "--" then
+        d("Seleccione un personaje antes de usar este comando.")
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP + 1
+      PjHPDuel:SetText("HP: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+function CerconeAddon.DiscHp()
+  local currentText = PjHPDuel:GetText()
+  if currentText == "--" then
+        d("Seleccione un personaje antes de usar este comando.")
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP - 1
+      PjHPDuel:SetText("HP: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+
+function CerconeAddon.AddDef()
+  local currentText = PjDefDuel:GetText()
+  if currentText == "--" then
+        d("Seleccione un personaje antes de usar este comando.")
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP + 1
+      PjDefDuel:SetText("Def: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+function CerconeAddon.DiscDefp()
+  local currentText = PjDefDuel:GetText()
+  if currentText == "--" then
+        d("Seleccione un personaje antes de usar este comando.")
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP - 1
+      PjDefDuel:SetText("Def: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+
+function CerconeAddon.AddMag()
+  local currentText = PjMagickaDuel:GetText()
+  if currentText == "--" then
+        d("Seleccione un personaje antes de usar este comando.")
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP + 1
+      PjMagickaDuel:SetText("Mag: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+function CerconeAddon.DiscMag()
+  local currentText = PjMagickaDuel:GetText()
+  if currentText == "--" then
+        return
+    end
+  local currentHP = tonumber(string.match(currentText, "%d+"))
+  if currentHP then
+      local newHP = currentHP - 1
+      PjMagickaDuel:SetText("Mag: " .. newHP)
+  else
+      d("El valor actual no es válido.")
+  end
+end
+
+
 
 SLASH_COMMANDS["/pjinfo"] = function(name)
   ShowSimpleData(name)
@@ -280,17 +359,9 @@ function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
   ClosePjUI()
   CerconeAddon.haveDuelUI=false
 end
----COSAS DE SISTEMA
 
 --Registro de Variables
 ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_NB1TOGGLE", "CerconePjs")  
---Registro de Eventos
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_OPEN_STORE, OnOpenStore)
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_CLOSE_STORE, OnCloseStore)
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_OPEN_BANK, OnOpenStore)
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_CLOSE_BANK, OnCloseStore)
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_ACTION_LAYER_POPPED, OnCloseStore)
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name,  EVENT_ACTION_LAYER_PUSHED, OnOpenStore)
  
 --Registro del addon
 EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED, CerconeAddon.OnAddOnLoaded)
