@@ -44,6 +44,9 @@
                 <Label name="PjMisiones" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
                     <Anchor point="TOP" relativeTo="PjMeritos" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
                 </Label>
+                <Label name="PjMisionesOrganizadas" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+                    <Anchor point="TOP" relativeTo="PjMisiones" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                </Label>
 
                 <Label name="PjHP" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
                     <Anchor point="TOP" relativeTo="PjConvertido" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
@@ -78,11 +81,8 @@
                 <Label name="PjIntimidacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
                     <Anchor point="TOP" relativeTo="PjPersuacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
                 </Label>
-                <Label name="PjEngano" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
-                    <Anchor point="TOP" relativeTo="PjIntimidacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
-                </Label>
                 <Label name="PjVoluntad" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
-                    <Anchor point="TOP" relativeTo="PjEngano" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+                    <Anchor point="TOP" relativeTo="PjIntimidacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
                 </Label>
                 <Label name="PjPercepcion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
                     <Anchor point="TOP" relativeTo="PjVoluntad" relativePoint="BOTTOM" offsetX="0" offsetY="10" />

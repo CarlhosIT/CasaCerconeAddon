@@ -1,0 +1,129 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="Grimorio" clampedToScreen="false" movable="true" mouseEnabled="true" hidden="true" resizeHandleSize="10">
+            <Dimensions x="1346" y="938"/>
+            <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+            <Controls>
+                <Texture name="Libro" textureFile="CerconeAddon/Assets/grimorio.dds">
+                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                    <Dimensions x="1346" y="938"/>
+                </Texture>
+
+                <!-- Página Izquierda -->
+                <Label name="Grimorio_Titulo" font="ZoFontWinH1" verticalAlignment="TOP" fontSize="200">
+                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="75" offsetY="100"/>                    
+                </Label>
+                <Label name="Grimorio_SubTitulo1" font="ZoFontWinH2">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Titulo" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo1" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre1" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo2" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre2" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo3" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre3" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_PageLeft" font="ZoFontWinH4" fontSize="30">
+                    <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="20" offsetY="0"/>
+                    <Dimensions x="200" y="50"/>
+                </Label>
+
+                <!-- Página Derecha -->
+                <Label name="Grimorio_SubTitulo2" font="ZoFontWinH2">
+                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="720" offsetY="50"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo4" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre4" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo5" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre5" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo6" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre6" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_SubTitulo3" font="ZoFontWinH2">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo7" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre7" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo7" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo8" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre7" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre8" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo8" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_Parrafo9" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre8" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="80"/>
+                </Label>
+                <Label name="Grimorio_ParrafoCierre9" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo9" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="500" y="40"/>
+                </Label>
+                <Label name="Grimorio_PageRight" font="ZoFontWinH4" fontSize="30">
+                    <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-20" offsetY="0"/>
+                    <Dimensions x="200" y="50"/>
+                </Label>
+
+                <!-- Botones de Navegación -->
+                <Button name="Grimorio_BtnPrev" text="Anterior">
+                    <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="20" offsetY="0"/>
+                    <Dimensions x="200" y="50"/>
+                    <OnClicked>
+                        CerconeAddon.NavigateGrimorio(-1)
+                    </OnClicked>
+                </Button>
+                <Button name="Grimorio_BtnNext" text="Siguiente">
+                    <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-20" offsetY="0"/>
+                    <Dimensions x="200" y="50"/>
+                    <OnClicked>
+                        CerconeAddon.NavigateGrimorio(1)
+                    </OnClicked>
+                </Button>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>

@@ -1,17 +1,17 @@
 CerconePjData = {
     {
-        Personaje="Aetherius Amarie",
-        ID="@GFox01",
+        Personaje="Viktor Blackthorne",
+        ID="@AdrianBlackthorne",
         DataGeneral={
-            Raza="Altmer",
-            Clase="Brujo",
-            Nacimiento="2E 530",
-            FechaConvercion="2E 555",
-            Sire="Vittorio Cercone",
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 483",
+            FechaConvercion="2E 508",
+            Sire="Adrian Blackthorne",
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -20,295 +20,14 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Akish",
-        ID="@Ilarislasus",
-        DataGeneral={
-            Raza="Argoniano",
-            Clase="Nigromante",
-            Nacimiento="2E 552",
-            FechaConvercion="2E 582",
-            Sire="Ri’asda",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
+            PorPorCampana="1",
             PorTaberna="2",
             PorMisiones="0",
-            Otros="1",
-            MeritosGastados="0",
-            TotalMeritos="3",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Alaric Noris",
-        ID="@Kevinsito04",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="1E 642",
-            FechaConvercion="2E 583",
-            Sire="Vittorio Cercone",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Alberich Trevelyan",
-        ID="@eruthian16",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Brujo",
-            Nacimiento="1E 2900",
-            FechaConvercion="2E 10",
-            Sire="Vittorio Cercone",
-            Armadura="Ligera",
-            Rango="Primogenito",
-            Orden="Inquisidores",
-            Especializacion="Incursor",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=20,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="4",
-            PorMisiones="2",
-            Otros="7",
-            MeritosGastados="0",
-            TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=3,
-            ArteDeGuerra=6,
-            LeccionesClase=9
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=3,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Alenwen Melethil",
-        ID="@Gnosis-Aletheia",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 33",
-            FechaConvercion="2E 64",
-            Sire="Desconocido",
-            Armadura="Ligera",
-            Rango="Veterano",
-            Orden="Inquisidores",
-            Especializacion="Erudito",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=18,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="11",
-            PorTaberna="13",
-            PorMisiones="3",
-            Otros="9",
-            MeritosGastados="0",
-            TotalMeritos="36",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=3,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=3,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Alessandra Belliaris",
-        ID="@GummyKitsu",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Brujo",
-            Nacimiento="2E 578",
-            FechaConvercion="2E 598",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="3",
-            PorMisiones="0",
-            Otros="3",
-            MeritosGastados="0",
-            TotalMeritos="6",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Alethys Rinori",
-        ID="@Gnosis-Aletheia",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 539",
-            FechaConvercion="2E 576",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="2",
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="3",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -322,1533 +41,28 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
         }
     },
     {
-        Personaje="Amitiel Stonemantle",
-        ID="@Stonemantle",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Brujo",
-            Nacimiento="2E 523",
-            FechaConvercion="2E 576",
-            Sire="Velith Aundae",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Anukkra",
-        ID="@xXBALBERITHXX",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Brujo",
-            Nacimiento="2E 579",
-            FechaConvercion="2E 600",
-            Sire="Acxo ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="4",
-            PorTaberna="5",
-            PorMisiones="1",
-            Otros="2",
-            MeritosGastados="0",
-            TotalMeritos="12",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Ares Bloodfallen",
-        ID="@Vander69",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="1E 2231",
-            FechaConvercion="1E 2262",
-            Sire="Lamae Bal",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Avelene Shitersyphon",
-        ID="@GummyKitsu",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 564",
-            FechaConvercion="2E 621",
-            Sire="Alessandra Beliaris",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="1",
-            PorMisiones="4",
-            Otros="3",
-            MeritosGastados="0",
-            TotalMeritos="9",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Azurakira",
-        ID="@Azurakira",
-        DataGeneral={
-            Raza="Bosmer",
-            Clase="Nigromante",
-            Nacimiento="2E 533",
-            FechaConvercion="N/A",
-            Sire="N/A",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Carmilla von Karnstein",
-        ID="@Ishtariel-CR",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Nigromante",
-            Nacimiento="2E 372",
-            FechaConvercion="2E 391",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="3",
-            PorMisiones="1",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="4",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Caster Braveshine",
-        ID="@CC77",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Brujo",
-            Nacimiento="2E 575",
-            FechaConvercion="2E 597",
-            Sire="Desconocido ",
-            Armadura="Ligera",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="3",
-            PorTaberna="2",
-            PorMisiones="3",
-            Otros="3",
-            MeritosGastados="6",
-            TotalMeritos="5",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Crisanto de la Perpetua",
-        ID="@MarieKapra0795",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 507",
-            FechaConvercion="2E 585",
-            Sire="Barakiel Cainhurst",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Dante",
-        ID="@ShadowDante",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Hoja de la noche",
-            Nacimiento="1E 2200",
-            FechaConvercion="1E 2230",
-            Sire="Vaelthor",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Dark Schneider",
-        ID="@MillerSigurd",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Brujo",
-            Nacimiento="2E 501",
-            FechaConvercion="2E 530",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Dijormk",
-        ID="@Diamoc",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="1E 2812",
-            FechaConvercion="1E 2836",
-            Sire="Lamae Bal",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Dimeric Direnni",
-        ID="@Diamoc",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Nigromante",
-            Nacimiento="1E 221",
-            FechaConvercion="1E 244",
-            Sire="Lamae Bal",
-            Armadura="Ligera",
-            Rango="Recluta",
-            Orden="Sanguinaris",
-            Especializacion="Soldado",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=14,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="10",
-            PorTaberna="8",
-            PorMisiones="3",
-            Otros="8",
-            MeritosGastados="16",
-            TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=6,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Dixthra",
-        ID="@Kryptha",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Guardian",
-            Nacimiento="2E 471",
-            FechaConvercion="2E 501",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="2",
-            MeritosGastados="0",
-            TotalMeritos="3",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Drake",
-        ID="@TheSaritama",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Brujo",
-            Nacimiento="2E 560",
-            FechaConvercion="N/A",
-            Sire="N/A",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Drakozillae ",
-        ID="@VALLHALLETA",
-        DataGeneral={
-            Raza="Argoniano",
-            Clase="Nigromante",
-            Nacimiento="2E 330",
-            FechaConvercion="2E 357",
-            Sire="Lamae Bal",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Drek'Khar",
-        ID="@Thorigama",
+        Personaje="AslanLeonee",
+        ID="@AlanLeone",
         DataGeneral={
             Raza="Orco",
-            Clase="Brujo",
-            Nacimiento="2E 561",
-            FechaConvercion="2E 591",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Elizabeth Dimitrescu ",
-        ID="@eruthian16",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Guardian",
-            Nacimiento="2E 597",
-            FechaConvercion="2E 616",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="FreeKiller el Chileno",
-        ID="@FreeKiller150",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Brujo",
-            Nacimiento="?",
-            FechaConvercion="2E 617",
-            Sire="Lynivren",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Frost Bathory",
-        ID="@ThorunnBathory666",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="2E 486",
-            FechaConvercion="2E 512",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="5",
-            PorMisiones="3",
-            Otros="7",
-            MeritosGastados="0",
-            TotalMeritos="16",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Gragus el Tuerto",
-        ID="@Ishtariel-CR",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Arcanista",
-            Nacimiento="",
-            FechaConvercion="",
-            Sire="",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="0",
-            PorMisiones="1",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Grom Barba Negra",
-        ID="@MillerSigurd",
-        DataGeneral={
-            Raza="Orco",
-            Clase="Arcanista",
-            Nacimiento="2E 500",
-            FechaConvercion="2E 539",
-            Sire="Valak",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="6",
-            PorTaberna="4",
-            PorMisiones="0",
-            Otros="3",
-            MeritosGastados="0",
-            TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hasanir",
-        ID="@Thorigama",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 505",
-            FechaConvercion="2E 529",
-            Sire="Desconocido ",
-            Armadura="Ligera",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="4",
-            PorTaberna="8",
-            PorMisiones="5",
-            Otros="7",
-            MeritosGastados="4",
-            TotalMeritos="20",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hell-Ah Dinnok",
-        ID="@CC77",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 559",
-            FechaConvercion="2E 583",
-            Sire="Akish",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hiebacesnof",
-        ID="@hiebacesnof",
-        DataGeneral={
-            Raza="Guardia Rojo",
-            Clase="Brujo",
-            Nacimiento="2E 585",
-            FechaConvercion="2E 616",
+            Clase="Templar",
+            Nacimiento="2E 369",
+            FechaConvercion="2E 399",
             Sire="Vittorio Cercone",
             Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hillydan",
-        ID="@Michahel112",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 596",
-            FechaConvercion="2E 619",
-            Sire="Malfurion",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="1",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Ishtariel Cercone",
-        ID="@Ishtariel-CR",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 549",
-            FechaConvercion="2E 582",
-            Sire="Desconocido",
-            Armadura="Pesada",
-            Rango="Veterano",
-            Orden="Sanguinaris",
-            Especializacion="Soldado",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=18,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=16,
-        Meritos={
-            PorPorCampana="18",
-            PorTaberna="18",
-            PorMisiones="8",
-            Otros="17",
-            MeritosGastados="36",
-            TotalMeritos="25",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=3,
-            ArteDeGuerra=6,
-            LeccionesClase=9
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=3,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Jasper Skykru",
-        ID="@eruthian16",
-        DataGeneral={
-            Raza="Bosmer",
-            Clase="Guardian",
-            Nacimiento="2E 562",
-            FechaConvercion="2E 582",
-            Sire="Fennorian Ravenwatch",
-            Armadura="Ligera",
-            Rango="Sanguinaris",
-            Orden="Sanguinaris",
-            Especializacion="Explorador",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=16,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="14",
-            PorTaberna="5",
-            PorMisiones="2",
-            Otros="3",
-            MeritosGastados="24",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=6,
-            LeccionesClase=9
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=3,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Jevabelle",
-        ID="@GummyKitsu",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Arcanista",
-            Nacimiento="",
-            FechaConvercion="",
-            Sire="Alberich Trevelyan ",
-            Armadura="Ninguna",
             Rango="Iniciado",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
         HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="1",
-            MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Joan Blondhood",
-        ID="@NeganProfessional",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Brujo",
-            Nacimiento="2E 564",
-            FechaConvercion="2E 582",
-            Sire="Veldora Valmir",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="k-Amor",
-        ID="@djchon",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Brujo",
-            Nacimiento="2E 590",
-            FechaConvercion="2E 621",
-            Sire="Vighar",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="1",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Kenaron",
-        ID="@Kenaron",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 212",
-            FechaConvercion="2E 582",
-            Sire="Harkon",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Khalen Ashkan",
-        ID="@Khalen_Ashkan",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 491",
-            FechaConvercion="2E 576",
-            Sire="Vittorio Cercone",
-            Armadura="Ligera",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="9",
-            PorTaberna="4",
-            PorMisiones="2",
-            Otros="2",
-            MeritosGastados="4",
-            TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="King Krasnyy Drakon",
-        ID="@LordKing21",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="1E 800",
-            FechaConvercion="1E 840",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
         Magicka=10,
         Ataque="1D20",
         Defensa=10,
@@ -1859,7 +73,8 @@ CerconePjData = {
             Otros="2",
             MeritosGastados="0",
             TotalMeritos="4",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1873,853 +88,6 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Leva-Muchas-Anclas",
-        ID="@Ilarislasus",
-        DataGeneral={
-            Raza="Argoniano",
-            Clase="Arcanista",
-            Nacimiento="",
-            FechaConvercion="",
-            Sire="",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="1",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Lichit",
-        ID="@Berna_Bear",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Caballero Dragón",
-            Nacimiento="2E 591",
-            FechaConvercion="2E 616",
-            Sire="Veldora Valmir",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Lucien Bloodcrow",
-        ID="@Jedi-San",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 550",
-            FechaConvercion="2E 580",
-            Sire="Vampiro de Lamae Bal",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="4",
-            MeritosGastados="0",
-            TotalMeritos="5",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Mahanarion",
-        ID="@Cernunnos050",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Arcanista",
-            Nacimiento="",
-            FechaConvercion="",
-            Sire="",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="1",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Mepfistófeles",
-        ID="@Samyaza01",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 281",
-            FechaConvercion="2E 301",
-            Sire="Desconocido",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="METALBEER",
-        ID="@METALBEER",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 580",
-            FechaConvercion="2E 600",
-            Sire="MustPreotecc",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Momon el Negro",
-        ID="@clown.28",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="2E 592",
-            FechaConvercion="2E 620",
-            Sire="Sathas Cercone",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Nahamy Longtail",
-        ID="@CC77",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 599",
-            FechaConvercion="2E 620",
-            Sire="Caster Braveshine",
-            Armadura="Ligera",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="5",
-            PorMisiones="2",
-            Otros="5",
-            MeritosGastados="10",
-            TotalMeritos="3",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=3,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Nardhil Cercone",
-        ID="@Nardhil-CR",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 601",
-            FechaConvercion="2E 616",
-            Sire="Desconocido",
-            Armadura="Pesada",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=16,
-        Meritos={
-            PorPorCampana="17",
-            PorTaberna="20",
-            PorMisiones="7",
-            Otros="16",
-            MeritosGastados="12",
-            TotalMeritos="48",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=6,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Nirelsa Telvanni",
-        ID="@Ilarislasus",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 490",
-            FechaConvercion="2E 510",
-            Sire="Desconocido",
-            Armadura="Pesada",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=16,
-        Meritos={
-            PorPorCampana="15",
-            PorTaberna="12",
-            PorMisiones="6",
-            Otros="17",
-            MeritosGastados="10",
-            TotalMeritos="40",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=3,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Padre Morrison",
-        ID="@NightmareXtreme",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Desconocida",
-            Nacimiento="Desconocido",
-            FechaConvercion="Desconocido",
-            Sire="Nek'Anatari",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Roahrk Vanko",
-        ID="@Dodobitus",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Caballero Dragón",
-            Nacimiento="?",
-            FechaConvercion="?",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Roselle",
-        ID="@WiscazZz",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 603",
-            FechaConvercion="2E 620",
-            Sire="Vittorio Cercone",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Samael Trevelyan ",
-        ID="@eruthian16",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Arcanista",
-            Nacimiento="2E 574",
-            FechaConvercion="2E 592 ",
-            Sire="Alberich Trevelyan ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Santiago",
-        ID="@LordSantiago20",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Arcanista",
-            Nacimiento="1E 224",
-            FechaConvercion="1E 245",
-            Sire="Desconocido ",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="4",
-            PorMisiones="0",
-            Otros="4",
-            MeritosGastados="0",
-            TotalMeritos="9",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Seint Eilivsen",
-        ID="@Seintxx",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="2E 595",
-            FechaConvercion="2E 620",
-            Sire="Vittorio Cercone",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="1",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Selene Lavella",
-        ID="@eruthian16",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 116",
-            FechaConvercion="2E 161",
-            Sire="Alberich Trevelyan",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Selenya Nyx",
-        ID="@Seraphyr",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Brujo",
-            Nacimiento="2E 202",
-            FechaConvercion="2E 382",
-            Sire="Vittorio Cercone",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
@@ -2737,7 +105,7 @@ CerconePjData = {
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -2752,7 +120,8 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="0",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2766,7 +135,1933 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Lythana Taldren",
+        ID="@Artëmis240",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 575",
+            FechaConvercion="2E 602",
+            Sire="Desconocido",
+            Armadura="Ligera",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="1",
+            PorMisiones="1",
+            Otros="1",
+            MeritosGastados="3",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Emile Of Castleblood",
+        ID="@Azurakira",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Templar",
+            Nacimiento="2E 410",
+            FechaConvercion="2E 440",
+            Sire="Vitorio Cercone",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Inquisidores",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="4",
+            MeritosGastados="3",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Mary Lie",
+        ID="@Azurakira",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="2E 600",
+            FechaConvercion="2E 622",
+            Sire="Emile of  Castleblood",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="9",
+            PorMisiones="0",
+            Otros="2",
+            MeritosGastados="3",
+            TotalMeritos="8",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Azurakira",
+        ID="@Azurakira",
+        DataGeneral={
+            Raza="Bosmer",
+            Clase="Nigromante",
+            Nacimiento="2E 533",
+            FechaConvercion="Lycan",
+            Sire="Secundus",
+            Armadura="Media",
+            Rango="Adalid",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=19,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="9",
+            PorTaberna="0",
+            PorMisiones="2",
+            Otros="2",
+            MeritosGastados="7",
+            TotalMeritos="6",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=1
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=1,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Lichit",
+        ID="@Berna_Bear",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Caballero Dragón",
+            Nacimiento="2E 591",
+            FechaConvercion="2E 616",
+            Sire="Veldora Valmir",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Sir Canuto",
+        ID="@canutow",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="N/A",
+            FechaConvercion="N/A",
+            Sire="Desconocido",
+            Armadura="Pesada",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Arma y escudo",
+            Profesion="Herrería"
+        },
+        ProfLevel=2,
+        HP=14,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="6",
+            PorTaberna="2",
+            PorMisiones="1",
+            Otros="2",
+            MeritosGastados="14",
+            TotalMeritos="-3",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=2
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Maui Malac",
+        ID="@CC77",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Caballero Dragón",
+            Nacimiento="1E 2815",
+            FechaConvercion="2E 23",
+            Sire="Vittorio Cercone",
+            Armadura="Pesada",
+            Rango="Magíster",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=22,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="3",
+            MeritosGastados="0",
+            TotalMeritos="3",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Hell-Ah Dinnok",
+        ID="@CC77",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="2E 559",
+            FechaConvercion="2E 583",
+            Sire="Akish",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nahamy Longtail",
+        ID="@CC77",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 599",
+            FechaConvercion="2E 620",
+            Sire="Caster Braveshine",
+            Armadura="Media",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Alquimia"
+        },
+        ProfLevel=1,
+        HP=12,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="8",
+            PorMisiones="2",
+            Otros="8",
+            MeritosGastados="12",
+            TotalMeritos="7",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=3,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Elorian Mirion",
+        ID="@CC77",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Brujo",
+            Nacimiento="2E 575",
+            FechaConvercion="2E 597",
+            Sire="Desconocido ",
+            Armadura="Ligera",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="4",
+            PorTaberna="4",
+            PorMisiones="4",
+            Otros="3",
+            MeritosGastados="8",
+            TotalMeritos="7",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=2
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=2,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Momon el Negro",
+        ID="@clown.28",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="2E 592",
+            FechaConvercion="2E 620",
+            Sire="Sathas Cercone",
+            Armadura="Pesada",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Arma y escudo",
+            Profesion="Herrería"
+        },
+        ProfLevel=2,
+        HP=14,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="8",
+            PorTaberna="4",
+            PorMisiones="1",
+            Otros="2",
+            MeritosGastados="14",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=2
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dijormk",
+        ID="@Diamoc",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="1E 2812",
+            FechaConvercion="1E 2836",
+            Sire="Lamae Bal",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dogrumm",
+        ID="@Diamoc",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Brujo",
+            Nacimiento="2E 591",
+            FechaConvercion="2E 607",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dimeric Alexander Direnni",
+        ID="@Diamoc",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Hoja de la noche",
+            Nacimiento="1E 221",
+            FechaConvercion="1E 244",
+            Sire="Lamae Bal",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Herrería"
+        },
+        ProfLevel=3,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="22",
+            PorTaberna="14",
+            PorMisiones="7",
+            Otros="24",
+            MeritosGastados="38",
+            TotalMeritos="29",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=6,
+            LeccionesClase=4
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=3,
+            Voluntad=3,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="k-Amor",
+        ID="@djchon",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Brujo",
+            Nacimiento="2E 590",
+            FechaConvercion="2E 621",
+            Sire="Vighar",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Roahrk Vanko",
+        ID="@Dodobitus",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Caballero Dragón",
+            Nacimiento="?",
+            FechaConvercion="?",
+            Sire="Desconocido ",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Aetherius Amarie",
+        ID="@GFox01",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Brujo",
+            Nacimiento="2E 530",
+            FechaConvercion="2E 555",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Alessandra Belliaris",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Brujo",
+            Nacimiento="2E 578",
+            FechaConvercion="2E 598",
+            Sire="Desconocido ",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="7",
+            PorMisiones="1",
+            Otros="7",
+            MeritosGastados="4",
+            TotalMeritos="13",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=1
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Avelene Shitersyphon",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="2E 564",
+            FechaConvercion="2E 621",
+            Sire="Alessandra Beliaris",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="1",
+            PorMisiones="4",
+            Otros="3",
+            MeritosGastados="0",
+            TotalMeritos="10",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Jevabelle",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Arcanista",
+            Nacimiento="2E 598 ",
+            FechaConvercion="2E 621",
+            Sire="Alberich Trevelyan ",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="6",
+            PorMisiones="0",
+            Otros="5",
+            MeritosGastados="0",
+            TotalMeritos="13",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Laquesh",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Guardian",
+            Nacimiento="2E 592",
+            FechaConvercion="2E 607",
+            Sire="Lycan",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Elián Laurent",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 502",
+            FechaConvercion="2E 547",
+            Sire="Vampiro Erudito",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Hiebacesnof",
+        ID="@hiebacesnof",
+        DataGeneral={
+            Raza="Guardia Rojo",
+            Clase="Brujo",
+            Nacimiento="2E 585",
+            FechaConvercion="2E 616",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nirelsa Telvanni",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 490",
+            FechaConvercion="2E 510",
+            Sire="Desconocido",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Alquimia"
+        },
+        ProfLevel=1,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="30",
+            PorTaberna="24",
+            PorMisiones="13",
+            Otros="33",
+            MeritosGastados="47",
+            TotalMeritos="53",
+            Misiones="1",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=4,
+            LeccionesClase=5
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=3,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Akish",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Argoniano",
+            Clase="Nigromante",
+            Nacimiento="2E 552",
+            FechaConvercion="2E 582",
+            Sire="Ri’asda",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="3",
+            PorMisiones="0",
+            Otros="1",
+            MeritosGastados="0",
+            TotalMeritos="4",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Leva-Muchas-Anclas",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Argoniano",
+            Clase="Arcanista",
+            Nacimiento="2E 574",
+            FechaConvercion="2E 592",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="2",
+            PorMisiones="1",
+            Otros="1",
+            MeritosGastados="0",
+            TotalMeritos="4",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Ri'asda",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Hoja de la noche",
+            Nacimiento="Desconocido",
+            FechaConvercion="2E 580",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Ishtariel Cercone",
+        ID="@Ishtariel-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 579",
+            FechaConvercion="2E 611",
+            Sire="Desconocido",
+            Armadura="Pesada",
+            Rango="Ejecutor",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=18,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="20",
+            PorTaberna="20",
+            PorMisiones="9",
+            Otros="24",
+            MeritosGastados="39",
+            TotalMeritos="34",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=3,
+            ArteDeGuerra=6,
+            LeccionesClase=5
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=3,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=3,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Kenaron",
+        ID="@Kenaron",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 212",
+            FechaConvercion="2E 582",
+            Sire="Harkon",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Kenya",
+        ID="@kenya33",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 562",
+            FechaConvercion="2E 582",
+            Sire="Vittorio Cercone",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="2",
+            PorMisiones="1",
+            Otros="3",
+            MeritosGastados="3",
+            TotalMeritos="3",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Alaric Noris",
+        ID="@Kevinsito04",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 553",
+            FechaConvercion="2E 582",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Khalen Ashkan",
+        ID="@Khalen_Ashkan",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 491",
+            FechaConvercion="2E 576",
+            Sire="Vittorio Cercone",
+            Armadura="Media",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="9",
+            PorTaberna="5",
+            PorMisiones="2",
+            Otros="4",
+            MeritosGastados="4",
+            TotalMeritos="16",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=2
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Aleera Sverion",
+        ID="@Khasandara",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Arcanista",
+            Nacimiento="2E 600",
+            FechaConvercion="Mortal",
+            Sire="N/A",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="4",
+            PorTaberna="1",
+            PorMisiones="1",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="8",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dairla Vardos",
+        ID="@Khasandara",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Brujo",
+            Nacimiento="2E 560",
+            FechaConvercion="2E 583",
+            Sire="Un Breton",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dixthra",
+        ID="@Kryptha",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Guardian",
+            Nacimiento="2E 471",
+            FechaConvercion="2E 501",
+            Sire="Desconocido ",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="3",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Krasnyy Drakon",
+        ID="@LordKing21",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="1E 800",
+            FechaConvercion="1E 840",
+            Sire="Desconocido",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="8",
+            PorMisiones="4",
+            Otros="17",
+            MeritosGastados="7",
+            TotalMeritos="24",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=1
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Kota",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Argoniano",
+            Clase="Brujo",
+            Nacimiento="2E 580",
+            FechaConvercion="2E 600",
+            Sire="Santiago",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Santiago",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Arcanista",
+            Nacimiento="1E 224",
+            FechaConvercion="1E 245",
+            Sire="Desconocido ",
+            Armadura="Pesada",
+            Rango="Exarca",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Sastrería"
+        },
+        ProfLevel=3,
+        HP=22,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="14",
+            PorTaberna="13",
+            PorMisiones="4",
+            Otros="14",
+            MeritosGastados="14",
+            TotalMeritos="31",
+            Misiones="2",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=8
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=3,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=3,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Vakka",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Argoniano",
+            Clase="Brujo",
+            Nacimiento="2E 580",
+            FechaConvercion="2E 600",
+            Sire="Santiago",
+            Armadura="Ligera",
+            Rango="Vástago",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="El becario Deetum Mushmere",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Argoniano",
+            Clase="Arcanista",
+            Nacimiento="2E 612",
+            FechaConvercion="Mortal",
+            Sire="N/A",
+            Armadura="Media",
+            Rango="Ejecutor",
+            Orden="Custodes",
+            Especializacion="Bastones de destrucción",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=16,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="14",
+            PorMisiones="2",
+            Otros="18",
+            MeritosGastados="32",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=8
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=2,
+            Percepcion=2,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Crisanto de la Perpetua",
+        ID="@MarieKapra0795",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 507",
+            FechaConvercion="2E 585",
+            Sire="Barakiel Cainhurst",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
@@ -2784,7 +2079,7 @@ CerconePjData = {
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -2799,7 +2094,8 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="2",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2813,29 +2109,733 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
         }
     },
     {
-        Personaje="Shiera",
-        ID="@Gnosis-Aletheia",
+        Personaje="METALBEER",
+        ID="@METALBEER",
         DataGeneral={
-            Raza="Breton",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 594",
-            FechaConvercion="2E 618",
-            Sire="Alenwen Melethil",
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 580",
+            FechaConvercion="2E 600",
+            Sire="MustPreotecc",
             Armadura="Ninguna",
             Rango="Iniciado",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
         HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Hillydan",
+        ID="@Michahel112",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 596",
+            FechaConvercion="2E 619",
+            Sire="Malfurion",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="1",
+            PorMisiones="1",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dark Schneider",
+        ID="@MillerSigurd",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Brujo",
+            Nacimiento="2E 501",
+            FechaConvercion="2E 530",
+            Sire="Desconocido ",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Grom Barba Negra",
+        ID="@MillerSigurd",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Arcanista",
+            Nacimiento="2E 500",
+            FechaConvercion="2E 539",
+            Sire="Valak",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="6",
+            PorTaberna="4",
+            PorMisiones="0",
+            Otros="3",
+            MeritosGastados="0",
+            TotalMeritos="13",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Sevas Hlaalu",
+        ID="@MillerSigurd",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 425",
+            FechaConvercion="2E 498",
+            Sire="Quintus Valerio",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Valirfreha",
+        ID="@Narasama_14",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 579",
+            FechaConvercion="2E 618",
+            Sire="Desconocido",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="2",
+            PorMisiones="3",
+            Otros="2",
+            MeritosGastados="3",
+            TotalMeritos="4",
+            Misiones="1",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nardhil Cercone",
+        ID="@Nardhil-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 601",
+            FechaConvercion="2E 616",
+            Sire="Desconocido",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="19",
+            PorTaberna="24",
+            PorMisiones="8",
+            Otros="21",
+            MeritosGastados="15",
+            TotalMeritos="57",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=6,
+            LeccionesClase=2
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Joan Blondhood",
+        ID="@NeganProfessional",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Brujo",
+            Nacimiento="2E 564",
+            FechaConvercion="2E 582",
+            Sire="Veldora Valmir",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Padre Morrison",
+        ID="@NightmareXtreme",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Templar",
+            Nacimiento="Desconocido",
+            FechaConvercion="Desconocido",
+            Sire="Nek'Anatari",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Aralthil Valmir",
+        ID="@OldTaken",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Arcanista",
+            Nacimiento="2E 598 ",
+            FechaConvercion="2E 619 ",
+            Sire="Vampiro menor",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Valiiko",
+        ID="@OldTaken",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 190",
+            FechaConvercion="Mortal",
+            Sire="Veldora Valmir",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Veldora Valmir",
+        ID="@OldTaken",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="2E 502",
+            FechaConvercion="2E 522",
+            Sire="Dimeric Direnni",
+            Armadura="Ligera",
+            Rango="Exarca",
+            Orden="Inquisidores",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=20,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="15",
+            PorTaberna="3",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="18",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=8
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=3,
+            Voluntad=3,
+            Percepcion=3,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Tendrys Cercone",
+        ID="@OldTaken",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 601",
+            FechaConvercion="2E 622",
+            Sire="Nardhil Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Alquimia"
+        },
+        ProfLevel=3,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="12",
+            PorMisiones="2",
+            Otros="33",
+            MeritosGastados="48",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=6,
+            LeccionesClase=1
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=3,
+            Investigacion=0,
+            InutilizarM=3,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=3,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Alastor Valmir",
+        ID="@OldTaken ",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Arcanista",
+            Nacimiento="2E 599",
+            FechaConvercion="Desconocido",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Mepfistófeles",
+        ID="@Samyaza01",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="2E 281",
+            FechaConvercion="2E 301",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Seint Eilivsen",
+        ID="@Seintxx",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="2E 595",
+            FechaConvercion="2E 620",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
         Magicka=10,
         Ataque="1D20",
         Defensa=10,
@@ -2846,7 +2846,8 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="1",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2860,25 +2861,24 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
         }
     },
     {
-        Personaje="Shinn'Khar",
-        ID="@eruthian16",
+        Personaje="Selenya Nyx",
+        ID="@Seraphyr",
         DataGeneral={
-            Raza="Khajita",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 313",
-            FechaConvercion="2E 335 ",
-            Sire="Desconocido ",
+            Raza="Altmer",
+            Clase="Brujo",
+            Nacimiento="2E 202",
+            FechaConvercion="2E 382",
+            Sire="Vittorio Cercone",
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -2887,13 +2887,14 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="1",
+            PorPorCampana="0",
             PorTaberna="0",
-            PorMisiones="1",
+            PorMisiones="0",
             Otros="0",
             MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2907,7 +2908,476 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Dante",
+        ID="@ShadowDante",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Hoja de la noche",
+            Nacimiento="1E 2200",
+            FechaConvercion="1E 2230",
+            Sire="Vaelthor",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Barad-dûr",
+        ID="@SNUFKING_red",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Nigromante",
+            Nacimiento="2E 564",
+            FechaConvercion="2E 606",
+            Sire="Desconocido ",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="2",
+            PorMisiones="0",
+            Otros="1",
+            MeritosGastados="0",
+            TotalMeritos="4",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Faram",
+        ID="@SoulessVic",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="2E 569",
+            FechaConvercion="Lycan",
+            Sire="Masser",
+            Armadura="Pesada",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nietzsche",
+        ID="@SoulessVic",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Templar",
+            Nacimiento="2E 578",
+            FechaConvercion="2E 606",
+            Sire="Vampiro Salvaje",
+            Armadura="Media",
+            Rango="Ejecutor",
+            Orden="Inquisidores",
+            Especializacion="Ninguna",
+            Profesion="Sastrería"
+        },
+        ProfLevel=1,
+        HP=16,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="13",
+            PorTaberna="7",
+            PorMisiones="1",
+            Otros="9",
+            MeritosGastados="29",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=8
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=3,
+            Intimidacion=0,
+            Voluntad=3,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nith Sedri",
+        ID="@SoulessVic",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 482",
+            FechaConvercion="2E 503",
+            Sire="Andel Sedri",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="4",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="3",
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Amitiel Stonemantle",
+        ID="@Stonemantle",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Brujo",
+            Nacimiento="2E 523",
+            FechaConvercion="2E 576",
+            Sire="Velith Aundae",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Drake",
+        ID="@TheSaritama",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Brujo",
+            Nacimiento="2E 560",
+            FechaConvercion="N/A",
+            Sire="N/A",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Drek'Khar",
+        ID="@Thorigama",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Brujo",
+            Nacimiento="2E 561",
+            FechaConvercion="2E 591",
+            Sire="Desconocido",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Hasanir",
+        ID="@Thorigama",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 505",
+            FechaConvercion="2E 529",
+            Sire="Desconocido ",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="18",
+            PorTaberna="11",
+            PorMisiones="8",
+            Otros="21",
+            MeritosGastados="31",
+            TotalMeritos="27",
+            Misiones="1",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=2,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=3,
+            Sigilo=3,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=3,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Voryn Ilmyn Sarethi",
+        ID="@Toxkill",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="1E 668 ",
+            FechaConvercion="1E 700",
+            Sire="N/A",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
@@ -2925,7 +3395,7 @@ CerconePjData = {
             Armadura="Ninguna",
             Rango="Iniciado",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -2940,7 +3410,8 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="0",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2954,25 +3425,71 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
         }
     },
     {
-        Personaje="Vadrik Cercone ",
-        ID="@eruthian16",
+        Personaje="Drakozillae ",
+        ID="@VALLHALLETA",
         DataGeneral={
-            Raza="Dunmer",
-            Clase="Brujo",
-            Nacimiento="1E 2816",
-            FechaConvercion="2E 18",
-            Sire="Vittorio Cercone",
+            Raza="Argoniano",
+            Clase="Nigromante",
+            Nacimiento="2E 330",
+            FechaConvercion="2E 357",
+            Sire="Lamae Bal",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Ares Bloodfallen",
+        ID="@Vander69",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="1E 2231",
+            FechaConvercion="1E 2262",
+            Sire="Lamae Bal",
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -2982,12 +3499,13 @@ CerconePjData = {
         Defensa=10,
         Meritos={
             PorPorCampana="0",
-            PorTaberna="1",
+            PorTaberna="0",
             PorMisiones="0",
             Otros="0",
             MeritosGastados="0",
-            TotalMeritos="1",
-            Misiones="0"
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3001,7 +3519,382 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Vittorio Cercone",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="1E 2809",
+            FechaConvercion="1E 2840",
+            Sire="Lamae Bal",
+            Armadura="Pesada",
+            Rango="Regente",
+            Orden="Sanguinaris",
+            Especializacion="Ninguna",
+            Profesion="Herrería"
+        },
+        ProfLevel=3,
+        HP=22,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="19",
+            PorTaberna="38",
+            PorMisiones="12",
+            Otros="31",
+            MeritosGastados="49",
+            TotalMeritos="51",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=3,
+            ArteDeGuerra=6,
+            LeccionesClase=9
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=3,
+            Voluntad=3,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Bralyn Theran",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 588",
+            FechaConvercion="2E 614",
+            Sire="Miembro de la Hermandad Oscura",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="3",
+            MeritosGastados="3",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Giovanni Valente",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Brujo",
+            Nacimiento="2E 588",
+            FechaConvercion="2E 624",
+            Sire="Lord Gallio Valente",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje='Relmus Girethi "El Encuadernador"',
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Arcanista",
+            Nacimiento="2E 78",
+            FechaConvercion="2E 394",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Valec Noris",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 544",
+            FechaConvercion="2E 584",
+            Sire="Desconocido Aundae",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="0",
+            PorMisiones="1",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="2",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Felrar Aran",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Guardian",
+            Nacimiento="2E 603",
+            FechaConvercion="2E 625",
+            Sire="Secundus",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Carmilla von Karnstein",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Nigromante",
+            Nacimiento="2E 372",
+            FechaConvercion="2E 391",
+            Sire="Desconocido",
+            Armadura="Ligera",
+            Rango="Neófito",
+            Orden="Inquisidores",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="11",
+            PorTaberna="8",
+            PorMisiones="1",
+            Otros="3",
+            MeritosGastados="9",
+            TotalMeritos="14",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Raynila Nerethi",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Arcanista",
+            Nacimiento="2E 603",
+            FechaConvercion="2E 622",
+            Sire="Carmilla von Karnstein",
+            Armadura="Ligera",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="3",
+            MeritosGastados="3",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
@@ -3017,76 +3910,30 @@ CerconePjData = {
             FechaConvercion="2E 620",
             Sire="Vittorio Cercone",
             Armadura="Ligera",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
+            Rango="Neófito",
+            Orden="Custodes",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
-        HP=12,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="2",
-            PorTaberna="5",
-            PorMisiones="1",
-            Otros="1",
-            MeritosGastados="4",
-            TotalMeritos="5",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=2
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Veldora Valmir",
-        ID="@OldTaken",
-        DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 502",
-            FechaConvercion="2E 522",
-            Sire="Dimeric Direnni",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Especializacion="Ninguno",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
+        HP=14,
+        Magicka=16,
         Ataque="1D20",
         Defensa=10,
         Meritos={
             PorPorCampana="2",
-            PorTaberna="1",
-            PorMisiones="0",
-            Otros="1",
-            MeritosGastados="0",
+            PorTaberna="8",
+            PorMisiones="3",
+            Otros="4",
+            MeritosGastados="13",
             TotalMeritos="4",
-            Misiones="0"
+            Misiones="1",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=0,
-            LeccionesClase=0
+            LeccionesClase=4
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -3095,40 +3942,40 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
-            Percepcion=0,
+            Percepcion=1,
             Fuerza=0
         }
     },
     {
-        Personaje="Viktor Blackthorne",
-        ID="@AdrianBlackthorne",
+        Personaje="Roselle",
+        ID="@WiscazZz",
         DataGeneral={
-            Raza="Dunmer",
+            Raza="Breton",
             Clase="Hoja de la noche",
-            Nacimiento="2E 483",
-            FechaConvercion="2E 508",
-            Sire="Adrian Blackthorne",
+            Nacimiento="2E 603",
+            FechaConvercion="2E 620",
+            Sire="Vittorio Cercone",
             Armadura="Ninguna",
-            Rango="Vástago",
+            Rango="Iniciado",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
-        HP=12,
+        HP=10,
         Magicka=10,
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="1",
-            PorTaberna="2",
+            PorPorCampana="0",
+            PorTaberna="0",
             PorMisiones="0",
             Otros="0",
             MeritosGastados="0",
-            TotalMeritos="3",
-            Misiones="0"
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3142,54 +3989,6 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Vittorio Cercone",
-        ID="@Josh-CR",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="1E 2809",
-            FechaConvercion="1E 2840",
-            Sire="Lamae Bal",
-            Armadura="Pesada",
-            Rango="Regente",
-            Orden="Sanguinaris",
-            Especializacion="Soldado",
-            Profesion="Herrería"
-        },
-        ProfLevel=1,
-        HP=20,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=17,
-        Meritos={
-            PorPorCampana="18",
-            PorTaberna="22",
-            PorMisiones="8",
-            Otros="18",
-            MeritosGastados="40",
-            TotalMeritos="26",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=3,
-            ArteDeGuerra=6,
-            LeccionesClase=9
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=3,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=3,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
@@ -3207,7 +4006,7 @@ CerconePjData = {
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -3222,7 +4021,8 @@ CerconePjData = {
             Otros="1",
             MeritosGastados="0",
             TotalMeritos="4",
-            Misiones="0"
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3236,25 +4036,24 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0
         }
     },
     {
-        Personaje="Zahir Bloodtide",
-        ID="@Jedi-San",
+        Personaje="Cronwley",
+        ID="@XxAsesin0xX",
         DataGeneral={
-            Raza="Guardia Rojo",
+            Raza="Dunmer",
             Clase="Hoja de la noche",
-            Nacimiento="",
-            FechaConvercion="",
-            Sire="",
+            Nacimiento="2E 594",
+            FechaConvercion="2E 624",
+            Sire="Vittorio Cercone",
             Armadura="Ninguna",
             Rango="Iniciado",
             Orden="Ninguna",
-            Especializacion="Ninguno",
+            Especializacion="Ninguna",
             Profesion="Profesión"
         },
         ProfLevel=0,
@@ -3263,13 +4062,14 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="1",
+            PorPorCampana="0",
             PorTaberna="1",
             PorMisiones="0",
             Otros="0",
             MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
+            TotalMeritos="1",
+            Misiones="0",
+            MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3283,7 +4083,53 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
-            Engano=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Anukkra",
+        ID="@xXBALBERITHXX",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Brujo",
+            Nacimiento="2E 579",
+            FechaConvercion="2E 600",
+            Sire="Acxo ",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="4",
+            PorTaberna="5",
+            PorMisiones="1",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="12",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
             Fuerza=0

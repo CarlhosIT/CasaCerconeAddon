@@ -1,11 +1,15 @@
-<!-- Bindable key for NBUI -->
 <Bindings>
-	<Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
-		<!-- Games Default User Interface Category -->
-		<Category name="SI_KEYBINDINGS_CATEGORY_USER_INTERFACE">
-			<Action name="CERCONEADDON_NB1TOGGLE">
-				<Up>CerconeAddon.NB1KeyBindToggle()</Up>
-			</Action>		
-		</Category>
-	</Layer>
+    <Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
+        <Category name="SI_KEYBINDINGS_CATEGORY_USER_INTERFACE">
+            <Action name="CERCONEADDON_NB1TOGGLE">
+                <Up>CerconeAddon.NB1KeyBindToggle()</Up>
+            </Action>  
+            <Action name="CERCONEADDON_GRIMORIO">
+                <Up>CerconeAddon.ArbriGrimorio()</Up>
+            </Action>   
+            <Action name="CERCONEADDON_TABLON">
+                <Up>CerconeAddon.ArbriTablon()</Up>
+            </Action>        
+        </Category>
+    </Layer>
 </Bindings>
