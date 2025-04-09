@@ -1,6 +1,6 @@
 ## Title: CerconeAddon
 ## Author: @CC77, @Josh-CR y ulasp
-## APIVersion: 101044
+## APIVersion: 101045
 ## SavedVariables: CerconeAddonVars
 ## DependsOn: LibChatMessage
 
