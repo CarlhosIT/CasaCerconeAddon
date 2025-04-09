@@ -107,9 +107,13 @@
                     <Anchor point="TOP" relativeTo="PjProfesion" relativePoint="TOP" offsetX="0" offsetY="35" />
                 </Label>
 
-                <Button name="CerrarPjInfo" mouseover="CerconeAddon/Assets/Boton_X.dds" mouseDown="CerconeAddon/Assets/XMark.dds">
+                <Button name="CerrarPjInfo">
                     <Dimensions x="85" y="90" />
-                    <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-175" offsetY="225" />
+                    <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-180" offsetY="235" />
+                    <Textures normal="CerconeAddon/Assets/Boton_X.dds"
+                        pressed="CerconeAddon/Assets/XMark.dds"
+                        mouseOver="CerconeAddon/Assets/X.dds"
+                        disabled="CerconeAddon/Assets/Boton_X.dds"/>
                     <OnClicked>
                         CerconeAddon.ClosePjUI()
                     </OnClicked>
