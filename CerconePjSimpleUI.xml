@@ -29,23 +29,20 @@
 				<Label name="PjSire" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjNacimiento" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
-				<Label name="PjEspecializacion" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
+				<Label name="PjArma" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjOrden" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
 				<Label name="PjConvertido" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjSire" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
 				<Label name="PjArmadura" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
-					<Anchor point="TOP" relativeTo="PjEspecializacion" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+					<Anchor point="TOP" relativeTo="PjArma" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
 				<Label name="PjMeritos" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjArmadura" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
-				<Label name="PjMisiones" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
-					<Anchor point="TOP" relativeTo="PjMeritos" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
-				</Label>
 				<Label name="PjMisionesOrganizadas" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
-					<Anchor point="TOP" relativeTo="PjMisiones" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
+					<Anchor point="TOP" relativeTo="PjMeritos" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
 
 				<Label name="PjHP" font="ZoFontGameLarge" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
@@ -92,10 +89,10 @@
 				</Label>
 
 				<Label name="AcademiaLabel" text="Academia" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
-					<Anchor point="TOP" relativeTo="PjMisiones" relativePoint="TOP" offsetX="-15" offsetY="97" />
+					<Anchor point="TOP" relativeTo="PjMisionesOrganizadas" relativePoint="TOP" offsetX="0" offsetY="97" />
 				</Label>
 				<Label name="PjClaseAc" text="Academia" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
-					<Anchor point="TOP" relativeTo="AcademiaLabel" relativePoint="TOP" offsetX="-235" offsetY="47" />
+					<Anchor point="TOP" relativeTo="AcademiaLabel" relativePoint="TOP" offsetX="-250" offsetY="47" />
 				</Label>
 				<Label name="PjArteGuerra" text="Arte de la Guerra:" font="ZoFontWinH2" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjClaseAc" relativePoint="TOP" offsetX="0" offsetY="35" />
@@ -109,8 +106,8 @@
 
 				<Button name="CerrarPjInfo">
 					<Dimensions x="85" y="90" />
-					<Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-180" offsetY="235" />
-					<Textures normal="CerconeAddon/Assets/Boton_X.dds" pressed="CerconeAddon/Assets/XMark.dds" mouseOver="CerconeAddon/Assets/X.dds" disabled="CerconeAddon/Assets/Boton_X.dds"/>
+					<Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-180" offsetY="230" />
+					<Textures normal="CerconeAddon/Assets/Boton_X.dds" pressed="CerconeAddon/Assets/XMark.dds" disabled="CerconeAddon/Assets/Boton_X.dds"/>
 					<OnClicked>
                         CerconeAddon.ClosePjUI()
 					</OnClicked>
