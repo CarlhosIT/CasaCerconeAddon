@@ -165,15 +165,15 @@ CerconePjData = {
             PorTaberna="1",
             PorMisiones="1",
             Otros="1",
-            MeritosGastados="3",
-            TotalMeritos="2",
+            MeritosGastados="5",
+            TotalMeritos="0",
             Misiones="0",
             MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=0,
-            LeccionesClase=0
+            LeccionesClase=1
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -211,9 +211,9 @@ CerconePjData = {
             PorPorCampana="0",
             PorTaberna="1",
             PorMisiones="0",
-            Otros="4",
+            Otros="2",
             MeritosGastados="3",
-            TotalMeritos="2",
+            TotalMeritos="0",
             Misiones="0",
             MisionesOrganizadas="0",
         },
@@ -305,9 +305,9 @@ CerconePjData = {
             PorPorCampana="9",
             PorTaberna="0",
             PorMisiones="2",
-            Otros="2",
+            Otros="4",
             MeritosGastados="7",
-            TotalMeritos="6",
+            TotalMeritos="8",
             Misiones="0",
             MisionesOrganizadas="0",
         },
@@ -776,15 +776,15 @@ CerconePjData = {
             PorTaberna="14",
             PorMisiones="7",
             Otros="24",
-            MeritosGastados="38",
-            TotalMeritos="29",
+            MeritosGastados="40",
+            TotalMeritos="27",
             Misiones="0",
             MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=6,
-            LeccionesClase=4
+            LeccionesClase=5
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -1248,7 +1248,7 @@ CerconePjData = {
             Otros="33",
             MeritosGastados="47",
             TotalMeritos="53",
-            Misiones="1",
+            Misiones="0",
             MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
@@ -1833,6 +1833,53 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Santiago",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Arcanista",
+            Nacimiento="1E 224",
+            FechaConvercion="1E 245",
+            Sire="Desconocido ",
+            Armadura="Pesada",
+            Rango="Exarca",
+            Orden="Custodes",
+            Especializacion="Ninguna",
+            Profesion="Sastrería"
+        },
+        ProfLevel=3,
+        HP=22,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="14",
+            PorTaberna="13",
+            PorMisiones="4",
+            Otros="14",
+            MeritosGastados="14",
+            TotalMeritos="31",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=1,
+            LeccionesClase=8
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=3,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=3,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Kota",
         ID="@LordSantiago20",
         DataGeneral={
@@ -1873,53 +1920,6 @@ CerconePjData = {
             InutilizarM=0,
             Sigilo=0,
             Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Santiago",
-        ID="@LordSantiago20",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Arcanista",
-            Nacimiento="1E 224",
-            FechaConvercion="1E 245",
-            Sire="Desconocido ",
-            Armadura="Pesada",
-            Rango="Exarca",
-            Orden="Custodes",
-            Especializacion="Ninguna",
-            Profesion="Sastrería"
-        },
-        ProfLevel=3,
-        HP=22,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=15,
-        Meritos={
-            PorPorCampana="14",
-            PorTaberna="13",
-            PorMisiones="4",
-            Otros="14",
-            MeritosGastados="14",
-            TotalMeritos="31",
-            Misiones="2",
-            MisionesOrganizadas="0",
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=1,
-            LeccionesClase=8
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=3,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=3,
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
@@ -2376,7 +2376,7 @@ CerconePjData = {
             Otros="2",
             MeritosGastados="3",
             TotalMeritos="4",
-            Misiones="1",
+            Misiones="0",
             MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
@@ -3243,6 +3243,53 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Hasanir",
+        ID="@Thorigama",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 505",
+            FechaConvercion="2E 529",
+            Sire="Desconocido ",
+            Armadura="Media",
+            Rango="Neófito",
+            Orden="Sombras",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=13,
+        Ataque="1D20",
+        Defensa=13,
+        Meritos={
+            PorPorCampana="18",
+            PorTaberna="11",
+            PorMisiones="8",
+            Otros="21",
+            MeritosGastados="33",
+            TotalMeritos="25",
+            Misiones="0",
+            MisionesOrganizadas="0",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=2,
+            LeccionesClase=4
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=3,
+            Sigilo=3,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=3,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Drek'Khar",
         ID="@Thorigama",
         DataGeneral={
@@ -3286,53 +3333,6 @@ CerconePjData = {
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hasanir",
-        ID="@Thorigama",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 505",
-            FechaConvercion="2E 529",
-            Sire="Desconocido ",
-            Armadura="Media",
-            Rango="Neófito",
-            Orden="Sombras",
-            Especializacion="Ninguna",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=14,
-        Magicka=13,
-        Ataque="1D20",
-        Defensa=13,
-        Meritos={
-            PorPorCampana="18",
-            PorTaberna="11",
-            PorMisiones="8",
-            Otros="21",
-            MeritosGastados="31",
-            TotalMeritos="27",
-            Misiones="1",
-            MisionesOrganizadas="0",
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=2,
-            LeccionesClase=3
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=3,
-            Sigilo=3,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=3,
             Fuerza=0
         }
     },
@@ -3666,7 +3666,7 @@ CerconePjData = {
         }
     },
     {
-        Personaje='Relmus Girethi "El Encuadernador"',
+        Personaje="Relmus Girethi, El Encuadernador",
         ID="@Vittorio-CR",
         DataGeneral={
             Raza="Dunmer",
@@ -3927,7 +3927,7 @@ CerconePjData = {
             Otros="4",
             MeritosGastados="13",
             TotalMeritos="4",
-            Misiones="1",
+            Misiones="0",
             MisionesOrganizadas="0",
         },
         HabilidadesCombatientes={
