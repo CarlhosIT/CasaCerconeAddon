@@ -27,7 +27,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="3",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -74,7 +74,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -121,7 +121,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -168,7 +168,7 @@ CerconePjData = {
             MeritosGastados="5",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -215,7 +215,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -262,7 +262,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="8",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -309,7 +309,7 @@ CerconePjData = {
             MeritosGastados="7",
             TotalMeritos="8",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -322,10 +322,10 @@ CerconePjData = {
             InutilizarM=0,
             Sigilo=0,
             Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
+            Intimidacion=1,
+            Voluntad=1,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=1
         }
     },
     {
@@ -356,7 +356,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -390,7 +390,7 @@ CerconePjData = {
             Especializacion="Arma y escudo",
             Profesion="Herrería"
         },
-        ProfLevel=2,
+        ProfLevel=1,
         HP=14,
         Magicka=10,
         Ataque="1D20",
@@ -403,7 +403,7 @@ CerconePjData = {
             MeritosGastados="14",
             TotalMeritos="-3",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -419,7 +419,7 @@ CerconePjData = {
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=1
         }
     },
     {
@@ -450,7 +450,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="3",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -463,10 +463,10 @@ CerconePjData = {
             InutilizarM=0,
             Sigilo=0,
             Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
+            Intimidacion=1,
+            Voluntad=1,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=1
         }
     },
     {
@@ -497,7 +497,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -531,7 +531,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Alquimia"
         },
-        ProfLevel=1,
+        ProfLevel=0,
         HP=12,
         Magicka=13,
         Ataque="1D20",
@@ -544,7 +544,7 @@ CerconePjData = {
             MeritosGastados="12",
             TotalMeritos="7",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -591,7 +591,7 @@ CerconePjData = {
             MeritosGastados="8",
             TotalMeritos="7",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -625,7 +625,7 @@ CerconePjData = {
             Especializacion="Arma y escudo",
             Profesion="Herrería"
         },
-        ProfLevel=2,
+        ProfLevel=1,
         HP=14,
         Magicka=10,
         Ataque="1D20",
@@ -638,7 +638,7 @@ CerconePjData = {
             MeritosGastados="14",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -654,7 +654,7 @@ CerconePjData = {
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=1
         }
     },
     {
@@ -685,7 +685,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -732,7 +732,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -766,7 +766,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Herrería"
         },
-        ProfLevel=3,
+        ProfLevel=2,
         HP=14,
         Magicka=13,
         Ataque="1D20",
@@ -779,11 +779,11 @@ CerconePjData = {
             MeritosGastados="40",
             TotalMeritos="27",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=6,
+            LinajeCercone=1,
+            ArteDeGuerra=5,
             LeccionesClase=5
         },
         HabilidadesNOCombatientes={
@@ -795,7 +795,7 @@ CerconePjData = {
             Intimidacion=3,
             Voluntad=3,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=1
         }
     },
     {
@@ -826,7 +826,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -873,7 +873,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -920,7 +920,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -967,11 +967,11 @@ CerconePjData = {
             MeritosGastados="4",
             TotalMeritos="13",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=1,
+            LinajeCercone=1,
+            ArteDeGuerra=0,
             LeccionesClase=1
         },
         HabilidadesNOCombatientes={
@@ -1014,7 +1014,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="10",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1061,7 +1061,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="13",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1108,7 +1108,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1155,7 +1155,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1202,7 +1202,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1236,7 +1236,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Alquimia"
         },
-        ProfLevel=1,
+        ProfLevel=0,
         HP=16,
         Magicka=10,
         Ataque="1D20",
@@ -1249,11 +1249,11 @@ CerconePjData = {
             MeritosGastados="47",
             TotalMeritos="53",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=4,
+            LinajeCercone=1,
+            ArteDeGuerra=3,
             LeccionesClase=5
         },
         HabilidadesNOCombatientes={
@@ -1296,7 +1296,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1343,7 +1343,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1390,7 +1390,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1424,7 +1424,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Profesión"
         },
-        ProfLevel=0,
+        ProfLevel=1,
         HP=18,
         Magicka=10,
         Ataque="1D20",
@@ -1437,11 +1437,11 @@ CerconePjData = {
             MeritosGastados="39",
             TotalMeritos="34",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=3,
-            ArteDeGuerra=6,
+            ArteDeGuerra=5,
             LeccionesClase=5
         },
         HabilidadesNOCombatientes={
@@ -1451,7 +1451,7 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=3,
             Intimidacion=0,
-            Voluntad=0,
+            Voluntad=1,
             Percepcion=0,
             Fuerza=0
         }
@@ -1484,7 +1484,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1531,7 +1531,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="3",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1578,7 +1578,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1625,7 +1625,7 @@ CerconePjData = {
             MeritosGastados="4",
             TotalMeritos="16",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1672,7 +1672,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="8",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1719,7 +1719,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1766,7 +1766,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="3",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1813,11 +1813,11 @@ CerconePjData = {
             MeritosGastados="7",
             TotalMeritos="24",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=1,
+            LinajeCercone=1,
+            ArteDeGuerra=0,
             LeccionesClase=1
         },
         HabilidadesNOCombatientes={
@@ -1847,7 +1847,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Sastrería"
         },
-        ProfLevel=3,
+        ProfLevel=2,
         HP=22,
         Magicka=10,
         Ataque="1D20",
@@ -1860,19 +1860,19 @@ CerconePjData = {
             MeritosGastados="14",
             TotalMeritos="31",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=1,
-            LeccionesClase=8
+            LinajeCercone=1,
+            ArteDeGuerra=0,
+            LeccionesClase=9
         },
         HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=3,
-            InutilizarM=0,
+            Exploracion=4,
+            Investigacion=4,
+            InutilizarM=1,
             Sigilo=0,
-            Persuacion=3,
+            Persuacion=4,
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
@@ -1907,7 +1907,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -1954,7 +1954,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2001,15 +2001,15 @@ CerconePjData = {
             MeritosGastados="32",
             TotalMeritos="2",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=1,
-            LeccionesClase=8
+            LeccionesClase=9
         },
         HabilidadesNOCombatientes={
-            Exploracion=0,
+            Exploracion=1,
             Investigacion=3,
             InutilizarM=0,
             Sigilo=0,
@@ -2048,7 +2048,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2095,7 +2095,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="2",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2142,7 +2142,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2189,7 +2189,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="2",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2236,7 +2236,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2283,7 +2283,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="13",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2330,7 +2330,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2377,7 +2377,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2424,11 +2424,11 @@ CerconePjData = {
             MeritosGastados="15",
             TotalMeritos="57",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=6,
+            LinajeCercone=1,
+            ArteDeGuerra=5,
             LeccionesClase=2
         },
         HabilidadesNOCombatientes={
@@ -2471,7 +2471,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2518,7 +2518,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2565,7 +2565,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2612,7 +2612,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2659,21 +2659,21 @@ CerconePjData = {
             MeritosGastados="18",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=0,
-            LeccionesClase=8
+            LeccionesClase=9
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
-            Investigacion=0,
+            Investigacion=1,
             InutilizarM=0,
             Sigilo=0,
-            Persuacion=0,
+            Persuacion=1,
             Intimidacion=3,
-            Voluntad=3,
+            Voluntad=4,
             Percepcion=3,
             Fuerza=0
         }
@@ -2693,7 +2693,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Alquimia"
         },
-        ProfLevel=3,
+        ProfLevel=2,
         HP=12,
         Magicka=10,
         Ataque="1D20",
@@ -2706,12 +2706,12 @@ CerconePjData = {
             MeritosGastados="48",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
+            LinajeCercone=1,
             ArteDeGuerra=6,
-            LeccionesClase=1
+            LeccionesClase=0
         },
         HabilidadesNOCombatientes={
             Exploracion=3,
@@ -2753,7 +2753,54 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Oz'Dormu Nyxborn",
+        ID="@Oz_Dormu",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Nigromante",
+            Nacimiento="2E 495",
+            FechaConvercion="2E 627",
+            Sire="Momon el negro",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Especializacion="Ninguna",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2800,7 +2847,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2847,7 +2894,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2894,7 +2941,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2941,7 +2988,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -2988,7 +3035,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3035,7 +3082,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3069,7 +3116,7 @@ CerconePjData = {
             Especializacion="Ninguna",
             Profesion="Sastrería"
         },
-        ProfLevel=1,
+        ProfLevel=0,
         HP=16,
         Magicka=13,
         Ataque="1D20",
@@ -3082,12 +3129,12 @@ CerconePjData = {
             MeritosGastados="29",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=1,
-            LeccionesClase=8
+            LeccionesClase=9
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -3096,7 +3143,7 @@ CerconePjData = {
             Sigilo=0,
             Persuacion=3,
             Intimidacion=0,
-            Voluntad=3,
+            Voluntad=4,
             Percepcion=0,
             Fuerza=0
         }
@@ -3129,7 +3176,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3176,7 +3223,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3223,7 +3270,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3270,11 +3317,11 @@ CerconePjData = {
             MeritosGastados="33",
             TotalMeritos="25",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=2,
+            LinajeCercone=1,
+            ArteDeGuerra=1,
             LeccionesClase=4
         },
         HabilidadesNOCombatientes={
@@ -3317,7 +3364,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3364,7 +3411,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3411,7 +3458,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3458,7 +3505,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3505,7 +3552,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3552,7 +3599,7 @@ CerconePjData = {
             MeritosGastados="49",
             TotalMeritos="51",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="x",
         },
         HabilidadesCombatientes={
             LinajeCercone=3,
@@ -3565,10 +3612,10 @@ CerconePjData = {
             InutilizarM=0,
             Sigilo=0,
             Persuacion=0,
-            Intimidacion=3,
-            Voluntad=3,
+            Intimidacion=4,
+            Voluntad=4,
             Percepcion=0,
-            Fuerza=0
+            Fuerza=2
         }
     },
     {
@@ -3599,7 +3646,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3646,7 +3693,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="2",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3693,7 +3740,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3740,7 +3787,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="2",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3787,7 +3834,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3834,7 +3881,7 @@ CerconePjData = {
             MeritosGastados="9",
             TotalMeritos="14",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3881,7 +3928,7 @@ CerconePjData = {
             MeritosGastados="3",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3928,7 +3975,7 @@ CerconePjData = {
             MeritosGastados="13",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -3975,7 +4022,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="0",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -4022,7 +4069,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="4",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -4069,7 +4116,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="1",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
@@ -4116,7 +4163,7 @@ CerconePjData = {
             MeritosGastados="0",
             TotalMeritos="12",
             Misiones="0",
-            MisionesOrganizadas="0",
+            MisionesOrganizadas="",
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
