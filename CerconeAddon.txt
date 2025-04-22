@@ -11,8 +11,10 @@ SlashCommands.lua
 GrimorioFunctions.lua
 CerconeClient/CerconePjData.lua
 CerconeClient/GrimorioData.lua
+CerconeClient/CerconeGrimData.lua
 Bindings.xml
 CerconePjSimpleUI.xml
 Grimorio.xml
+GrimorioIndice.xml
 CerconePjDuel.xml
 TablonMisiones.xml

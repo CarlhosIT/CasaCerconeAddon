@@ -5,7 +5,9 @@
                 <Up>CerconeAddon.NB1KeyBindToggle()</Up>
             </Action>  
             <Action name="CERCONEADDON_GRIMORIO">
-                <Up>CerconeAddon.ArbriGrimorio()</Up>
+                <Up>
+                    CerconeAddon.ArbriGrimorio()
+                </Up>
             </Action>   
             <Action name="CERCONEADDON_TABLON">
                 <Up>CerconeAddon.ArbriTablon()</Up>

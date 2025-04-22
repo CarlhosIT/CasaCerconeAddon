@@ -13,7 +13,7 @@ function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
   CerconeAddon.ClosePjUI()
   CerconeAddon.haveDuelUI = false
   CerconeAddon.InitializeKeybindings()
-  CerconeAddon.ShowGrimorioPage(1)
+  CerconeAddon.ShowGrimorio()
 end
 
 function CerconeAddon.NB1KeyBindToggle()
@@ -33,13 +33,18 @@ function CerconeAddon.NB1KeyBindToggle()
 end
 
 function CerconeAddon.ArbriGrimorio()
-    local panel = WINDOW_MANAGER:GetControlByName("Grimorio")
+    local panel = WINDOW_MANAGER:GetControlByName("GrimorioIndice")
+    local panel2 = WINDOW_MANAGER:GetControlByName("Grimorio")
     if panel then
-        local isHidden = panel:IsHidden()
-        panel:SetHidden(not isHidden)
-        d(isHidden and "Mostrando grimorio" or "Ocultando grimorio")
+        panel:SetHidden(not panel:IsHidden())
+        if not panel2:IsHidden() then
+            panel:SetHidden(true)
+        end
+        panel2:SetHidden(true)
+        d(not panel:IsHidden() and "Mostrando Grimorio" or "Ocultando Grimorio")
+        if not panel:IsHidden() then PlaySound("BOOK_OPEN") else PlaySound("BOOK_CLOSE") end
     else
-        d("No se encontró el control 'Grimorio'")
+        d("No se encontró el control 'GrimorioIndice'")
     end
 end
 function CerconeAddon.ArbriTablon()

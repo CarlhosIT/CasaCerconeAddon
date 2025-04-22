@@ -1,6 +1,7 @@
 GrimorioData = {
     {
         Vista = "1",
+        ITitulo = "Índice",
         Indice1 = "Hoja de la noche",
         Pagina1 = "3",
         Indice2 = "Nigromante",

@@ -9,164 +9,37 @@
                     <Dimensions x="1346" y="938"/>
                 </Texture>
 
-                <!-- Página Izquierda Índice-->
-                <Label name="Indice_Titulo" font="ZoFontWinH1" text="Índice">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Titulo" relativePoint="TOPLEFT" offsetX="350" offsetY="85"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo1" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Titulo" relativePoint="TOPLEFT" offsetX="185" offsetY="185"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina1" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Titulo" relativePoint="TOPLEFT" offsetX="600" offsetY="175"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo2" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina2" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina1" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo3" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo2" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina3" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina2" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo4" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo3" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina4" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina3" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo5" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo4" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina5" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina4" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo6" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo5" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina6" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina5" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo7" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo6" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina7" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina6" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo8" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo7" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina8" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina7" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo9" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo8" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina9" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina8" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <!-- Derecha índice -->
-                <Label name="Indice_Titulo10" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="550" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina10" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina1" relativePoint="TOPLEFT" offsetX="550" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo11" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo10" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina11" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina10" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo12" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo11" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina12" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina11" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo13" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo12" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina13" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina12" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo14" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo13" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina14" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina13" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_Titulo15" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo14" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Indice_TPagina15" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_TPagina14" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-
                 <!-- Página Izquierda -->
-                <Label name="Grimorio_Titulo" font="ZoFontWinH1" verticalAlignment="TOP" fontSize="200">
-                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="160" offsetY="115"/>                    
+                <Label name="$(parent)Titulo" font="ZoFontWinH1" verticalAlignment="TOP" fontSize="200">
+                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="280" offsetY="85"/>                    
                 </Label>
-                <Label name="Grimorio_SubTitulo1" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Titulo" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                <Label name="$(parent)NombreRama1" font="ZoFontWinH2">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Titulo" relativePoint="BOTTOMLEFT" offsetX="-125" offsetY="35"/>
+                    <Dimensions x="450" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo1" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
+                <Label name="$(parent)Descripcion1" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)NombreRama1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre1" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                <Label name="$(parent)Valores1" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo2" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
+                <Label name="$(parent)Descripcion2" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Valores1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre2" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                <Label name="$(parent)Valores2" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo3" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
+                <Label name="$(parent)Descripcion3" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Valores2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre3" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                <Label name="$(parent)Valores3" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                    <Dimensions x="450" y="40"/>
                 </Label>
                 <Label name="Grimorio_PageLeft" font="ZoFontWinH4" fontSize="30">
                     <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="100" offsetY="-195"/>
@@ -174,66 +47,39 @@
                 </Label>
 
                 <!-- Página Derecha -->
-                <Label name="Grimorio_SubTitulo2" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="700" offsetY="100"/>
+                <Label name="$(parent)NombreRama4" font="ZoFontWinH2">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Libro" relativePoint="TOPLEFT" offsetX="700" offsetY="145"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo4" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Descripcion4" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)NombreRama4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre4" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Valores4" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo5" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Descripcion5" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Valores4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre5" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Valores5" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Grimorio_Parrafo6" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Descripcion6" font="ZoFontWinH3">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Valores5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="Grimorio_ParrafoCierre6" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Grimorio_SubTitulo3" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Grimorio_Parrafo7" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_SubTitulo3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
-                </Label>
-                <Label name="Grimorio_ParrafoCierre7" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo7" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Grimorio_Parrafo8" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre7" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
-                </Label>
-                <Label name="Grimorio_ParrafoCierre8" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo8" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
-                </Label>
-                <Label name="Grimorio_Parrafo9" font="ZoFontWinH3">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_ParrafoCierre8" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="80"/>
-                </Label>
-                <Label name="Grimorio_ParrafoCierre9" font="ZoFontWinH4">
-                    <Anchor point="TOPLEFT" relativeTo="Grimorio_Parrafo9" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
+                <Label name="$(parent)Valores6" font="ZoFontWinH4">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
                 <Label name="Grimorio_PageRight" font="ZoFontWinH4" fontSize="30">
                     <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-20" offsetY="0"/>
                     <Dimensions x="200" y="50"/>
                 </Label>
+
 
                 <!-- Botones de Navegación -->
                 <Button name="Grimorio_BtnPrev" text="Anterior"

@@ -162,14 +162,14 @@ CerconePjData = {
             PorTaberna="2",
             PorMisiones="1",
             Otros="1",
-            MeritosGastados="5",
-            TotalMeritos="2",
+            MeritosGastados="7",
+            TotalMeritos="0",
             Misiones="0"
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=0,
-            LeccionesClase=1
+            LeccionesClase=2
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -714,14 +714,14 @@ CerconePjData = {
             PorTaberna="15",
             PorMisiones="7",
             Otros="24",
-            MeritosGastados="40",
-            TotalMeritos="29",
+            MeritosGastados="42",
+            TotalMeritos="27",
             Misiones="0"
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
-            ArteDeGuerra=6,
-            LeccionesClase=5
+            ArteDeGuerra=5,
+            LeccionesClase=7
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -2142,52 +2142,6 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="0",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Hillydan",
-        ID="@Michahel112",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 596",
-            FechaConvercion="2E 619",
-            Sire="Malfurion",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Arma="Desconocida",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="1",
-            PorMisiones="1",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="2",
             Misiones="0"
         },
         HabilidadesCombatientes={
