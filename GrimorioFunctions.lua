@@ -98,7 +98,6 @@ function CerconeAddon.ShowGrimorioPage(title)
             end
 
             if currentSubTitle ~= item.NombreRama and currentSubTitle ~= "" then 
-                i = 3
             else
                 d(i)
                 GetControl("GrimorioTitulo"):SetText(item.Nombre)
