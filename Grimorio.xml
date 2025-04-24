@@ -10,84 +10,92 @@
                 </Texture>
 
                 <!-- Página Izquierda -->
-                <Label name="$(parent)Titulo" font="ZoFontWinH1" verticalAlignment="TOP" fontSize="200">
-                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="280" offsetY="85"/>                    
-                </Label>
-                <Label name="$(parent)NombreRama1" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="$(parent)Titulo" relativePoint="BOTTOMLEFT" offsetX="-125" offsetY="35"/>
+                <Label name="$(parent)Titulo" font="$(HANDWRITTEN_FONT)|34|soft-shadow-thin" verticalAlignment="CENTER"
+                    horizontalAlignment="CENTER" fontSize="200" color="000000">
+                    <Anchor point="CENTER" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="380" offsetY="180"/>                    
                     <Dimensions x="450" y="40"/>
                 </Label>
-                <Label name="$(parent)Descripcion1" font="ZoFontWinH3">
+                <Label name="$(parent)NombreRama1" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
+                    <Anchor point="TOPLEFT" relativeTo="Libro" relativePoint="TOPLEFT" offsetX="180" offsetY="110"/>
+                    <Dimensions x="450" y="40"/>
+                </Label>
+                <Label name="$(parent)Descripcion1" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)NombreRama1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores1" font="ZoFontWinH4">
+                <Label name="$(parent)Valores1" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="450" y="40"/>
+                    <Dimensions x="450" y="60"/>
                 </Label>
-                <Label name="$(parent)Descripcion2" font="ZoFontWinH3">
+                <Label name="$(parent)Descripcion2" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Valores1" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores2" font="ZoFontWinH4">
+                <Label name="$(parent)Valores2" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="450" y="40"/>
+                    <Dimensions x="450" y="60"/>
                 </Label>
-                <Label name="$(parent)Descripcion3" font="ZoFontWinH3">
+                <Label name="$(parent)Descripcion3" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Valores2" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="450" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores3" font="ZoFontWinH4">
+                <Label name="$(parent)Valores3" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion3" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="450" y="40"/>
+                    <Dimensions x="450" y="60"/>
                 </Label>
-                <Label name="Grimorio_PageLeft" font="ZoFontWinH4" fontSize="30">
+                <Label name="Grimorio_PageLeft" font="ZoFontWinH4" fontSize="30" color="000000">
                     <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="100" offsetY="-195"/>
                     <Dimensions x="200" y="50"/>
                 </Label>
 
+                <!-- Logo rama -->
+				<Texture name="LogoRamas">
+					<Anchor point="CENTER" relativeTo="Libro" relativePoint="CENTER" offsetX="-295" offsetY="-50" />
+					<Dimensions x="400" y="400"/>
+				</Texture>
+
                 <!-- Página Derecha -->
-                <Label name="$(parent)NombreRama4" font="ZoFontWinH2">
-                    <Anchor point="TOPLEFT" relativeTo="$(parent)Libro" relativePoint="TOPLEFT" offsetX="700" offsetY="145"/>
+                <Label name="$(parent)NombreRama4" font="$(ANTIQUE_FONT)|24|soft-shadow-thin"
+                    color="000000">
+                    <Anchor point="TOPLEFT" relativeTo="$(parent)Libro" relativePoint="TOPLEFT" offsetX="700" offsetY="110"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="$(parent)Descripcion4" font="ZoFontWinH3">
+                <Label name="$(parent)Descripcion4" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)NombreRama4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores4" font="ZoFontWinH4">
+                <Label name="$(parent)Valores4" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                    <Dimensions x="500" y="60"/>
                 </Label>
-                <Label name="$(parent)Descripcion5" font="ZoFontWinH3">
+                <Label name="$(parent)Descripcion5" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Valores4" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores5" font="ZoFontWinH4">
+                <Label name="$(parent)Valores5" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                    <Dimensions x="500" y="60"/>
                 </Label>
-                <Label name="$(parent)Descripcion6" font="ZoFontWinH3">
+                <Label name="$(parent)Descripcion6" font="$(ANTIQUE_FONT)|20|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Valores5" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
                     <Dimensions x="500" y="80"/>
                 </Label>
-                <Label name="$(parent)Valores6" font="ZoFontWinH4">
+                <Label name="$(parent)Valores6" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="$(parent)Descripcion6" relativePoint="BOTTOMLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="500" y="40"/>
+                    <Dimensions x="500" y="60"/>
                 </Label>
-                <Label name="Grimorio_PageRight" font="ZoFontWinH4" fontSize="30">
+                <Label name="Grimorio_PageRight" font="$(ANTIQUE_FONT)|26|soft-shadow-thin" fontSize="30" color="000000">
                     <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-20" offsetY="0"/>
                     <Dimensions x="200" y="50"/>
                 </Label>
 
 
                 <!-- Botones de Navegación -->
-                <Button name="Grimorio_BtnPrev" text="Anterior"
-                    textureFile="CerconeAddon/Assets/X.dds">
+                <Button name="Grimorio_BtnPrev" text="Anterior">
                     <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="50" offsetY="-195"/>
                     <Dimensions x="100" y="100"/>
                     <OnClicked>
-                        CerconeAddon.NavigateGrimorio(-1)
+                        CerconeAddon.NavigateGrimorio(0)
                     </OnClicked>
                 </Button>
                 <Button name="Grimorio_BtnNext" text="Siguiente">
@@ -95,6 +103,13 @@
                     <Dimensions x="100" y="100"/>
                     <OnClicked>
                         CerconeAddon.NavigateGrimorio(1)
+                    </OnClicked>
+                </Button>
+                <Button name="Grimorio_BtnIndex" text="Índice">
+                    <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-470" offsetY="0"/>
+                    <Dimensions x="120" y="200"/>
+                    <OnClicked>
+                        CerconeAddon.BackToIndex()
                     </OnClicked>
                 </Button>
             </Controls>

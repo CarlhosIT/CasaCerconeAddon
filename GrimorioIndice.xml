@@ -11,145 +11,135 @@
 
 
                 <!-- Página Izquierda Índice-->
-                <Label name="Indice_Titulo" font="ZoFontWinH1">
+                <Label name="Indice_Titulo" font="$(ANTIQUE_FONT)|30|soft-shadow-thin" color="900000">
                     <Anchor point="TOPLEFT" relativeTo="LibroIndice" relativePoint="TOPLEFT" offsetX="350" offsetY="85"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
 
-                <Label name="Indice_Titulo1" font="ZoFontWinH2">
+                <Label name="Indice_Titulo1" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo" relativePoint="TOPLEFT" offsetX="-160" offsetY="80"/>
                     <Dimensions x="250" y="40"/>
                 </Label>
                 
-                <Label name="Indice_TPagina1" font="ZoFontWinH2">
+                <Label name="Indice_TPagina1" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="350" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo2" font="ZoFontWinH2">
+                <Label name="Indice_Titulo2" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina2" font="ZoFontWinH2">
+                <Label name="Indice_TPagina2" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina1" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo3" font="ZoFontWinH2">
+                <Label name="Indice_Titulo3" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo2" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina3" font="ZoFontWinH2">
+                <Label name="Indice_TPagina3" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina2" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo4" font="ZoFontWinH2">
+                <Label name="Indice_Titulo4" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo3" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina4" font="ZoFontWinH2">
+                <Label name="Indice_TPagina4" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina3" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo5" font="ZoFontWinH2">
+                <Label name="Indice_Titulo5" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo4" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina5" font="ZoFontWinH2">
+                <Label name="Indice_TPagina5" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina4" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo6" font="ZoFontWinH2">
+                <Label name="Indice_Titulo6" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo5" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina6" font="ZoFontWinH2">
+                <Label name="Indice_TPagina6" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina5" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo7" font="ZoFontWinH2">
+                <Label name="Indice_Titulo7" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo6" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina7" font="ZoFontWinH2">
+                <Label name="Indice_TPagina7" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina6" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo8" font="ZoFontWinH2">
+                <Label name="Indice_Titulo8" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo7" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina8" font="ZoFontWinH2">
+                <Label name="Indice_TPagina8" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina7" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo9" font="ZoFontWinH2">
+                <Label name="Indice_Titulo9" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo8" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina9" font="ZoFontWinH2">
+                <Label name="Indice_TPagina9" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina8" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
 
 
                 <!-- Derecha índice -->
-                <Label name="Indice_Titulo10" font="ZoFontWinH2">
+                <Label name="Indice_Titulo10" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="550" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina10" font="ZoFontWinH2">
+                <Label name="Indice_TPagina10" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina1" relativePoint="TOPLEFT" offsetX="550" offsetY="0"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo11" font="ZoFontWinH2">
+                <Label name="Indice_Titulo11" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo10" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina11" font="ZoFontWinH2">
+                <Label name="Indice_TPagina11" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina10" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo12" font="ZoFontWinH2">
+                <Label name="Indice_Titulo12" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo11" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina12" font="ZoFontWinH2">
+                <Label name="Indice_TPagina12" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina11" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo13" font="ZoFontWinH2">
+                <Label name="Indice_Titulo13" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo12" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina13" font="ZoFontWinH2">
+                <Label name="Indice_TPagina13" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina12" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo14" font="ZoFontWinH2">
+                <Label name="Indice_Titulo14" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo13" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina14" font="ZoFontWinH2">
+                <Label name="Indice_TPagina14" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina13" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_Titulo15" font="ZoFontWinH2">
+                <Label name="Indice_Titulo15" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_Titulo14" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-                <Label name="Indice_TPagina15" font="ZoFontWinH2">
+                <Label name="Indice_TPagina15" font="$(ANTIQUE_FONT)|24|soft-shadow-thin" color="000000">
                     <Anchor point="TOPLEFT" relativeTo="Indice_TPagina14" relativePoint="TOPLEFT" offsetX="0" offsetY="45"/>
                     <Dimensions x="500" y="40"/>
                 </Label>
-
-
-                <!-- Botones para el indice -->
-                <Button name="IHoja_Noche">
-                    <Anchor point="TOPLEFT" relativeTo="Indice_Titulo1" relativePoint="TOPLEFT" offsetX="0" offsetY="0"/>
-                    <Dimensions x="250" y="40"/>
-                    <OnClicked>
-                        CerconeAddon.ShowGrimorioPage(50)
-                    </OnClicked>
-                </Button>
             </Controls>
         </TopLevelControl>
     </Controls>
