@@ -557,7 +557,7 @@ CerconeGrimoireData = {
         NombreRama="Técnicas adicionales",
         Orden="1",
         Descripcion="Armas de Asedio: Capacitación para operar las siguientes armas de asedio contra estructuras:",
-        Valores="Balistas Acción, Ataque +3, Ventaja contra armas de asedio, Desventaja contra oponentes en movimiento Coste 0 Mag, Catapultas Acción, Ataque +6, 1 turno de recarga. [0 turno de recarga si hay 1 persona asistiendo], Trabuquetes Acción, Ataque +12, 1 turno de recarga, requiere 2 personas, Arietes Acción, Ataque +9 y +3 adicional por cada persona asistiendo [max +18], requiere 3-6 personas.",
+        Valores="Balistas: Acción, Ataque +3, Ventaja contra armas de asedio, Desventaja contra oponentes en movimiento Coste 0 Mag.\nCatapultas: Acción, Ataque +6, 1 turno de recarga. [0 turno de recarga si hay 1 persona asistiendo].\nTrabuquetes: Acción, Ataque +12, 1 turno de recarga, requiere 2 personas.\nArietes: Acción, Ataque +9 y +3 adicional por cada persona asistiendo [max +18], requiere 3-6 personas.",
     },
     {
         Z="9",
