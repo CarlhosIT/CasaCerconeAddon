@@ -1,3 +1,21 @@
+TextColor = {
+    Normal = "000000",
+    Hover = "800000"
+}
+
+Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/NB.dds"}, {"Arcanista", "CerconeAddon/Assets/Arcanista.dds"},
+          {"Nigromante", "CerconeAddon/Assets/Necromancer.dds"}, {"Caballero Dragón", "CerconeAddon/Assets/DK.dds"},
+          {"Brujo", "CerconeAddon/Assets/Sorcerer.dds"}, {"Templario Oscuro", "CerconeAddon/Assets/Templar.dds"},
+          {"Guardián", "CerconeAddon/Assets/Warden.dds"},
+          {"Ingeniería de Clockwork", "CerconeAddon/Assets/IngClockwork.dds"},
+          {"Sastrería", "CerconeAddon/Assets/Sastreria.dds"}, {"Alquimia", "CerconeAddon/Assets/Alquimia.dds"},
+          {"Herrería", "CerconeAddon/Assets/Herreria.dds"},
+          {"Arte de la Guerra", "CerconeAddon/Assets/Arte_de_la_Guerra.dds"},
+          {"Linaje Indómito", "CerconeAddon/Assets/Linaje_Indomito.dds"},
+          {"Monturas Exóticas", "CerconeAddon/Assets/Monturas_Exoticas.dds"},
+          {"Linaje Cercone", "CerconeAddon/Assets/Linaje_Cercone.dds"},
+          {"Habilidades de la orden", "CerconeAddon/Assets/Habilidades_de_la_Orden.dds"}}
+
 function CerconeAddon.ShowGrimorioPageOld(vista)
     if vista < 1 or vista > #GrimorioData then
         d("Página fuera de rango")
@@ -26,15 +44,15 @@ function CerconeAddon.ShowGrimorioPageOld(vista)
         local subTituloKey = "SubTitulo" .. i
         local parrafoKey = "Parrafo" .. i
         local parrafoCierreKey = "ParrafoCierre" .. i
-        
+
         local subTitulo = data[subTituloKey] or ""
         local parrafo = data[parrafoKey] or ""
         local parrafoCierre = data[parrafoCierreKey] or ""
-        
+
         local subTituloControl = GetControl("Grimorio_SubTitulo" .. i)
         local parrafoControl = GetControl("Grimorio_Parrafo" .. i)
         local parrafoCierreControl = GetControl("Grimorio_ParrafoCierre" .. i)
-        
+
         if subTituloControl then
             subTituloControl:SetText(subTitulo)
         end
@@ -45,7 +63,7 @@ function CerconeAddon.ShowGrimorioPageOld(vista)
             parrafoCierreControl:SetText(parrafoCierre)
         end
     end
-    
+
     -- Actualizar textos de páginas
     GetControl("Grimorio_PageLeft"):SetText(tostring((vista - 1) * 2 + 1))
     GetControl("Grimorio_PageRight"):SetText(tostring(vista * 2))
@@ -54,65 +72,196 @@ end
 
 -- Función para formatear la descripción en varias líneas
 function CerconeAddon.FormatDescriptionMultiline(description)
-    if not description then return "" end
-    
-    local colorCode = "800000"
+    if not description then
+        return ""
+    end
+
     local parts = {}
-    
+
+    local formattedLine = description:gsub("^%s*([^:]+):", "|c" .. TextColor.Hover .. "%1:|r")
     -- Dividir por líneas
     for line in description:gmatch("[^\n]+") do
         -- Procesar cada línea independientemente
-        local formattedLine = line:gsub("([^%s][^:]-):", "|c"..colorCode.."%1:|r")
         table.insert(parts, formattedLine)
     end
-    
+
     -- Unir las líneas procesadas
-    return table.concat(parts, "\n"):gsub("\n", "\n ")
+    return formattedLine
 end
 
-function CerconeAddon.ShowGrimorioPage(title)
-    local data = CerconeGrimoireData
+function CerconeAddon.SelectLogoNTitle(title)
+    local logoControl = GetControl("LogoRamas")
+    for i = 1, #Assets do
+        if title == Assets[i][1] then
+            logoControl:SetTexture(Assets[i][2])
+            break
+        end
+    end
+    GetControl("GrimorioTitulo"):SetText(title)
+end
+
+function CerconeAddon.AssignText(item, i)
+    -- Controles
+    local subtitleControl = GetControl("GrimorioNombreRama" .. i)
+    local descriptionControl = GetControl("GrimorioDescripcion" .. i)
+    local valuesControl = GetControl("GrimorioValores" .. i)
+
+    -- Formateamos el texto de la descripción con color
+    local description = CerconeAddon.FormatDescriptionMultiline(item.Descripcion)
+
+    -- Verificamos el tamaño de la descripción y valores para cambiar las dimensiones del control
+    local descLength = string.len(description)
+    local valLength = string.len(item.Valores or "")
+
+    local descXmlWidth = descriptionControl:GetWidth()
+    local valXmlWidth = valuesControl:GetWidth()
+
+    descriptionControl:SetDimensions(descXmlWidth, descLength >= 240 and 150 or 110)
+    valuesControl:SetDimensions(valXmlWidth, valLength >= 390 and 180 or 60)
+
+    -- Asignamos el texto a los controles
+    if i == 1 or i == 4 then
+        subtitleControl:SetText(item.NombreRama or "")
+    end
+    descriptionControl:SetText(description or "")
+    valuesControl:SetText(item.Valores or "")
+end
+
+function FilterData(filter, vista)
+    local filteredData1 = {}
+    local filteredData2 = {}
+
+    -- Filtramos la data por el nombre de la lección
+    for _, item in ipairs(CerconeGrimoireData) do
+        if item.Nombre == filter then
+            table.insert(filteredData1, item)
+        end
+    end
+
+    -- Guardamos el rango de la data filtrada
+    CerconeAddon.maxFilteredData = #filteredData1
+
+    local subTitle = ""
+    local helper = 0
+    -- Filtramos la data por bloque
+    for _, item in ipairs(filteredData1) do
+        if item.NombreRama ~= subTitle then
+            helper = helper + 1
+            subTitle = item.NombreRama
+        end
+
+        if vista[1] == helper or vista[2] == helper then
+            table.insert(filteredData2, item)
+        end
+    end
+
+    return filteredData2
+end
+
+function CerconeAddon.ShowGrimorioPage(title, vista)
     local i = 1
-    local currentSubTitle = ""
+    local vistaBackup = CerconeAddon.currentVista
+
+    CerconeAddon.currentVista = vista
+    CerconeAddon.currentTitle = title
+    -- Filtramos la data de acuerdo al titulo
+    CerconeAddon.filteredData = {}
+    CerconeAddon.filteredData = FilterData(title, vista)
+
+    if #CerconeAddon.filteredData == 0 then
+        -- d("No se encontraron más datos para el título: " .. title)
+        CerconeAddon.currentVista = vistaBackup
+        return
+    end
+
+    PlaySound("Book_PageTurn")
 
     -- Limpiar la data del grimorio
     GetControl("GrimorioTitulo"):SetText("")
     GetControl("GrimorioNombreRama1"):SetText("")
     GetControl("GrimorioNombreRama4"):SetText("")
+    GetControl("LogoRamas"):SetTexture("EsoUI/Art/Other/transparentPixel.dds")
     for j = 1, 6 do
-        GetControl("GrimorioDescripcion"..j):SetText("")
-        GetControl("GrimorioValores"..j):SetText("")
+        GetControl("GrimorioDescripcion" .. j):SetText("")
+        GetControl("GrimorioValores" .. j):SetText("")
     end
+    local subTitle = ""
 
-    -- Página izquierda
-    for _, item in pairs(data) do
-        if item.Nombre == title then
-            if i > 6 then break end
-            local description = CerconeAddon.FormatDescriptionMultiline(item.Descripcion)
-            local colonPos = description:find(":")
-            
-            if colonPos then
-                local prefix = description:sub(1, colonPos - 1)
-                local suffix = description:sub(colonPos + 1)
-                description = "|c800000" .. prefix .. ":|r" .. suffix
-            end
-
-            if currentSubTitle ~= item.NombreRama and currentSubTitle ~= "" then 
-            else
-                d(i)
-                GetControl("GrimorioTitulo"):SetText(item.Nombre)
-                if i == 1 or i == 4 then 
-                    GetControl("GrimorioNombreRama"..i):SetText(item.NombreRama or "")
+    if vista[2] < 2 then
+        GetControl("GrimorioTitulo"):SetText(title)
+        CerconeAddon.SelectLogoNTitle(title)
+        -- Datos para la vista principal del titulo
+        i = 4
+        for _, item in pairs(CerconeAddon.filteredData) do
+            if item.Nombre == title then
+                if item.NombreRama ~= subTitle and subTitle ~= "" then
+                    break
                 end
-                GetControl("GrimorioDescripcion"..i):SetText(description or "")
-                GetControl("GrimorioValores"..i):SetText(item.Valores or "")
+                if i > 6 then
+                    break
+                end
+                CerconeAddon.AssignText(item, i)
+                subTitle = item.NombreRama
+                i = i + 1
             end
-            i = i + 1
-            currentSubTitle = item.NombreRama
+        end
+    else
+        -- Datos en las páginas
+        for _, item in pairs(CerconeAddon.filteredData) do
+            if item.Nombre == title then
+                if i > 6 then
+                    break
+                end
+                if item.NombreRama ~= subTitle and subTitle ~= "" then
+                    i = 4
+                end
+                CerconeAddon.AssignText(item, i)
+                subTitle = item.NombreRama
+                i = i + 1
+            end
         end
     end
 
-    GetControl("Grimorio"):SetHidden(false)
+    local grimoire = GetControl("Grimorio")
+    local grimIndex = GetControl("GrimorioIndice")
+
+    -- Calcular posición centrada
+    local screenWidth, screenHeight = GuiRoot:GetDimensions()
+    local windowWidth, windowHeight = grimoire:GetDimensions()
+    local offsetX = (screenWidth - windowWidth) / 2
+    local offsetY = (screenHeight - windowHeight) / 2
+
+    -- Aplicar posición
+    grimoire:ClearAnchors()
+    grimoire:SetAnchor(CENTER, grimIndex, CENTER, 0, 0)
+    grimoire:SetHidden(false)
+end
+
+function CerconeAddon.BackToIndex()
+    GetControl("Grimorio"):SetHidden(true)
+    GetControl("GrimorioIndice"):SetHidden(false)
+    CerconeAddon.ShowGrimorio()
+end
+
+function CalculatePagesPerTitle(currentTitle)
+    local pages = 0
+    local currentSubtitle = ""
+    for _, item in pairs(CerconeGrimoireData) do
+        if item.Nombre == currentTitle then
+
+            if item.NombreRama ~= currentSubtitle or currentSubtitle == "" then
+                pages = pages + 1
+            end
+            currentSubtitle = item.NombreRama
+            currentTitle = item.Nombre
+        end
+    end
+
+    if pages % 2 == 1 then
+        pages = pages + 1
+    end
+
+    return pages
 end
 
 function CerconeAddon.ShowGrimorio()
@@ -129,46 +278,53 @@ function CerconeAddon.ShowGrimorio()
     end
 
     local usedTitle = ""
-    local pagesPerTitle = 3
+    local storedPages = 0
     for i, item in pairs(indexData) do
         if not item.Z then
             break
         end
 
         if usedTitle ~= item.Nombre then
-            GetControl("Indice_Titulo"..item.Z):SetText(item.Nombre or "")
-            GetControl("Indice_TPagina"..item.Z):SetText(pagesPerTitle+1 or "")
+            GetControl("Indice_Titulo" .. item.Z):SetText(item.Nombre or "")
+            local pages = CalculatePagesPerTitle(item.Nombre)
+            GetControl("Indice_TPagina" .. item.Z):SetText(storedPages + pages)
+            storedPages = storedPages + pages
+            if storedPages % 2 == 1 then
+                storedPages = storedPages + 1
+            end
         end
-        
-        if item.Nombre == usedTitle then
-            pagesPerTitle = pagesPerTitle + 1
-        end
-        
+
         usedTitle = item.Nombre
     end
 
     -- Agregar efectos de hover a los ítems del índice
     for i = 1, 100 do
-        if not GetControl("Indice_Titulo"..i) then
+        if not GetControl("Indice_Titulo" .. i) then
             break
         end
-        CerconeAddon.AddHoverEffect(GetControl("Indice_Titulo"..i):GetName(), "FFFFFF", "800000")
+        CerconeAddon.AddHoverEffect(GetControl("Indice_Titulo" .. i):GetName(), TextColor.Normal, TextColor.Hover)
     end
 end
 
 function CerconeAddon.NavigateGrimorio(direction)
-    local newVista = CerconeAddon.currentVista + direction
-    if newVista < 1 or newVista > #GrimorioData then
-        d("No hay más páginas en esa dirección")
-        return
+
+    local newVista = {}
+
+    if direction == 0 then
+        newVista[1] = CerconeAddon.currentVista[1] - 2
+        newVista[2] = CerconeAddon.currentVista[2] - 2
+    elseif direction == 1 then
+        newVista[1] = CerconeAddon.currentVista[1] + 2
+        newVista[2] = CerconeAddon.currentVista[2] + 2
     end
-    CerconeAddon.ShowGrimorioPage(newVista)
+
+    CerconeAddon.ShowGrimorioPage(CerconeAddon.currentTitle, newVista)
 end
 
 function CerconeAddon.AddHoverEffect(label, normalColor, hoverColor)
     local labelControl = GetControl(label)
     if not labelControl then
-        d("|cFF0000Error:|r Control no encontrado: " ..label)
+        d("|cFF0000Error:|r Control no encontrado: " .. label)
         return
     end
 
@@ -178,7 +334,8 @@ function CerconeAddon.AddHoverEffect(label, normalColor, hoverColor)
     -- Convertir los colores hexadecimales a formato ZO
     local function ParseColor(hexColor)
         hexColor = hexColor:gsub("#", "")
-        local r, g, b = tonumber(hexColor:sub(1, 2), 16), tonumber(hexColor:sub(3, 4), 16), tonumber(hexColor:sub(5, 6), 16)
+        local r, g, b = tonumber(hexColor:sub(1, 2), 16), tonumber(hexColor:sub(3, 4), 16),
+            tonumber(hexColor:sub(5, 6), 16)
         return r, g, b
     end
 
@@ -193,7 +350,7 @@ function CerconeAddon.AddHoverEffect(label, normalColor, hoverColor)
     end)
 
     labelControl:SetHandler("OnMouseUp", function()
-        CerconeAddon.ShowGrimorioPage(labelControl:GetText())
+        CerconeAddon.ShowGrimorioPage(labelControl:GetText(), {0, 1})
         GetControl("GrimorioIndice"):SetHidden(true)
     end)
 end
