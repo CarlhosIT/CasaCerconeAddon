@@ -41,12 +41,14 @@ function CerconeAddon.ArbriGrimorio()
             panel:SetHidden(true)
         end
         panel2:SetHidden(true)
+        
         d(not panel:IsHidden() and "Mostrando Grimorio" or "Ocultando Grimorio")
         if not panel:IsHidden() then PlaySound("BOOK_OPEN") else PlaySound("BOOK_CLOSE") end
     else
         d("No se encontró el control 'GrimorioIndice'")
     end
 end
+
 function CerconeAddon.ArbriTablon()
     local panel = WINDOW_MANAGER:GetControlByName("Tablon")
     if panel then
@@ -65,5 +67,3 @@ function CerconeAddon.InitializeKeybindings()
 end
 -- Registro del addon
 EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED, CerconeAddon.OnAddOnLoaded)
-
-
