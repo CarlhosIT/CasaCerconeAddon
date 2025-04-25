@@ -149,7 +149,7 @@ CerconeGrimoireData = {
         NombreRama="Emisario del Tomo",
         Orden="1",
         Descripcion="Forjador del destino: Canaliza tu conocimiento puro en un haz de energía que deja cicatrices en el mundo que tienes ante ti. Dirige el rayo durante un turno causando daño a tu oponente.",
-        Valores=".",
+        Valores="Acción, Ataque +4, Coste 3 Mag.",
     },
     {
         Z="3",
