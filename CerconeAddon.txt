@@ -1,10 +1,20 @@
 ## Title: CerconeAddon
-## Author: @CC77 y @Josh-CR
-## APIVersion: 101035
-## SavedVariables: FooAddonSavedVariables
+## Author: @CC77, @Josh-CR y ulasp
+## APIVersion: 101045
+## SavedVariables: CerconeAddonVars
+## DependsOn: LibChatMessage
 
-Bindings.xml
-CerconeAddon.lua
+Main.lua
+UIMenuFunctions.lua
+PjDuelFunctions.lua
+SlashCommands.lua
+GrimorioFunctions.lua
 CerconeClient/CerconePjData.lua
+CerconeClient/GrimorioData.lua
+CerconeClient/CerconeGrimData.lua
+Bindings.xml
 CerconePjSimpleUI.xml
+Grimorio.xml
+GrimorioIndice.xml
 CerconePjDuel.xml
+TablonMisiones.xml
