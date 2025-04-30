@@ -138,6 +138,52 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Alustrils",
+        ID="@Alustriel1910",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Templar",
+            Nacimiento="2E 609",
+            FechaConvercion="2E 627",
+            Sire="Masser",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="4",
+            MeritosGastados="2",
+            TotalMeritos="2",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=1
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Lythana Taldren",
         ID="@Artëmis240",
         DataGeneral={
@@ -158,18 +204,18 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="4",
+            PorPorCampana="5",
             PorTaberna="3",
-            PorMisiones="1",
-            Otros="1",
-            MeritosGastados="7",
-            TotalMeritos="2",
+            PorMisiones="2",
+            Otros="5",
+            MeritosGastados="9",
+            TotalMeritos="6",
             Misiones="0"
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=0,
-            LeccionesClase=2
+            LeccionesClase=3
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -205,11 +251,11 @@ CerconePjData = {
         Defensa=10,
         Meritos={
             PorPorCampana="0",
-            PorTaberna="0",
+            PorTaberna="2",
             PorMisiones="0",
-            Otros="0",
+            Otros="2",
             MeritosGastados="0",
-            TotalMeritos="0",
+            TotalMeritos="4",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -239,23 +285,23 @@ CerconePjData = {
             FechaConvercion="Lycan",
             Sire="Secundus",
             Armadura="Media",
-            Rango="Adalid",
+            Rango="Noble",
             Orden="Sanguinaris",
             Arma="Manodoble",
             Profesion="Profesión"
         },
         ProfLevel=1,
-        HP=21,
+        HP=22,
         Magicka=12,
         Ataque="1D20",
         Defensa=12,
         Meritos={
-            PorPorCampana="11",
+            PorPorCampana="12",
             PorTaberna="0",
             PorMisiones="2",
-            Otros="5",
+            Otros="7",
             MeritosGastados="13",
-            TotalMeritos="5",
+            TotalMeritos="8",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -428,18 +474,18 @@ CerconePjData = {
             Arma="Arma y escudo",
             Profesion="Herrería"
         },
-        ProfLevel=2,
+        ProfLevel=3,
         HP=14,
         Magicka=10,
         Ataque="1D20",
         Defensa=16,
         Meritos={
-            PorPorCampana="8",
-            PorTaberna="4",
+            PorPorCampana="9",
+            PorTaberna="6",
             PorMisiones="1",
-            Otros="3",
-            MeritosGastados="14",
-            TotalMeritos="2",
+            Otros="9",
+            MeritosGastados="18",
+            TotalMeritos="7",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -506,52 +552,6 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Nahamy Longtail",
-        ID="@CC77",
-        DataGeneral={
-            Raza="Khajita",
-            Clase="Hoja de la noche",
-            Nacimiento="2E 599",
-            FechaConvercion="2E 620",
-            Sire="Caster Braveshine",
-            Armadura="Media",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Arma="Desconocida",
-            Profesion="Alquimia"
-        },
-        ProfLevel=1,
-        HP=14,
-        Magicka=12,
-        Ataque="1D20",
-        Defensa=12,
-        Meritos={
-            PorPorCampana="1",
-            PorTaberna="8",
-            PorMisiones="2",
-            Otros="8",
-            MeritosGastados="12",
-            TotalMeritos="7",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=3
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=3,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
         Personaje="Hell-Ah Dinnok",
         ID="@CC77",
         DataGeneral={
@@ -589,6 +589,52 @@ CerconePjData = {
             Exploracion=0,
             Investigacion=0,
             InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Nahamy Longtail",
+        ID="@CC77",
+        DataGeneral={
+            Raza="Khajita",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 599",
+            FechaConvercion="2E 620",
+            Sire="Caster Braveshine",
+            Armadura="Media",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Alquimia"
+        },
+        ProfLevel=1,
+        HP=14,
+        Magicka=12,
+        Ataque="1D20",
+        Defensa=12,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="8",
+            PorMisiones="2",
+            Otros="8",
+            MeritosGastados="12",
+            TotalMeritos="7",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=3,
             Sigilo=0,
             Persuacion=0,
             Intimidacion=0,
@@ -644,6 +690,52 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Nea'Gochor ",
+        ID="@clown.28",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 580",
+            FechaConvercion="2E 627",
+            Sire="Sir Canuto",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="4",
+            MeritosGastados="0",
+            TotalMeritos="4",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Momon el Negro",
         ID="@clown.28",
         DataGeneral={
@@ -651,31 +743,31 @@ CerconePjData = {
             Clase="Caballero Dragón",
             Nacimiento="2E 592",
             FechaConvercion="2E 620",
-            Sire="Sathas Cercone",
+            Sire="Desconocido",
             Armadura="Pesada",
             Rango="Vástago",
             Orden="Ninguna",
             Arma="Arma y escudo",
             Profesion="Herrería"
         },
-        ProfLevel=2,
+        ProfLevel=3,
         HP=14,
         Magicka=10,
         Ataque="1D20",
         Defensa=16,
         Meritos={
-            PorPorCampana="9",
-            PorTaberna="5",
+            PorPorCampana="10",
+            PorTaberna="7",
             PorMisiones="1",
-            Otros="3",
-            MeritosGastados="14",
-            TotalMeritos="4",
+            Otros="5",
+            MeritosGastados="20",
+            TotalMeritos="3",
             Misiones="0"
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=1,
-            LeccionesClase=2
+            LeccionesClase=3
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -710,12 +802,12 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=13,
         Meritos={
-            PorPorCampana="24",
-            PorTaberna="16",
+            PorPorCampana="25",
+            PorTaberna="18",
             PorMisiones="7",
-            Otros="24",
+            Otros="28",
             MeritosGastados="42",
-            TotalMeritos="29",
+            TotalMeritos="36",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -736,22 +828,22 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Dogrumm",
+        Personaje="Dijormk",
         ID="@Diamoc",
         DataGeneral={
-            Raza="Orco",
-            Clase="Brujo",
-            Nacimiento="2E 591",
-            FechaConvercion="2E 607",
-            Sire="Desconocido",
+            Raza="Nordico",
+            Clase="Caballero Dragón",
+            Nacimiento="1E 2812",
+            FechaConvercion="1E 2836",
+            Sire="Lamae Bal",
             Armadura="Ninguna",
-            Rango="Iniciado",
+            Rango="Vástago",
             Orden="Ninguna",
             Arma="Desconocida",
             Profesion="Profesión"
         },
         ProfLevel=0,
-        HP=10,
+        HP=12,
         Magicka=10,
         Ataque="1D20",
         Defensa=10,
@@ -782,22 +874,22 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Dijormk",
+        Personaje="Dogrumm",
         ID="@Diamoc",
         DataGeneral={
-            Raza="Nordico",
-            Clase="Caballero Dragón",
-            Nacimiento="1E 2812",
-            FechaConvercion="1E 2836",
-            Sire="Lamae Bal",
+            Raza="Orco",
+            Clase="Brujo",
+            Nacimiento="2E 591",
+            FechaConvercion="2E 607",
+            Sire="Masser",
             Armadura="Ninguna",
-            Rango="Vástago",
+            Rango="Iniciado",
             Orden="Ninguna",
             Arma="Desconocida",
             Profesion="Profesión"
         },
         ProfLevel=0,
-        HP=12,
+        HP=10,
         Magicka=10,
         Ataque="1D20",
         Defensa=10,
@@ -805,9 +897,9 @@ CerconePjData = {
             PorPorCampana="0",
             PorTaberna="0",
             PorMisiones="0",
-            Otros="0",
+            Otros="2",
             MeritosGastados="0",
-            TotalMeritos="0",
+            TotalMeritos="2",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -966,6 +1058,52 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Avelene Shitersyphon",
+        ID="@GummyKitsu",
+        DataGeneral={
+            Raza="Altmer",
+            Clase="Nigromante",
+            Nacimiento="2E 564",
+            FechaConvercion="2E 621",
+            Sire="Alessandra Beliaris",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="2",
+            PorTaberna="1",
+            PorMisiones="4",
+            Otros="3",
+            MeritosGastados="0",
+            TotalMeritos="10",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Alessandra Belliaris",
         ID="@GummyKitsu",
         DataGeneral={
@@ -986,18 +1124,18 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="3",
+            PorPorCampana="4",
             PorTaberna="8",
             PorMisiones="1",
             Otros="7",
-            MeritosGastados="4",
-            TotalMeritos="15",
+            MeritosGastados="6",
+            TotalMeritos="14",
             Misiones="0"
         },
         HabilidadesCombatientes={
             LinajeCercone=0,
             ArteDeGuerra=1,
-            LeccionesClase=1
+            LeccionesClase=2
         },
         HabilidadesNOCombatientes={
             Exploracion=0,
@@ -1038,52 +1176,6 @@ CerconePjData = {
             Otros="5",
             MeritosGastados="0",
             TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Laquesh",
-        ID="@GummyKitsu",
-        DataGeneral={
-            Raza="Orco",
-            Clase="Guardian",
-            Nacimiento="2E 592",
-            FechaConvercion="Lycan 2E 607",
-            Sire="",
-            Armadura="Ninguna",
-            Rango="Iniciado",
-            Orden="Ninguna",
-            Arma="Desconocida",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=10,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="0",
-            MeritosGastados="0",
-            TotalMeritos="0",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -1150,14 +1242,14 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Avelene Shitersyphon",
+        Personaje="Laquesh",
         ID="@GummyKitsu",
         DataGeneral={
-            Raza="Altmer",
-            Clase="Nigromante",
-            Nacimiento="2E 564",
-            FechaConvercion="2E 621",
-            Sire="Alessandra Beliaris",
+            Raza="Orco",
+            Clase="Guardian",
+            Nacimiento="2E 592",
+            FechaConvercion="Lycan 2E 607",
+            Sire="Masser",
             Armadura="Ninguna",
             Rango="Vástago",
             Orden="Ninguna",
@@ -1170,12 +1262,12 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="2",
-            PorTaberna="1",
-            PorMisiones="4",
-            Otros="3",
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="1",
             MeritosGastados="0",
-            TotalMeritos="10",
+            TotalMeritos="1",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -1334,6 +1426,98 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Nirelsa Telvanni",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 490",
+            FechaConvercion="2E 510",
+            Sire="Desconocido",
+            Armadura="Pesada",
+            Rango="Neófito",
+            Orden="Custodes",
+            Arma="Bastones de destrucción",
+            Profesion="Alquimia"
+        },
+        ProfLevel=1,
+        HP=16,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=14,
+        Meritos={
+            PorPorCampana="33",
+            PorTaberna="24",
+            PorMisiones="13",
+            Otros="34",
+            MeritosGastados="53",
+            TotalMeritos="51",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=5,
+            LeccionesClase=7
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=3,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=3,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Tamira Cercone",
+        ID="@Ilarislasus",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Brujo",
+            Nacimiento="2E 508",
+            FechaConvercion="2E 528",
+            Sire="Daela Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="2",
+            PorMisiones="0",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="4",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Ri'asda",
         ID="@Ilarislasus",
         DataGeneral={
@@ -1380,52 +1564,6 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Nirelsa Telvanni",
-        ID="@Ilarislasus",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 490",
-            FechaConvercion="2E 510",
-            Sire="Desconocido",
-            Armadura="Pesada",
-            Rango="Neófito",
-            Orden="Custodes",
-            Arma="Bastones de destrucción",
-            Profesion="Alquimia"
-        },
-        ProfLevel=1,
-        HP=16,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=14,
-        Meritos={
-            PorPorCampana="32",
-            PorTaberna="24",
-            PorMisiones="13",
-            Otros="34",
-            MeritosGastados="53",
-            TotalMeritos="50",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=5,
-            LeccionesClase=7
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=3,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=3,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
         Personaje="Ishtariel Cercone",
         ID="@Ishtariel-CR",
         DataGeneral={
@@ -1446,12 +1584,12 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=14,
         Meritos={
-            PorPorCampana="20",
+            PorPorCampana="21",
             PorTaberna="20",
             PorMisiones="9",
-            Otros="25",
+            Otros="29",
             MeritosGastados="39",
-            TotalMeritos="35",
+            TotalMeritos="40",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -1907,11 +2045,11 @@ CerconePjData = {
         Defensa=12,
         Meritos={
             PorPorCampana="1",
-            PorTaberna="15",
+            PorTaberna="17",
             PorMisiones="2",
             Otros="18",
             MeritosGastados="32",
-            TotalMeritos="4",
+            TotalMeritos="6",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -1928,52 +2066,6 @@ CerconePjData = {
             Intimidacion=0,
             Voluntad=2,
             Percepcion=2,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Santiago",
-        ID="@LordSantiago20",
-        DataGeneral={
-            Raza="Nordico",
-            Clase="Arcanista",
-            Nacimiento="1E 224",
-            FechaConvercion="1E 245",
-            Sire="Desconocido ",
-            Armadura="Pesada",
-            Rango="Magíster",
-            Orden="Custodes",
-            Arma="Bastones de destrucción",
-            Profesion="Sastrería"
-        },
-        ProfLevel=3,
-        HP=22,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=15,
-        Meritos={
-            PorPorCampana="15",
-            PorTaberna="13",
-            PorMisiones="4",
-            Otros="15",
-            MeritosGastados="16",
-            TotalMeritos="31",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=2,
-            LeccionesClase=9
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=4,
-            Investigacion=4,
-            InutilizarM=1,
-            Sigilo=0,
-            Persuacion=4,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
             Fuerza=0
         }
     },
@@ -2017,6 +2109,52 @@ CerconePjData = {
             InutilizarM=0,
             Sigilo=0,
             Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Santiago",
+        ID="@LordSantiago20",
+        DataGeneral={
+            Raza="Nordico",
+            Clase="Arcanista",
+            Nacimiento="1E 224",
+            FechaConvercion="1E 245",
+            Sire="Desconocido ",
+            Armadura="Pesada",
+            Rango="Magíster",
+            Orden="Custodes",
+            Arma="Bastones de destrucción",
+            Profesion="Sastrería"
+        },
+        ProfLevel=3,
+        HP=22,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=15,
+        Meritos={
+            PorPorCampana="16",
+            PorTaberna="13",
+            PorMisiones="4",
+            Otros="17",
+            MeritosGastados="16",
+            TotalMeritos="34",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=2,
+            LeccionesClase=9
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=4,
+            Investigacion=4,
+            InutilizarM=1,
+            Sigilo=0,
+            Persuacion=4,
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
@@ -2208,52 +2346,6 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Grom Barba Negra",
-        ID="@MillerSigurd",
-        DataGeneral={
-            Raza="Orco",
-            Clase="Arcanista",
-            Nacimiento="2E 500",
-            FechaConvercion="2E 539",
-            Sire="Valak",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Arma="Desconocida",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="6",
-            PorTaberna="4",
-            PorMisiones="0",
-            Otros="3",
-            MeritosGastados="0",
-            TotalMeritos="13",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
         Personaje="Sevas Hlaalu",
         ID="@MillerSigurd",
         DataGeneral={
@@ -2280,6 +2372,52 @@ CerconePjData = {
             Otros="0",
             MeritosGastados="0",
             TotalMeritos="0",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Grom Barba Negra",
+        ID="@MillerSigurd",
+        DataGeneral={
+            Raza="Orco",
+            Clase="Arcanista",
+            Nacimiento="2E 500",
+            FechaConvercion="2E 539",
+            Sire="Valak",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="6",
+            PorTaberna="4",
+            PorMisiones="0",
+            Otros="3",
+            MeritosGastados="0",
+            TotalMeritos="13",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -2504,12 +2642,12 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=10,
         Meritos={
-            PorPorCampana="15",
+            PorPorCampana="16",
             PorTaberna="3",
             PorMisiones="0",
-            Otros="1",
+            Otros="5",
             MeritosGastados="18",
-            TotalMeritos="1",
+            TotalMeritos="6",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -2525,52 +2663,6 @@ CerconePjData = {
             Persuacion=1,
             Intimidacion=3,
             Voluntad=4,
-            Percepcion=3,
-            Fuerza=0
-        }
-    },
-    {
-        Personaje="Tendrys Cercone",
-        ID="@OldTaken",
-        DataGeneral={
-            Raza="Dunmer",
-            Clase="Nigromante",
-            Nacimiento="2E 601",
-            FechaConvercion="2E 622",
-            Sire="Nardhil Cercone",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Arma="Bastones de restauración",
-            Profesion="Alquimia"
-        },
-        ProfLevel=3,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="3",
-            PorTaberna="14",
-            PorMisiones="2",
-            Otros="33",
-            MeritosGastados="48",
-            TotalMeritos="4",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=7,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=3,
-            Investigacion=0,
-            InutilizarM=3,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
             Percepcion=3,
             Fuerza=0
         }
@@ -2599,9 +2691,9 @@ CerconePjData = {
             PorPorCampana="0",
             PorTaberna="0",
             PorMisiones="0",
-            Otros="0",
+            Otros="2",
             MeritosGastados="0",
-            TotalMeritos="0",
+            TotalMeritos="2",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -2664,6 +2756,52 @@ CerconePjData = {
             Intimidacion=0,
             Voluntad=0,
             Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Tendrys Cercone",
+        ID="@OldTaken",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Nigromante",
+            Nacimiento="2E 601",
+            FechaConvercion="2E 622",
+            Sire="Nardhil Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Bastones de restauración",
+            Profesion="Alquimia"
+        },
+        ProfLevel=3,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="3",
+            PorTaberna="16",
+            PorMisiones="2",
+            Otros="33",
+            MeritosGastados="48",
+            TotalMeritos="6",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=9
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=3,
+            Investigacion=0,
+            InutilizarM=3,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=3,
             Fuerza=0
         }
     },
@@ -2735,11 +2873,11 @@ CerconePjData = {
         Defensa=10,
         Meritos={
             PorPorCampana="1",
-            PorTaberna="1",
+            PorTaberna="3",
             PorMisiones="0",
-            Otros="1",
+            Otros="3",
             MeritosGastados="0",
-            TotalMeritos="3",
+            TotalMeritos="7",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3010,12 +3148,12 @@ CerconePjData = {
         Ataque="1D20",
         Defensa=13,
         Meritos={
-            PorPorCampana="15",
+            PorPorCampana="16",
             PorTaberna="7",
             PorMisiones="1",
-            Otros="10",
+            Otros="14",
             MeritosGastados="29",
-            TotalMeritos="4",
+            TotalMeritos="9",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3057,11 +3195,11 @@ CerconePjData = {
         Defensa=12,
         Meritos={
             PorPorCampana="0",
-            PorTaberna="5",
+            PorTaberna="7",
             PorMisiones="0",
             Otros="0",
             MeritosGastados="3",
-            TotalMeritos="2",
+            TotalMeritos="4",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3105,9 +3243,9 @@ CerconePjData = {
             PorPorCampana="0",
             PorTaberna="1",
             PorMisiones="0",
-            Otros="0",
+            Otros="2",
             MeritosGastados="0",
-            TotalMeritos="1",
+            TotalMeritos="3",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3496,6 +3634,52 @@ CerconePjData = {
         }
     },
     {
+        Personaje="Carmilla von Karnstein",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Breton",
+            Clase="Nigromante",
+            Nacimiento="2E 372",
+            FechaConvercion="2E 391",
+            Sire="Desconocido",
+            Armadura="Ligera",
+            Rango="Neófito",
+            Orden="Inquisidores",
+            Arma="Bastones de restauración",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=14,
+        Magicka=16,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="11",
+            PorTaberna="12",
+            PorMisiones="1",
+            Otros="8",
+            MeritosGastados="9",
+            TotalMeritos="23",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=3
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
         Personaje="Raynila Nerethi",
         ID="@Vittorio-CR",
         DataGeneral={
@@ -3542,52 +3726,6 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Carmilla von Karnstein",
-        ID="@Vittorio-CR",
-        DataGeneral={
-            Raza="Breton",
-            Clase="Nigromante",
-            Nacimiento="2E 372",
-            FechaConvercion="2E 391",
-            Sire="Desconocido",
-            Armadura="Ligera",
-            Rango="Neófito",
-            Orden="Inquisidores",
-            Arma="Bastones de restauración",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=14,
-        Magicka=16,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="11",
-            PorTaberna="10",
-            PorMisiones="1",
-            Otros="4",
-            MeritosGastados="9",
-            TotalMeritos="17",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=3
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
         Personaje="Felrar Aran",
         ID="@Vittorio-CR",
         DataGeneral={
@@ -3611,9 +3749,9 @@ CerconePjData = {
             PorPorCampana="0",
             PorTaberna="0",
             PorMisiones="0",
-            Otros="0",
+            Otros="2",
             MeritosGastados="0",
-            TotalMeritos="0",
+            TotalMeritos="2",
             Misiones="0"
         },
         HabilidadesCombatientes={
@@ -3772,52 +3910,6 @@ CerconePjData = {
         }
     },
     {
-        Personaje="Giovanni Valente",
-        ID="@Vittorio-CR",
-        DataGeneral={
-            Raza="Imperial",
-            Clase="Brujo",
-            Nacimiento="2E 588",
-            FechaConvercion="2E 624",
-            Sire="Lord Gallio Valente",
-            Armadura="Ninguna",
-            Rango="Vástago",
-            Orden="Ninguna",
-            Arma="Desconocida",
-            Profesion="Profesión"
-        },
-        ProfLevel=0,
-        HP=12,
-        Magicka=10,
-        Ataque="1D20",
-        Defensa=10,
-        Meritos={
-            PorPorCampana="0",
-            PorTaberna="0",
-            PorMisiones="0",
-            Otros="2",
-            MeritosGastados="0",
-            TotalMeritos="2",
-            Misiones="0"
-        },
-        HabilidadesCombatientes={
-            LinajeCercone=0,
-            ArteDeGuerra=0,
-            LeccionesClase=0
-        },
-        HabilidadesNOCombatientes={
-            Exploracion=0,
-            Investigacion=0,
-            InutilizarM=0,
-            Sigilo=0,
-            Persuacion=0,
-            Intimidacion=0,
-            Voluntad=0,
-            Percepcion=0,
-            Fuerza=0
-        }
-    },
-    {
         Personaje="Vittorio Cercone",
         ID="@Vittorio-CR",
         DataGeneral={
@@ -3861,6 +3953,98 @@ CerconePjData = {
             Voluntad=4,
             Percepcion=0,
             Fuerza=2
+        }
+    },
+    {
+        Personaje="Gathal Naros",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Dunmer",
+            Clase="Guardian",
+            Nacimiento="2E 603",
+            FechaConvercion="2E 627",
+            Sire="Vittorio Cercone",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="0",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Giovanni Valente",
+        ID="@Vittorio-CR",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Brujo",
+            Nacimiento="2E 588",
+            FechaConvercion="2E 624",
+            Sire="Lord Gallio Valente",
+            Armadura="Ninguna",
+            Rango="Vástago",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=12,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="0",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="2",
+            MeritosGastados="0",
+            TotalMeritos="2",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
         }
     },
     {
@@ -4074,6 +4258,52 @@ CerconePjData = {
             Otros="2",
             MeritosGastados="0",
             TotalMeritos="12",
+            Misiones="0"
+        },
+        HabilidadesCombatientes={
+            LinajeCercone=0,
+            ArteDeGuerra=0,
+            LeccionesClase=0
+        },
+        HabilidadesNOCombatientes={
+            Exploracion=0,
+            Investigacion=0,
+            InutilizarM=0,
+            Sigilo=0,
+            Persuacion=0,
+            Intimidacion=0,
+            Voluntad=0,
+            Percepcion=0,
+            Fuerza=0
+        }
+    },
+    {
+        Personaje="Thorigama (Lazarus ValerHart)",
+        ID="@Thorigama",
+        DataGeneral={
+            Raza="Imperial",
+            Clase="Hoja de la noche",
+            Nacimiento="2E 596",
+            FechaConvercion="2E 623",
+            Sire="Lycan",
+            Armadura="Ninguna",
+            Rango="Iniciado",
+            Orden="Ninguna",
+            Arma="Desconocida",
+            Profesion="Profesión"
+        },
+        ProfLevel=0,
+        HP=10,
+        Magicka=10,
+        Ataque="1D20",
+        Defensa=10,
+        Meritos={
+            PorPorCampana="1",
+            PorTaberna="0",
+            PorMisiones="0",
+            Otros="0",
+            MeritosGastados="0",
+            TotalMeritos="1",
             Misiones="0"
         },
         HabilidadesCombatientes={
