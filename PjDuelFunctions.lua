@@ -197,10 +197,10 @@ end
 
 
 function CerconeAddon.OnChatMessage(eventCode, messageType, fromName, text)
-    if messageType == CHAT_CHANNEL_EMOTE then
-        if string.find(string.lower(text), "ataque") then
-            CerconeAddon.UpdateStat("HP","add", 1)
-            SendMessageToChat("Este es un mensaje de prueba.",CHAT_CHANNEL_SAY)
-        end
-    end
+    -- if messageType == CHAT_CHANNEL_EMOTE then
+    --     if string.find(string.lower(text), "ataque") then
+    --         CerconeAddon.UpdateStat("HP","add", 1)
+    --         SendMessageToChat("Este es un mensaje de prueba.",CHAT_CHANNEL_SAY)
+    --     end
+    -- end
 end
