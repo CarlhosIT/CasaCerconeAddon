@@ -4,14 +4,26 @@
 function CerconeAddon.HideMarkTextures()
     local textureNames = {
       "MarkClass1", "MarkClass2", "MarkClass3", "MarkClass4", "MarkClass5", "MarkClass6", "MarkClass7", "MarkClass8", "MarkClass9",
-      "MarkWar1", "MarkWar2", "MarkWar3", "MarkWar4", "MarkWar5", "MarkWar6",
+      "MarkWar1", "MarkWar2", "MarkWar3", "MarkWar4", "MarkWar5", "MarkWar6", "MarkWar7",
       "MarkProf1", "MarkProf2", "MarkProf3",
       "MarkLCf1", "MarkLCf2", "MarkLCf3"
+    }
+    local textureNames2 = {
+      "MarkClassEmpty1", "MarkClassEmpty2", "MarkClassEmpty3", "MarkClassEmpty4", "MarkClassEmpty5", "MarkClassEmpty6", "MarkClassEmpty7", "MarkClassEmpty8", "MarkClassEmpty9",
+      "MarkWarEmpty1", "MarkWarEmpty2", "MarkWarEmpty3", "MarkWarEmpty4", "MarkWarEmpty5", "MarkWarEmpty6", "MarkWarEmpty7",
+      "MarkProfEmpty1", "MarkProfEmpty2", "MarkProfEmpty3",
+      "MarkLCfEmpty1", "MarkLCfEmpty2", "MarkLCfEmpty3"
     }
     for _, textureName in ipairs(textureNames) do
       local texture = WINDOW_MANAGER:GetControlByName(textureName)
       if texture then
         texture:SetHidden(true)
+      end
+    end
+    for _, textureName in ipairs(textureNames2) do
+      local texture = WINDOW_MANAGER:GetControlByName(textureName)
+      if texture then
+        texture:SetHidden(false)
       end
     end
   end
@@ -27,53 +39,45 @@ function CerconeAddon.HideMarkTextures()
   end
   
   function CerconeAddon.MarkClassSkillsFromValue(classSkills)
-    local numOfSkills = tonumber(classSkills)
-    
-    for i = 1, 9 do
+    for i, item in ipairs(classSkills) do
       local mark = WINDOW_MANAGER:GetControlByName("MarkClass" .. i)
       local emptyMark = WINDOW_MANAGER:GetControlByName("MarkClassEmpty" .. i)
-      if mark then
-        mark:SetHidden(i > numOfSkills)
-        emptyMark:SetHidden(i <= numOfSkills)
+      if item ~= "" then
+        mark:SetHidden(false)
+        emptyMark:SetHidden(true)
       end
     end
   end
   
   function CerconeAddon.MarkWarSkillsFromValue(classSkills)
-    local numOfSkills = tonumber(classSkills)
-    for i = 1, 6 do
+    for i, item in ipairs(classSkills) do
       local mark = WINDOW_MANAGER:GetControlByName("MarkWar" .. i)
       local emptyMark = WINDOW_MANAGER:GetControlByName("MarkWarEmpty" .. i)
-
-      if mark then
-        mark:SetHidden(i > numOfSkills)
-        emptyMark:SetHidden(i <= numOfSkills)
+      if item ~= "" then
+        mark:SetHidden(false)
+        emptyMark:SetHidden(true)
       end
     end
   end
   
   function CerconeAddon.MarkProfSkillsFromValue(classSkills)
-    local numOfSkills = tonumber(classSkills)
-    for i = 1, 3 do
+    for i, item in ipairs(classSkills) do
       local mark = WINDOW_MANAGER:GetControlByName("MarkProf" .. i)
       local emptyMark = WINDOW_MANAGER:GetControlByName("MarkProfEmpty" .. i)
-
-      if mark then
-        mark:SetHidden(i > numOfSkills)
-        emptyMark:SetHidden(i <= numOfSkills)
+      if item ~= "" then
+        mark:SetHidden(false)
+        emptyMark:SetHidden(true)
       end
     end
   end
   
   function CerconeAddon.MarkLCSkillsFromValue(classSkills)
-    local numOfSkills = tonumber(classSkills)
-    for i = 1, 3 do
+    for i, item in ipairs(classSkills) do
       local mark = WINDOW_MANAGER:GetControlByName("MarkLCf" .. i)
       local emptyMark = WINDOW_MANAGER:GetControlByName("MarkLCfEmpty" .. i)
-      
-      if mark then
-        mark:SetHidden(i > numOfSkills)
-        emptyMark:SetHidden(i <= numOfSkills)
+      if item ~= "" then
+        mark:SetHidden(false)
+        emptyMark:SetHidden(true)
       end
     end
   end
