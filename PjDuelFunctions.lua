@@ -2,7 +2,7 @@
 local LibChatMessage = LibChatMessage
 
 -- Crear una instancia de ChatProxy con etiquetas
-local chat = LibChatMessage("CerconeAddon", "CA")  
+local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
 
 function CerconeAddon.SelectPjForDuel(namePj)
     local numPj = CerconeAddon.SearchpjByName(namePj)
@@ -17,7 +17,7 @@ function CerconeAddon.SelectPjForDuel(namePj)
             displayName = string.sub(displayName, 1, maxLength - 3) .. "..."
         end
 
-        d("Abriendo menú de combate para: " .. pj.Personaje)
+        chat:Print("Abriendo menú de combate para: " .. pj.Personaje)
 
         local PjHPDuel = WINDOW_MANAGER:GetControlByName("PjHPDuel")
         local PjDefDuel = WINDOW_MANAGER:GetControlByName("PjDefDuel")
@@ -36,23 +36,23 @@ function CerconeAddon.SelectPjForDuel(namePj)
                 panel:SetHidden(false)
                 CerconeAddon.OnCombatMenuOpen()
             else
-                d("No se encontró el control 'CerconePjDuel'")
+                chat:Print("No se encontró el control 'CerconePjDuel'")
             end
         else
-            d("No se encontraron todos los controles necesarios dentro de 'CerconePjDuel'")
+            chat:Print("No se encontraron todos los controles necesarios dentro de 'CerconePjDuel'")
         end
 
         -- Guardar el nombre del personaje seleccionado
         CerconeAddon.selectedPjName = displayName
     else
-        d("Sin resultados")
+        chat:Print("Sin resultados")
     end
 end
 
 function CerconeAddon.AddHp()
   local currentText = PjHPDuel:GetText()
   if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
   local currentHP = tonumber(string.match(currentText, "%d+"))
@@ -60,13 +60,13 @@ function CerconeAddon.AddHp()
       local newHP = currentHP + 1
       PjHPDuel:SetText("HP: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
 function CerconeAddon.DiscHp()
   local currentText = PjHPDuel:GetText()
   if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
   local currentHP = tonumber(string.match(currentText, "%d+"))
@@ -74,14 +74,14 @@ function CerconeAddon.DiscHp()
       local newHP = currentHP - 1
       PjHPDuel:SetText("HP: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
 
 function CerconeAddon.AddDef()
   local currentText = PjDefDuel:GetText()
   if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
   local currentHP = tonumber(string.match(currentText, "%d+"))
@@ -89,13 +89,13 @@ function CerconeAddon.AddDef()
       local newHP = currentHP + 1
       PjDefDuel:SetText("Def: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
 function CerconeAddon.DiscDefp()
   local currentText = PjDefDuel:GetText()
   if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
   local currentHP = tonumber(string.match(currentText, "%d+"))
@@ -103,14 +103,14 @@ function CerconeAddon.DiscDefp()
       local newHP = currentHP - 1
       PjDefDuel:SetText("Def: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
 
 function CerconeAddon.AddMag()
   local currentText = PjMagickaDuel:GetText()
   if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
   local currentHP = tonumber(string.match(currentText, "%d+"))
@@ -118,9 +118,10 @@ function CerconeAddon.AddMag()
       local newHP = currentHP + 1
       PjMagickaDuel:SetText("Mag: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
+
 function CerconeAddon.DiscMag()
   local currentText = PjMagickaDuel:GetText()
   if currentText == "--" then
@@ -131,9 +132,10 @@ function CerconeAddon.DiscMag()
       local newHP = currentHP - 1
       PjMagickaDuel:SetText("Mag: " .. newHP)
   else
-      d("El valor actual no es válido.")
+      chat:Print("El valor actual no es válido.")
   end
 end
+
 function CerconeAddon.UpdateStat(statType, operation, amount)
     local controlName
     local labelPrefix
@@ -149,13 +151,13 @@ function CerconeAddon.UpdateStat(statType, operation, amount)
         controlName = "PjMagickaDuel"
         labelPrefix = "Mag: "
     else
-        d("Tipo de estadística no válido.")
+        chat:Print("Tipo de estadística no válido.")
         return
     end
 
     local currentText = _G[controlName]:GetText()
     if currentText == "--" then
-        d("Seleccione un personaje antes de usar este comando.")
+        chat:Print("Seleccione un personaje antes de usar este comando.")
         return
     end
 
@@ -167,15 +169,16 @@ function CerconeAddon.UpdateStat(statType, operation, amount)
         elseif operation == "subtract" then
             newValue = currentValue - amount
         else
-            d("Operación no válida.")
+            chat:Print("Operación no válida.")
             return
         end
 
         _G[controlName]:SetText(labelPrefix .. newValue)
     else
-        d("El valor actual no es válido.")
+        chat:Print("El valor actual no es válido.")
     end
 end
+
 function CerconeAddon.OnCombatMenuOpen()
     EVENT_MANAGER:RegisterForEvent("CerconeAddonGroupChatListener", EVENT_CHAT_MESSAGE_CHANNEL, CerconeAddon.OnChatMessage)
 end
@@ -191,7 +194,7 @@ local function SendMessageToChat(message, chatType)
         -- Usa la función correcta según la documentación actual
         CHAT_SYSTEM:AddMessage("|cBDBDBD"..tostring(message).."|r",CHAT_CHANNEL_SAY)
     else
-        d("Tipo de chat no válido")
+        chat:Print("Tipo de chat no válido")
     end
 end
 
