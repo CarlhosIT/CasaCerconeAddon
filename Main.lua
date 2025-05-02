@@ -7,6 +7,12 @@ CerconeAddon.haveDuelUI = false
 --dofile("UIFunctions.lua")
 --dofile("SlashCommands.lua")
 
+-- Se carga la biblioteca de mensajes de chat
+local LibChatMessage = LibChatMessage
+
+-- Crear una instancia de ChatProxy con etiquetas
+local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+
 -- Método de arranque
 function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
   if(addOnName ~= CerconeAddon.name) then return end
@@ -26,9 +32,9 @@ function CerconeAddon.NB1KeyBindToggle()
         else
             CerconeAddon.OnCombatMenuClose()
         end
-        d(isHidden and "Mostrando menú de duelo" or "Ocultando menú de duelo")
+        chat:Print(isHidden and "Mostrando menú de duelo" or "Ocultando menú de duelo")
     else
-        d("No se encontró el control 'CerconePjDuel'")
+        chat:Print("No se encontró el control 'CerconePjDuel'")
     end
 end
 
@@ -42,10 +48,10 @@ function CerconeAddon.ArbriGrimorio()
         end
         panel2:SetHidden(true)
         
-        d(not panel:IsHidden() and "Mostrando Grimorio" or "Ocultando Grimorio")
+        chat:Print(not panel:IsHidden() and "Mostrando Grimorio" or "Ocultando Grimorio")
         if not panel:IsHidden() then PlaySound("BOOK_OPEN") else PlaySound("BOOK_CLOSE") end
     else
-        d("No se encontró el control 'GrimorioIndice'")
+        chat:Print("No se encontró el control 'GrimorioIndice'")
     end
 end
 
@@ -54,9 +60,9 @@ function CerconeAddon.ArbriTablon()
     if panel then
         local isHidden = panel:IsHidden()
         panel:SetHidden(not isHidden)
-        d(isHidden and "Mostrando Tablon de misiones" or "Ocultando Tablon de misiones")
+        chat:Print(isHidden and "Mostrando Tablon de misiones" or "Ocultando Tablon de misiones")
     else
-        d("No se encontró el control 'Tablon'")
+        chat:Print("No se encontró el control 'Tablon'")
     end
 end
 

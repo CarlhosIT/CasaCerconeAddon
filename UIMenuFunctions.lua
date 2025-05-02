@@ -1,5 +1,6 @@
 -- UIFunctions.lua
-
+local LibChatMessage = LibChatMessage
+local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
 -- Función para cerrar panel de pjInfo
 function CerconeAddon.HideMarkTextures()
     local textureNames = {
@@ -34,7 +35,7 @@ function CerconeAddon.HideMarkTextures()
       CerconeAddon.HideMarkTextures()
       panel:SetHidden(true)
     else
-      d("No se encontró el control 'CerconePjSimpleUI'")
+      chat:Print("No se encontró el control 'CerconePjSimpleUI'")
     end
   end
   
@@ -90,7 +91,7 @@ function CerconeAddon.HideMarkTextures()
         return index
       end
     end
-    d("No se encontraron coincidencias para el término de búsqueda: " .. namePj)
+    chat:Print("No se encontraron coincidencias para el término de búsqueda: " .. namePj)
   end
   
   function CerconeAddon.ShowSimpleData(name)
@@ -99,7 +100,7 @@ function CerconeAddon.HideMarkTextures()
     CerconeAddon.HideMarkTextures()
     if index and index >= 1 and index <= #CerconePjData then
       local pj = CerconePjData[index]
-      d("Abriendo menu simple de: " .. pj.Personaje)
+      chat:Print("Abriendo menu simple de: " .. pj.Personaje)
       local panel = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
       if panel then
         PjName:SetText(pj.Personaje)
@@ -133,9 +134,9 @@ function CerconeAddon.HideMarkTextures()
         CerconeAddon.MarkLCSkillsFromValue(pj.HabilidadesCombatientes.LinajeCercone)
         panel:SetHidden(false)
       else
-        d("No se encontró el control 'CerconePjSimpleUI'")
+        chat:Print("No se encontró el control 'CerconePjSimpleUI'")
       end
     else
-      d("Sin resultados")
+      chat:Print("Sin resultados")
     end
   end

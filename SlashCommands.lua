@@ -1,3 +1,6 @@
+local LibChatMessage = LibChatMessage
+local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+
 SLASH_COMMANDS["/pjinfo"] = function(name)
     CerconeAddon.ShowSimpleData(name)
   end
@@ -17,9 +20,9 @@ SLASH_COMMANDS["/pjinfo"] = function(name)
     if newHP then
         -- Asigna el nuevo valor de HP al campo
         PjHPDuel:SetText("HP: "..newHP)
-        d("Se ha asignado un nuevo valor de HP: " .. newHP)
+        chat:Print("Se ha asignado un nuevo valor de HP: " .. newHP)
     else
-        d("El valor proporcionado no es válido.")
+        chat:Print("El valor proporcionado no es válido.")
     end
   end
   
@@ -30,9 +33,9 @@ SLASH_COMMANDS["/pjinfo"] = function(name)
     if newHP then
         -- Asigna el nuevo valor de HP al campo
         PjDefDuel:SetText("Def: "..defValue)
-        d("Se ha asignado un nuevo valor de Defensa: " .. newHP)
+        chat:Print("Se ha asignado un nuevo valor de Defensa: " .. newHP)
     else
-        d("El valor proporcionado no es válido.")
+        chat:Print("El valor proporcionado no es válido.")
     end
   end
   
@@ -43,9 +46,9 @@ SLASH_COMMANDS["/pjinfo"] = function(name)
     if newHP then
         -- Asigna el nuevo valor de HP al campo
         PjMagickaDuel:SetText("Mag: "..magickValue)
-        d("Se ha asignado un nuevo valor de Magica: " .. newHP)
+        chat:Print("Se ha asignado un nuevo valor de Magica: " .. newHP)
     else
-        d("El valor proporcionado no es válido.")
+        chat:Print("El valor proporcionado no es válido.")
     end
   end
   
