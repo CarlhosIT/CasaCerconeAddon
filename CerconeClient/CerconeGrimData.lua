@@ -725,7 +725,7 @@ CerconeGrimoireData = {
         NombreRama="Bloque 1",
         Orden="1",
         Descripcion="Poción de Regeneración: Bebes una poción previamente creada que cura tus heridas.",
-        Valores="Acción, Sanación +3 HP, Coste 0.",
+        Valores="Acción adicional, Sanación +3 HP, Coste 0.",
     },
     {
         Z="15",
@@ -733,7 +733,7 @@ CerconeGrimoireData = {
         NombreRama="Bloque 1",
         Orden="2",
         Descripcion="Poción de Magicka: Bebes una poción previamente creada que recupera tu Magicka.",
-        Valores="Acción, Recupera +3 Mag, Coste 0.",
+        Valores="Acción adicional, Recupera +3 Mag, Coste 0.",
     },
     {
         Z="15",
