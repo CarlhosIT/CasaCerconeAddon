@@ -305,18 +305,6 @@
 					<Anchor point="CENTER" relativeTo="MarkLCfEmpty2" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-
-				<!-- <Texture name="XCerrar" textureFile="CerconeAddon/Assets/Boton_X.dds">
-                    <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-175" offsetY="225" />
-                    <Dimensions x="80" y="80" />
-                    <OnMouseEnter>
-                        self:SetTexture("CerconeAddon/Assets/X.Mark.dds")
-                    </OnMouseEnter>
-                    <OnMouseExit>
-                        self:SetTexture("CerconeAddon/Assets/X.dds")
-                    </OnMouseExit>
-                </Texture>                -->
-
 			</Controls>
 		</TopLevelControl>
 	</Controls>
