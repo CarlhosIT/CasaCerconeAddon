@@ -42,7 +42,7 @@ function CerconeAddon.ArbriGrimorio()
     local panel = WINDOW_MANAGER:GetControlByName("GrimorioIndice")
     local panel2 = WINDOW_MANAGER:GetControlByName("Grimorio")
     if panel then
-        panel:SetHidden(not panel:IsHidden())
+        panel:SetHidden(not panel:IsHidden())  
         if not panel2:IsHidden() then
             panel:SetHidden(true)
         end
@@ -53,6 +53,8 @@ function CerconeAddon.ArbriGrimorio()
     else
         chat:Print("No se encontró el control 'GrimorioIndice'")
     end
+
+    SetGameCameraUIMode(not panel:IsHidden())
 end
 
 function CerconeAddon.ArbriTablon()

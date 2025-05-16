@@ -1,6 +1,6 @@
 <Bindings>
     <Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
-        <Category name="SI_KEYBINDINGS_CATEGORY_USER_INTERFACE">
+        <Category name="|c800020Cercone Addon|r">
             <Action name="CERCONEADDON_NB1TOGGLE">
                 <Up>CerconeAddon.NB1KeyBindToggle()</Up>
             </Action>  
