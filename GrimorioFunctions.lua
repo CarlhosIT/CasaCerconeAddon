@@ -3,18 +3,18 @@ TextColor = {
     Hover = "800000"
 }
 
-Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/NB.dds"}, {"Arcanista", "CerconeAddon/Assets/Arcanista.dds"},
-          {"Nigromante", "CerconeAddon/Assets/Necromancer.dds"}, {"Caballero Dragón", "CerconeAddon/Assets/DK.dds"},
-          {"Brujo", "CerconeAddon/Assets/Sorcerer.dds"}, {"Templario Oscuro", "CerconeAddon/Assets/Templar.dds"},
-          {"Guardián", "CerconeAddon/Assets/Warden.dds"},
-          {"Ingeniería de Clockwork", "CerconeAddon/Assets/IngClockwork.dds"},
-          {"Sastrería", "CerconeAddon/Assets/Sastreria.dds"}, {"Alquimia", "CerconeAddon/Assets/Alquimia.dds"},
-          {"Herrería", "CerconeAddon/Assets/Herreria.dds"},
-          {"Arte de la Guerra", "CerconeAddon/Assets/Arte_de_la_Guerra.dds"},
-          {"Linaje Indómito", "CerconeAddon/Assets/Linaje_Indomito.dds"},
-          {"Monturas Exóticas", "CerconeAddon/Assets/Monturas_Exoticas.dds"},
-          {"Linaje Cercone", "CerconeAddon/Assets/Linaje_Cercone.dds"},
-          {"Habilidades de la orden", "CerconeAddon/Assets/Habilidades_de_la_Orden.dds"}}
+Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/Grimoire/NB.dds"}, {"Arcanista", "CerconeAddon/Assets/Grimoire/Arcanista.dds"},
+          {"Nigromante", "CerconeAddon/Assets/Grimoire/Necromancer.dds"}, {"Caballero Dragón", "CerconeAddon/Assets/Grimoire/DK.dds"},
+          {"Brujo", "CerconeAddon/Assets/Grimoire/Sorcerer.dds"}, {"Templario Oscuro", "CerconeAddon/Assets/Grimoire/Templar.dds"},
+          {"Guardián", "CerconeAddon/Assets/Grimoire/Warden.dds"},
+          {"Ingeniería de Clockwork", "CerconeAddon/Assets/Grimoire/IngClockwork.dds"},
+          {"Sastrería", "CerconeAddon/Assets/Grimoire/Sastreria.dds"}, {"Alquimia", "CerconeAddon/Assets/Grimoire/Alquimia.dds"},
+          {"Herrería", "CerconeAddon/Assets/Grimoire/Herreria.dds"},
+          {"Arte de la Guerra", "CerconeAddon/Assets/Grimoire/Arte_de_la_Guerra.dds"},
+          {"Linaje Indómito", "CerconeAddon/Assets/Grimoire/Linaje_Indomito.dds"},
+          {"Monturas Exóticas", "CerconeAddon/Assets/Grimoire/Monturas_Exoticas.dds"},
+          {"Linaje Cercone", "CerconeAddon/Assets/Grimoire/Linaje_Cercone.dds"},
+          {"Habilidades de la orden", "CerconeAddon/Assets/Grimoire/Habilidades_de_la_Orden.dds"}}
 
 -- Función para formatear la descripción en varias líneas
 function CerconeAddon.FormatDescriptionMultiline(description)

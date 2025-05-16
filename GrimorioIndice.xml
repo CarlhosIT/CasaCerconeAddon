@@ -1,14 +1,13 @@
 <GuiXml>
     <Controls>
-        <TopLevelControl name="GrimorioIndice" clampedToScreen="false" movable="true" mouseEnabled="true" hidden="true" resizeHandleSize="10">
+        <TopLevelControl name="GrimorioIndice" clampedToScreen="false" movable="true" mouseEnabled="true" hidden="true" resizeHandleSize="10" allowBringToTop="true">
             <Dimensions x="1346" y="938"/>
             <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
             <Controls>
-                <Texture name="LibroIndice" textureFile="CerconeAddon/Assets/Grimorio_2.dds">
+                <Texture name="LibroIndice" textureFile="CerconeAddon/Assets/Grimoire/Grimorio_2.dds">
                     <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
                     <Dimensions x="1346" y="938"/>
                 </Texture>
-
 
                 <!-- Página Izquierda Índice-->
                 <Label name="Indice_Titulo" font="$(ANTIQUE_FONT)|30|soft-shadow-thin" color="900000">

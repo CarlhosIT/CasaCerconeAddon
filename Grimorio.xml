@@ -4,7 +4,7 @@
             <Dimensions x="1346" y="938"/>
             <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
             <Controls>
-                <Texture name="Libro" textureFile="CerconeAddon/Assets/Grimorio_2.dds">
+                <Texture name="Libro" textureFile="CerconeAddon/Assets/Grimoire/Grimorio_2.dds">
                     <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
                     <Dimensions x="1346" y="938"/>
                 </Texture>
