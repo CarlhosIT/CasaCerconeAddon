@@ -2,7 +2,6 @@
 CerconeAddon = {}
 CerconeAddon.name = "CerconeAddon"
 CerconeAddon.haveDuelUI=false
-
 --Funcion para cerrar panel de pjInfo
 function HideMarkTextures()
   local textureNames = {

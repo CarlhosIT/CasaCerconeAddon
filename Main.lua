@@ -2,7 +2,6 @@
 CerconeAddon = {}
 CerconeAddon.name = "CerconeAddon"
 CerconeAddon.haveDuelUI = false
-
 -- Cargar funciones de otros archivos
 --dofile("UIFunctions.lua")
 --dofile("SlashCommands.lua")

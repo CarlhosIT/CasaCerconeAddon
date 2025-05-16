@@ -7,7 +7,7 @@ local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")
 function CerconeAddon.SelectPjForDuel(namePj)
     local numPj = CerconeAddon.SearchpjByName(namePj)
     local index = tonumber(numPj)
-    CerconeAddon.HideMarkTextures()
+    CerconeAddon.AcademyInfo()
 
     if index and index >= 1 and index <= #CerconePjData then
         local pj = CerconePjData[index]
