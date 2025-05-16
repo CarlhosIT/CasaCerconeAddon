@@ -100,7 +100,7 @@
 				<Label name="PjProfesion" text=" " font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjArteGuerra" relativePoint="TOP" offsetX="0" offsetY="35" />
 				</Label>
-				<Label name="LinajeCercone" text="Linaje Cercone:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+				<Label name="Linaje" text="Linaje:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjProfesion" relativePoint="TOP" offsetX="0" offsetY="35" />
 				</Label>
 
@@ -118,191 +118,95 @@
 					<Dimensions x="1100" y="1100"/>
 				</Texture>
 
-				<Texture name="MarkClass1" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass1">
 					<Anchor point="CENTER" relativeTo="PjClaseAc" relativePoint="CENTER" offsetX="116" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass2" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass2">
 					<Anchor point="CENTER" relativeTo="MarkClass1" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass3" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass3">
 					<Anchor point="CENTER" relativeTo="MarkClass2" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass4" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass4">
 					<Anchor point="CENTER" relativeTo="MarkClass3" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass5" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass5">
 					<Anchor point="CENTER" relativeTo="MarkClass4" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass6" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass6">
 					<Anchor point="CENTER" relativeTo="MarkClass5" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass7" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass7">
 					<Anchor point="CENTER" relativeTo="MarkClass6" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass8" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass8">
 					<Anchor point="CENTER" relativeTo="MarkClass7" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClass9" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkClass9">
 					<Anchor point="CENTER" relativeTo="MarkClass8" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
 
-				<Texture name="MarkClassEmpty1" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="PjClaseAc" relativePoint="CENTER" offsetX="116" offsetY="0" />
+				<Texture name="MarkWar1">
+					<Anchor point="CENTER" relativeTo="MarkClass1" relativePoint="CENTER" offsetX="0" offsetY="34" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkClassEmpty2" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty1" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty3" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty2" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty4" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty3" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty5" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty4" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty6" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty5" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty7" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty6" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty8" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty7" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkClassEmpty9" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty8" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-
-
-
-				<Texture name="MarkWar1" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClassEmpty1" relativePoint="CENTER" offsetX="0" offsetY="34" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWar2" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar2">
 					<Anchor point="CENTER" relativeTo="MarkWar1" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWar3" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar3">
 					<Anchor point="CENTER" relativeTo="MarkWar2" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWar4" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar4">
 					<Anchor point="CENTER" relativeTo="MarkWar3" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWar5" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar5">
 					<Anchor point="CENTER" relativeTo="MarkWar4" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWar6" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar6">
 					<Anchor point="CENTER" relativeTo="MarkWar5" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWar7" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkWar7">
 					<Anchor point="CENTER" relativeTo="MarkWar6" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
 				
-				<Texture name="MarkWarEmpty1" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkClass1" relativePoint="CENTER" offsetX="0" offsetY="34" />
+				<Texture name="MarkProf1">
+					<Anchor point="CENTER" relativeTo="MarkWar1" relativePoint="CENTER" offsetX="0" offsetY="34" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkWarEmpty2" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty1" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWarEmpty3" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty2" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWarEmpty4" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty3" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWarEmpty5" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty4" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWarEmpty6" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty5" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkWarEmpty7" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty6" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-
-
-				<Texture name="MarkProf1" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty1" relativePoint="CENTER" offsetX="0" offsetY="34" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkProf2" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkProf2">
 					<Anchor point="CENTER" relativeTo="MarkProf1" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkProf3" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
+				<Texture name="MarkProf3">
 					<Anchor point="CENTER" relativeTo="MarkProf2" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
 				
-				<Texture name="MarkProfEmpty1" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkWarEmpty1" relativePoint="CENTER" offsetX="0" offsetY="34" />
+				<Texture name="MarkL1">
+					<Anchor point="CENTER" relativeTo="MarkProf1" relativePoint="CENTER" offsetX="0" offsetY="34" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkProfEmpty2" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkProfEmpty1" relativePoint="CENTER" offsetX="34" offsetY="0" />
+				<Texture name="MarkL2">
+					<Anchor point="CENTER" relativeTo="MarkL1" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
-				<Texture name="MarkProfEmpty3" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkProfEmpty2" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-
-
-				<Texture name="MarkLCf1" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
-					<Anchor point="CENTER" relativeTo="MarkProfEmpty1" relativePoint="CENTER" offsetX="0" offsetY="34" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkLCf2" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
-					<Anchor point="CENTER" relativeTo="MarkLCf1" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkLCf3" textureFile="CerconeAddon/Assets/Scroll/Bat.dds">
-					<Anchor point="CENTER" relativeTo="MarkLCf2" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				
-				<Texture name="MarkLCfEmpty1" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkProfEmpty1" relativePoint="CENTER" offsetX="0" offsetY="34" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkLCfEmpty2" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkLCfEmpty1" relativePoint="CENTER" offsetX="34" offsetY="0" />
-					<Dimensions x="50" y="50"/>
-				</Texture>
-				<Texture name="MarkLCfEmpty3" textureFile="CerconeAddon/Assets/Scroll/EmptyBat.dds">
-					<Anchor point="CENTER" relativeTo="MarkLCfEmpty2" relativePoint="CENTER" offsetX="34" offsetY="0" />
+				<Texture name="MarkL3">
+					<Anchor point="CENTER" relativeTo="MarkL2" relativePoint="CENTER" offsetX="34" offsetY="0" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
 			</Controls>
