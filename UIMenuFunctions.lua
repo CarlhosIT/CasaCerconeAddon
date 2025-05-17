@@ -86,6 +86,11 @@ function CerconeAddon.AcademyInfo()
   end
   
   function CerconeAddon.ShowSimpleData(name)
+    local scroll = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
+    
+    if not name and not scroll:IsHidden() then return scroll:SetHidden(true) end
+    if not name then name = GetUnitName("player") end 
+
     local numPj = CerconeAddon.SearchpjByName(name)
     local index = tonumber(numPj)
     CerconeAddon.AcademyInfo()

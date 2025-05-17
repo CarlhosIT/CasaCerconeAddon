@@ -12,6 +12,9 @@
             <Action name="CERCONEADDON_TABLON">
                 <Up>CerconeAddon.ArbriTablon()</Up>
             </Action>        
+            <Action name="CERCONEADDON_PJINFO">
+                <Up>CerconeAddon.ShowSimpleData()</Up>
+            </Action>        
         </Category>
     </Layer>
 </Bindings>

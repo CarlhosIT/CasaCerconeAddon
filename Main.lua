@@ -71,6 +71,7 @@ function CerconeAddon.InitializeKeybindings()
     ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_NB1TOGGLE", "Cercone Combate")
     ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_GRIMORIO", "Cercone Grimorio")
     ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_TABLON", "Cercone Tablon")
+    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_PJINFO", "Cercone Pergamino")
 end
 -- Registro del addon
 EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED, CerconeAddon.OnAddOnLoaded)
