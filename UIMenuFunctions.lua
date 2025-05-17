@@ -29,7 +29,8 @@ function CerconeAddon.AcademyInfo()
       "MarkClass1", "MarkClass2", "MarkClass3", "MarkClass4", "MarkClass5", "MarkClass6", "MarkClass7", "MarkClass8", "MarkClass9",
       "MarkWar1", "MarkWar2", "MarkWar3", "MarkWar4", "MarkWar5", "MarkWar6", "MarkWar7",
       "MarkProf1", "MarkProf2", "MarkProf3",
-      "MarkL1", "MarkL2", "MarkL3"
+      "MarkL1", "MarkL2", "MarkL3",
+      "MarkOrden1",
     }
 
     for _, textureName in ipairs(textureNames) do
@@ -57,6 +58,19 @@ function CerconeAddon.AcademyInfo()
           local ucItem = string.upper(item)
           mark:SetTexture(Siglas[ucItem])
       end
+    end
+  end
+
+  function SetOrderTexture(orderName)
+    local mark = WINDOW_MANAGER:GetControlByName("MarkOrden1")
+    if orderName ~= "" then
+      local ucItem = string.upper(orderName)
+      local texturePath = Siglas[ucItem]
+
+      if texturePath then
+        mark:SetTexture(texturePath)
+      end
+
     end
   end
   
@@ -90,7 +104,6 @@ function CerconeAddon.AcademyInfo()
         PjSire:SetText("Sire: " .. pj.DataGeneral.Sire)
         PjMeritos:SetText("Total Meritos: " .. pj.Meritos.TotalMeritos)
         PjArmadura:SetText("Armadura: " .. pj.DataGeneral.Armadura)
-        PjMisionesOrganizadas:SetText("Misiones Organizadas: " .. pj.Meritos.Misiones)
         PjHP:SetText("HP: " .. pj.HP)
         PjDef:SetText("Defensa: " .. pj.Defensa)
         PjMagicka:SetText("Magicka: " .. pj.Magicka)
@@ -109,6 +122,7 @@ function CerconeAddon.AcademyInfo()
         SetAcademyTexture(pj.HabilidadesCombatientes.ArteDeGuerra, "MarkWar")
         SetAcademyTexture(pj.ProfLevel, "MarkProf")
         SetAcademyTexture(pj.HabilidadesCombatientes.LinajeCercone, "MarkL")
+        SetOrderTexture(pj.EliteOrden) -- Temporal, cambiar despues
         panel:SetHidden(false)
       else
         chat:Print("No se encontró el control 'CerconePjSimpleUI'")

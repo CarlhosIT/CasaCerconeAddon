@@ -41,9 +41,6 @@
 				<Label name="PjMeritos" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjArmadura" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
 				</Label>
-				<Label name="PjMisionesOrganizadas" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="17">
-					<Anchor point="TOP" relativeTo="PjMeritos" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
-				</Label>
 
 				<Label name="PjHP" font="$(ANTIQUE_FONT)|18|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="17">
 					<Anchor point="TOP" relativeTo="PjConvertido" relativePoint="BOTTOM" offsetX="0" offsetY="10" />
@@ -89,10 +86,10 @@
 				</Label>
 
 				<Label name="AcademiaLabel" text="Academia" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
-					<Anchor point="TOP" relativeTo="PjMisionesOrganizadas" relativePoint="TOP" offsetX="0" offsetY="120" />
+					<Anchor point="TOP" relativeTo="PjMeritos" relativePoint="TOP" offsetX="0" offsetY="138" />
 				</Label>
 				<Label name="PjClaseAc" text="Academia" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
-					<Anchor point="TOP" relativeTo="AcademiaLabel" relativePoint="TOP" offsetX="-250" offsetY="62" />
+					<Anchor point="TOP" relativeTo="AcademiaLabel" relativePoint="TOP" offsetX="-250" offsetY="48" />
 				</Label>
 				<Label name="PjArteGuerra" text="Arte de la Guerra:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjClaseAc" relativePoint="TOP" offsetX="0" offsetY="35" />
@@ -100,8 +97,11 @@
 				<Label name="PjProfesion" text=" " font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjArteGuerra" relativePoint="TOP" offsetX="0" offsetY="35" />
 				</Label>
-				<Label name="Linaje" text="Linaje:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+				<Label name="PjLinaje" text="Linaje:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
 					<Anchor point="TOP" relativeTo="PjProfesion" relativePoint="TOP" offsetX="0" offsetY="35" />
+				</Label>
+				<Label name="PjOrdenAcademia" text="Élite de la Orden:" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="RIGHT" fontSize="50">
+					<Anchor point="TOP" relativeTo="PjLinaje" relativePoint="TOP" offsetX="0" offsetY="35" />
 				</Label>
 
 				<Button name="CerrarPjInfo">
@@ -113,7 +113,7 @@
 					</OnClicked>
 				</Button>
 
-				<Texture name="TexturePergamino" textureFile="CerconeAddon/Assets/Scroll/Pergamino.dds">
+				<Texture name="TexturePergamino" textureFile="CerconeAddon/Assets/Scroll/CerconeCharacterSheetUI.dds">
 					<Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
 					<Dimensions x="1100" y="1100"/>
 				</Texture>
@@ -207,6 +207,11 @@
 				</Texture>
 				<Texture name="MarkL3">
 					<Anchor point="CENTER" relativeTo="MarkL2" relativePoint="CENTER" offsetX="34" offsetY="0" />
+					<Dimensions x="50" y="50"/>
+				</Texture>
+
+				<Texture name="MarkOrden1">
+					<Anchor point="CENTER" relativeTo="MarkL1" relativePoint="CENTER" offsetX="0" offsetY="34" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
 			</Controls>
