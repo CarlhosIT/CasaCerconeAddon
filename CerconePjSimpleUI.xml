@@ -214,6 +214,42 @@
 					<Anchor point="CENTER" relativeTo="MarkL1" relativePoint="CENTER" offsetX="0" offsetY="34" />
 					<Dimensions x="50" y="50"/>
 				</Texture>
+
+				<!-- Insignias -->
+				<!-- Izquierda -->
+				<Texture name="Insignia1" textureFile="CerconeAddon/Assets/Scroll/Insignia/Pericia.dds">
+					<Anchor point="CENTER" relativeTo="CerconePjSimpleUI" relativePoint="CENTER" offsetX="-430" offsetY="-195" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia2" textureFile="CerconeAddon/Assets/Scroll/Insignia/Inteligencia.dds">
+					<Anchor point="CENTER" relativeTo="Insignia1" relativePoint="CENTER" offsetX="0" offsetY="120" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia3" textureFile="CerconeAddon/Assets/Scroll/Insignia/Fervor.dds">
+					<Anchor point="CENTER" relativeTo="Insignia2" relativePoint="CENTER" offsetX="0" offsetY="160" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia4" textureFile="CerconeAddon/Assets/Scroll/Insignia/Expiacion.dds">
+					<Anchor point="CENTER" relativeTo="Insignia3" relativePoint="CENTER" offsetX="0" offsetY="140" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<!-- Derecha -->
+				<Texture name="Insignia5" textureFile="CerconeAddon/Assets/Scroll/Insignia/Presicion.dds">
+					<Anchor point="CENTER" relativeTo="CerconePjSimpleUI" relativePoint="CENTER" offsetX="430" offsetY="-195" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia6" textureFile="CerconeAddon/Assets/Scroll/Insignia/Discrecion.dds">
+					<Anchor point="CENTER" relativeTo="Insignia5" relativePoint="CENTER" offsetX="0" offsetY="120" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia7" textureFile="CerconeAddon/Assets/Scroll/Insignia/Valor.dds">
+					<Anchor point="CENTER" relativeTo="Insignia6" relativePoint="CENTER" offsetX="0" offsetY="160" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
+				<Texture name="Insignia8" textureFile="CerconeAddon/Assets/Scroll/Insignia/Liderazgo.dds">
+					<Anchor point="CENTER" relativeTo="Insignia7" relativePoint="CENTER" offsetX="0" offsetY="140" />
+					<Dimensions x="100" y="150"/>
+				</Texture>
 			</Controls>
 		</TopLevelControl>
 	</Controls>
