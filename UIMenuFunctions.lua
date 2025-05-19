@@ -25,7 +25,7 @@ Siglas = {
 }
 
 function CerconeAddon.AcademyInfo()
-    local textureNames = {
+    local academyTexs = {
       "MarkClass1", "MarkClass2", "MarkClass3", "MarkClass4", "MarkClass5", "MarkClass6", "MarkClass7", "MarkClass8", "MarkClass9",
       "MarkWar1", "MarkWar2", "MarkWar3", "MarkWar4", "MarkWar5", "MarkWar6", "MarkWar7",
       "MarkProf1", "MarkProf2", "MarkProf3",
@@ -33,10 +33,21 @@ function CerconeAddon.AcademyInfo()
       "MarkOrden1",
     }
 
-    for _, textureName in ipairs(textureNames) do
+    local insigniaTexs = {
+      "Insignia1", "Insignia2", "Insignia3", "Insignia4", "Insignia5", "Insignia6", "Insignia7", "Insignia8",
+    }
+
+    for _, textureName in ipairs(academyTexs) do
       local texture = WINDOW_MANAGER:GetControlByName(textureName)
       if texture then
         texture:SetTexture("CerconeAddon/Assets/Scroll/Academy/AcademiaVacio.dds")
+      end
+    end
+
+    for _, textureName in ipairs(insigniaTexs) do
+      local texture = WINDOW_MANAGER:GetControlByName(textureName)
+      if texture then
+        texture:SetHidden(true)
       end
     end
   end
@@ -48,6 +59,15 @@ function CerconeAddon.AcademyInfo()
       panel:SetHidden(true)
     else
       chat:Print("No se encontró el control 'CerconePjSimpleUI'")
+    end
+  end
+
+  function ShowInsignia(insignias)
+    for i, item in ipairs(insignias) do
+      local insigniaControl = WINDOW_MANAGER:GetControlByName("Insignia"..i)
+      if item ~= "" then
+        insigniaControl:SetHidden(false)
+      end
     end
   end
   
@@ -127,7 +147,8 @@ function CerconeAddon.AcademyInfo()
         SetAcademyTexture(pj.HabilidadesCombatientes.ArteDeGuerra, "MarkWar")
         SetAcademyTexture(pj.ProfLevel, "MarkProf")
         SetAcademyTexture(pj.HabilidadesCombatientes.LinajeCercone, "MarkL")
-        SetOrderTexture(pj.EliteOrden) -- Temporal, cambiar despues
+        SetOrderTexture(pj.EliteOrden)
+        ShowInsignia(pj.Insignias)
         panel:SetHidden(false)
       else
         chat:Print("No se encontró el control 'CerconePjSimpleUI'")
