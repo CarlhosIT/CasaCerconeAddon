@@ -2,7 +2,7 @@
     <Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
         <Category name="|c800020Cercone Addon|r">
             <Action name="CERCONEADDON_NB1TOGGLE">
-                <Up>CerconeAddon.NB1KeyBindToggle()</Up>
+                <Up>CerconeAddon.SelectPjForDuel()</Up>
             </Action>  
             <Action name="CERCONEADDON_GRIMORIO">
                 <Up>
