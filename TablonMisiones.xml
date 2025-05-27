@@ -4,9 +4,33 @@
             <Dimensions x="1346" y="938"/>
             <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
             <Controls>
-               <Texture name="Texture" textureFile="CerconeAddon/Assets/MissionBoard/Tablon.dds">
-                <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
-                <Dimensions x="1346" y="938"/>
+                <Texture name="TablonMisiones" textureFile="CerconeAddon/Assets/MissionBoard/TablondeMisiones.dds">
+                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                    <Dimensions x="1346" y="938"/>
+                </Texture>
+
+                <!-- Pergaminos -->
+                <Texture name="Pergamino1" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds" hidden="true">
+                    <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="-350" offsetY="80" />
+                    <Dimensions x="280" y="402"/>
+                </Texture>
+                <Texture name="Pergamino2" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds" hidden="true">
+                    <Anchor point="CENTER" relativeTo="Pergamino1" relativePoint="CENTER" offsetX="350" offsetY="-100" />
+                    <Dimensions x="280" y="402"/>
+                </Texture>
+                <Texture name="Pergamino3" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds" hidden="true">
+                    <Anchor point="CENTER" relativeTo="Pergamino2" relativePoint="CENTER" offsetX="350" offsetY="100" />
+                    <Dimensions x="280" y="402"/>
+                </Texture>
+
+                <!-- Navegacion -->
+                <Texture name="FlechaIZ" textureFile="CerconeAddon/Assets/MissionBoard/FlechaIZ.dds">
+                    <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="-590" offsetY="390" />
+                    <Dimensions x="80" y="60"/>
+                </Texture>
+                <Texture name="FlechaDER" textureFile="CerconeAddon/Assets/MissionBoard/FlechaDER.dds">
+                    <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="580" offsetY="390" />
+                    <Dimensions x="80" y="60"/>
                 </Texture>
             </Controls>
         </TopLevelControl>

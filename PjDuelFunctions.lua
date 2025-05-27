@@ -5,10 +5,18 @@ local LibChatMessage = LibChatMessage
 local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
 
 function CerconeAddon.SelectPjForDuel(namePj)
+    
+    local panel = WINDOW_MANAGER:GetControlByName("CerconePjDuel")
+    
+    if not namePj and not panel:IsHidden() then return panel:SetHidden(true) end
+    if not namePj then namePj = GetUnitName("player") end 
+    
     local numPj = CerconeAddon.SearchpjByName(namePj)
+    if not numPj then return end
+    
     local index = tonumber(numPj)
     CerconeAddon.AcademyInfo()
-
+    
     if index and index >= 1 and index <= #CerconePjData then
         local pj = CerconePjData[index]
         local maxLength = 19
@@ -16,21 +24,19 @@ function CerconeAddon.SelectPjForDuel(namePj)
         if string.len(displayName) > maxLength then
             displayName = string.sub(displayName, 1, maxLength - 3) .. "..."
         end
-
+        
         chat:Print("Abriendo menú de combate para: " .. pj.Personaje)
-
         local PjHPDuel = WINDOW_MANAGER:GetControlByName("PjHPDuel")
         local PjDefDuel = WINDOW_MANAGER:GetControlByName("PjDefDuel")
         local PjMagickaDuel = WINDOW_MANAGER:GetControlByName("PjMagickaDuel")
         local PjNameDuel = WINDOW_MANAGER:GetControlByName("PjNameDuel")
-
+        
         if PjHPDuel and PjDefDuel and PjMagickaDuel and PjNameDuel then
             PjHPDuel:SetText("HP: " .. pj.HP)
             PjDefDuel:SetText("Def: " .. pj.Defensa)
             PjMagickaDuel:SetText("Mag: " .. pj.Magicka)
             PjNameDuel:SetText(displayName)
 
-            local panel = WINDOW_MANAGER:GetControlByName("CerconePjDuel")
             if panel then
                 CerconeAddon.haveDuelUI = true
                 panel:SetHidden(false)
