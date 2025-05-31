@@ -25,7 +25,6 @@ function CerconeAddon.SelectPjForDuel(namePj)
             displayName = string.sub(displayName, 1, maxLength - 3) .. "..."
         end
         
-        chat:Print("Abriendo menú de combate para: " .. pj.Personaje)
         local PjHPDuel = WINDOW_MANAGER:GetControlByName("PjHPDuel")
         local PjDefDuel = WINDOW_MANAGER:GetControlByName("PjDefDuel")
         local PjMagickaDuel = WINDOW_MANAGER:GetControlByName("PjMagickaDuel")

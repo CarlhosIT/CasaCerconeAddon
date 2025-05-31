@@ -116,7 +116,6 @@ function CerconeAddon.AcademyInfo()
     CerconeAddon.AcademyInfo()
     if index and index >= 1 and index <= #CerconePjData then
       local pj = CerconePjData[index]
-      chat:Print("Abriendo menu simple de: " .. pj.Personaje)
       local panel = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
       if panel then
         PjName:SetText(pj.Personaje)
