@@ -290,7 +290,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Magia oscura",
+        NombreRama="Llamada de la tormenta",
         Orden="1",
         Descripcion="Espinas Demoledoras:",
         Valores="Acción, Ataque 1d6+2, 3mag y causa quemadura por 2 turnos adicionales, infligiendo 2 pts de daño por turno",
@@ -298,7 +298,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Magia oscura",
+        NombreRama="Llamada de la tormenta",
         Orden="2",
         Descripcion="Escape Relampago:",
         Valores="Acción, Ataque 1d8+4, 3mag",
@@ -306,7 +306,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Magia oscura",
+        NombreRama="Llamada de la tormenta",
         Orden="3",
         Descripcion="Tormenta de Relampagos:",
         Valores="Acción, Ataque en área 1d4+1, 4mag",
@@ -314,7 +314,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Invocación daédrica",
+        NombreRama="Magia Oscura",
         Orden="1",
         Descripcion="Tratado Oscuro:",
         Valores="Reacción, +2def un turno, 2mag",
@@ -322,7 +322,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Invocación daédrica",
+        NombreRama="Magia Oscura",
         Orden="2",
         Descripcion="Prision Runica:",
         Valores="Acción, Taunt a 3 enemigos por 1 turno, 3mag",
@@ -330,7 +330,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Invocación daédrica",
+        NombreRama="Magia Oscura",
         Orden="3",
         Descripcion="Negacion Magica:",
         Valores="Acción, -1 armadura 1d3 enemigos 1d3 turnos, 5mag",
@@ -338,7 +338,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Llamada de la tormenta",
+        NombreRama="Invocacion Daedrica",
         Orden="1",
         Descripcion="Invocar Crepusculo aliado:",
         Valores="Acción, Sanación 1 objetivo 1d4+2, 3 mag",
@@ -346,7 +346,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Llamada de la tormenta",
+        NombreRama="Invocacion Daedrica",
         Orden="2",
         Descripcion="Custodia Conjurada:",
         Valores="Acción, Sanación 4 objetivos 1d3+1, 6 mag",
@@ -354,7 +354,7 @@ CerconeGrimoireData = {
     {
         Z="5",
         Nombre="Brujo",
-        NombreRama="Llamada de la tormenta",
+        NombreRama="Invocacion Daedrica",
         Orden="3",
         Descripcion="Armadura Vinculada:",
         Valores="Acción, +1 defensa a 1d3 aliados, 2mag",
@@ -365,7 +365,7 @@ CerconeGrimoireData = {
         NombreRama="Acompañantes animales",
         Orden="1",
         Descripcion="Netch azul:",
-        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque +2, 3mag y causa envenenamiento por 2 turnos adicionales, infligiendo 2 pts de daño por turno",
+        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque 1d6+2, 3mag y causa envenenamiento por 2 turnos adicionales, infligiendo 2 pts de daño por turno",
     },
     {
         Z="6",
@@ -373,7 +373,7 @@ CerconeGrimoireData = {
         NombreRama="Acompañantes animales",
         Orden="2",
         Descripcion="Asolador cortante:",
-        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque +4, 3mag",
+        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque 1d8+4, 3mag",
     },
     {
         Z="6",
@@ -381,7 +381,7 @@ CerconeGrimoireData = {
         NombreRama="Acompañantes animales",
         Orden="3",
         Descripcion="Guardián feroz:",
-        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque en área +1, 4mag",
+        Valores="Acción adicional para Convocar por primera vez y Acción para el Ataque en área 1d4+1, 4mag",
     },
     {
         Z="6",
@@ -389,7 +389,7 @@ CerconeGrimoireData = {
         NombreRama="Equilibrio verde",
         Orden="1",
         Descripcion="Semilla sanadora:",
-        Valores="Acción, Sanación 1 objetivo +5, 3 mag",
+        Valores="Sanación 1 objetivo 1d4+2, 3 mag",
     },
     {
         Z="6",
@@ -397,15 +397,15 @@ CerconeGrimoireData = {
         NombreRama="Equilibrio verde",
         Orden="2",
         Descripcion="Proliferación fúngica:",
-        Valores="Acción, Sanación 4 objetivos +3, 6 mag",
+        Valores="Sanación 4 objetivos 1d3+1, 6 mag",
     },
     {
         Z="6",
         Nombre="Guardián",
         NombreRama="Equilibrio verde",
         Orden="3",
-        Descripcion="Enredaderas vivientes:",
-        Valores="Acción, +2 HP en el siguiente ataque que reciba el objetivo, 2 mag",
+        Descripcion="Bendición de loto:",
+        Valores="Acción, 1d3+1 Magicka a 1 objetivo, 2 mag",
     },
     {
         Z="6",
