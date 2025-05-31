@@ -19,6 +19,7 @@ function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
   CerconeAddon.haveDuelUI = false
   CerconeAddon.InitializeKeybindings()
   CerconeAddon.ShowGrimorio()
+  CerconeAddon.ShowMissionBoard()
 end
 
 function CerconeAddon.NB1KeyBindToggle()
@@ -31,7 +32,6 @@ function CerconeAddon.NB1KeyBindToggle()
         else
             CerconeAddon.OnCombatMenuClose()
         end
-        chat:Print(isHidden and "Mostrando menú de duelo" or "Ocultando menú de duelo")
     else
         chat:Print("No se encontró el control 'CerconePjDuel'")
     end
@@ -47,7 +47,6 @@ function CerconeAddon.ArbriGrimorio()
         end
         panel2:SetHidden(true)
         
-        chat:Print(not panel:IsHidden() and "Mostrando Grimorio" or "Ocultando Grimorio")
         if not panel:IsHidden() then PlaySound("BOOK_OPEN") else PlaySound("BOOK_CLOSE") end
     else
         chat:Print("No se encontró el control 'GrimorioIndice'")
@@ -61,10 +60,12 @@ function CerconeAddon.ArbriTablon()
     if panel then
         local isHidden = panel:IsHidden()
         panel:SetHidden(not isHidden)
-        chat:Print(isHidden and "Mostrando Tablon de misiones" or "Ocultando Tablon de misiones")
+        CerconeAddon.ShowMissionBoard()
     else
         chat:Print("No se encontró el control 'Tablon'")
     end
+
+    SetGameCameraUIMode(not panel:IsHidden())
 end
 
 function CerconeAddon.InitializeKeybindings()

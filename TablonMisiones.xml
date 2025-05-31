@@ -23,6 +23,55 @@
                     <Dimensions x="280" y="402"/>
                 </Texture>
 
+
+                <!-- Texto - Pergamino 1 -->
+                <Label name="T1" font="$(ANTIQUE_FONT)|22" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino1" relativePoint="CENTER" offsetY="-150" offsetX="0"/>
+                    <Dimensions x="275" y="50"/>
+                </Label>
+                
+                <Label name="Texto1" font="$(ANTIQUE_FONT)|12" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino1" relativePoint="CENTER" offsetY="-100" />
+                    <Dimensions x="250" y="200"/>
+                </Label>
+                
+                <Label name="Req1" font="$(ANTIQUE_FONT)|11" verticalAlignment="TOP" horizontalAlignment="LEFT" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino1" relativePoint="CENTER" offsetY="115" offsetX="-35"/>	
+                    <Dimensions x="190" y="80"/>
+                </Label>
+                
+                <!-- Texto - Pergamino 2 -->
+                <Label name="T2" font="$(ANTIQUE_FONT)|22" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino2" relativePoint="CENTER" offsetY="-150" offsetX="0"/>
+                    <Dimensions x="275" y="50"/>
+                </Label>
+                
+                <Label name="Texto2" font="$(ANTIQUE_FONT)|12" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino2" relativePoint="CENTER" offsetY="-100" />
+                    <Dimensions x="250" y="200"/>
+                </Label>
+                
+                <Label name="Req2" font="$(ANTIQUE_FONT)|11" verticalAlignment="TOP" horizontalAlignment="LEFT" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino2" relativePoint="CENTER" offsetY="115" offsetX="-35"/>	
+                    <Dimensions x="190" y="80"/>
+                </Label>
+
+                <!-- Texto - Pergamino 3 -->
+                <Label name="T3" font="$(ANTIQUE_FONT)|22" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino3" relativePoint="CENTER" offsetY="-150" offsetX="0"/>
+                    <Dimensions x="275" y="50"/>
+                </Label>
+                
+                <Label name="Texto3" font="$(ANTIQUE_FONT)|12" verticalAlignment="TOP" horizontalAlignment="CENTER" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino3" relativePoint="CENTER" offsetY="-100" />
+                    <Dimensions x="250" y="200"/>
+                </Label>
+
+                <Label name="Req3" font="$(ANTIQUE_FONT)|11" verticalAlignment="TOP" horizontalAlignment="LEFT" color="6C3C28">
+                    <Anchor point="TOP" relativeTo="Pergamino3" relativePoint="CENTER" offsetY="115" offsetX="-35"/>	
+                    <Dimensions x="190" y="80"/>
+                </Label>
+
                 <!-- Navegacion -->
                 <Texture name="FlechaIZ" textureFile="CerconeAddon/Assets/MissionBoard/FlechaIZ.dds">
                     <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="-590" offsetY="390" />
