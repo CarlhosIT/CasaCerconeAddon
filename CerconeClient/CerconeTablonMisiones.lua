@@ -5,7 +5,7 @@ CerconeTablonMisiones = {
         Estilo="Sanguinaris",
         Titulo="Entrenamiento Sanguinaris",
         Texto="Se abre una nueva convocatoria de entrenamiento. El siguiente es un llamado para todos los Sanguinaris que no hayan realizado el entrenamiento básico de formaciones militares.",
-        Requisitos="Ser Sanguinaris\nSin limite de participantes",
+        Requisitos="Requisito: Ser Sanguinaris\nSin limite de participantes",
     },
     {
         Pagina=1,
@@ -13,7 +13,7 @@ CerconeTablonMisiones = {
         Estilo="Clan",
         Titulo="Pociones y Explosiones",
         Texto="Estimados miembros del Clan Cercone:\nMe dirijo a ustedes para comunicar los más recientes hallazgos relacionados con el análisis y la experimentación en torno a la denominada Poción de Ensueño, cuyas propiedades continúan desafiando las artes alquímicas convencionales.\nTras varios días de observación, destilación y pruebas bajo estrictas condiciones controladas, he identificado que aún faltan algunos ingredientes que permitan potenciar el efecto de la poción y hacerla viable.\nSi aceptan la tarea de buscar dichos ingredientes, les ruego que me lo hagan saber a la mayor brevedad.",
-        Requisitos="Ninguno",
+        Requisitos="Requisito: Ninguno",
     },
     {
         Pagina=1,
@@ -25,7 +25,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=2,
-        Slot=4,
+        Slot=1,
         Estilo="Custodes",
         Titulo="",
         Texto="",
@@ -33,7 +33,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=2,
-        Slot=5,
+        Slot=2,
         Estilo="Frumentarii",
         Titulo="",
         Texto="",
@@ -41,7 +41,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=2,
-        Slot=6,
+        Slot=3,
         Estilo="Indomito",
         Titulo="",
         Texto="",
@@ -49,7 +49,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=3,
-        Slot=7,
+        Slot=1,
         Estilo="",
         Titulo="",
         Texto="",
@@ -57,7 +57,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=3,
-        Slot=8,
+        Slot=2,
         Estilo="",
         Titulo="",
         Texto="",
@@ -65,7 +65,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=3,
-        Slot=9,
+        Slot=3,
         Estilo="",
         Titulo="",
         Texto="",
@@ -73,7 +73,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=4,
-        Slot=10,
+        Slot=1,
         Estilo="",
         Titulo="",
         Texto="",
@@ -81,7 +81,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=4,
-        Slot=11,
+        Slot=2,
         Estilo="",
         Titulo="",
         Texto="",
@@ -89,7 +89,7 @@ CerconeTablonMisiones = {
     },
     {
         Pagina=4,
-        Slot=12,
+        Slot=3,
         Estilo="",
         Titulo="",
         Texto="",
