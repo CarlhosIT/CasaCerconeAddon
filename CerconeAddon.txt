@@ -20,3 +20,4 @@ Grimorio.xml
 GrimorioIndice.xml
 CerconePjDuel.xml
 TablonMisiones.xml
+Mision.xml
