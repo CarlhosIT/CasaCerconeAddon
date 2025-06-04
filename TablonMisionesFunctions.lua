@@ -12,9 +12,11 @@ Estilos = {
 }
 
 CerconeAddon.currentPage = 0
+CerconeAddon.Missions = {}
 
 function CerconeAddon.ShowMissionBoard(page)
   CerconeAddon.currentPage = page or 1
+  CerconeAddon.Missions = {}
   local boardData = CerconeTablonMisiones
   if not page then page = 1 end
   if not boardData or #boardData == 0 then
@@ -35,8 +37,10 @@ function CerconeAddon.ShowMissionBoard(page)
     local title = GetControl("T" .. mission.Slot)
     local text = GetControl("Texto" .. mission.Slot)
     local requirements = GetControl("Req" .. mission.Slot)
+    local button = GetControl("P" .. mission.Slot .. "Boton")
 
     scroll:SetHidden(true)
+    button:SetHidden(true)
     title:SetText("")
     text:SetText("")
     requirements:SetText("")
@@ -45,9 +49,17 @@ function CerconeAddon.ShowMissionBoard(page)
       scroll:SetTexture(Estilos[mission.Estilo])
       title:SetText(mission.Titulo)
       text:SetText(mission.Texto)
-      requirements:SetText("  Requisitos:\n" .. mission.Requisitos)
+      requirements:SetText(mission.Requisitos)
+
+      CerconeAddon.Missions[mission.Slot] = {
+        Estilo = mission.Estilo,
+        Titulo = mission.Titulo,
+        Texto = mission.Texto,
+        Requisitos = mission.Requisitos,
+      }
 
       scroll:SetHidden(false)
+      button:SetHidden(false)
     end
   end
 
@@ -70,4 +82,37 @@ end
 function CerconeAddon.ChangePage(value)
   local page = CerconeAddon.currentPage + value
   CerconeAddon.ShowMissionBoard(page)
+end
+
+function CerconeAddon.SelectMission(slot)
+  local panel = GetControl("Mision")
+  local mGrande = GetControl("MGrande")
+
+  local title = GetControl("MisionT")
+  local text = GetControl("MisionTexto")
+  local requirements = GetControl("MisionReq")
+
+  title:SetText(CerconeAddon.Missions[slot].Titulo)
+  text:SetText(CerconeAddon.Missions[slot].Texto)
+  requirements:SetText(CerconeAddon.Missions[slot].Requisitos)
+  mGrande:SetTexture(Estilos[CerconeAddon.Missions[slot].Estilo])
+
+  panel:SetDrawTier(DT_HIGH)
+  PlaySound(SOUNDS.BOOK_PAGE_TURN)
+  panel:SetHidden(false)
+end
+
+function CerconeAddon.CloseMissionPanel()
+  local panel = GetControl("Mision")
+  panel:SetHidden(true)
+  panel:SetDrawTier(DT_LOW)
+  
+  local title = GetControl("MisionT")
+  local text = GetControl("MisionTexto")
+  local requirements = GetControl("MisionReq")
+
+  title:SetText("")
+  text:SetText("")
+  requirements:SetText("")
+  PlaySound(SOUNDS.BOOK_PAGE_TURN)
 end
