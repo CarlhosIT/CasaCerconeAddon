@@ -1,9 +1,9 @@
-TextColor = {
+local TextColor = {
     Normal = "000000",
     Hover = "800000"
 }
 
-Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/Grimoire/NB.dds"}, {"Arcanista", "CerconeAddon/Assets/Grimoire/Arcanista.dds"},
+local Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/Grimoire/NB.dds"}, {"Arcanista", "CerconeAddon/Assets/Grimoire/Arcanista.dds"},
           {"Nigromante", "CerconeAddon/Assets/Grimoire/Necromancer.dds"}, {"Caballero Dragón", "CerconeAddon/Assets/Grimoire/DK.dds"},
           {"Brujo", "CerconeAddon/Assets/Grimoire/Sorcerer.dds"}, {"Templario Oscuro", "CerconeAddon/Assets/Grimoire/Templar.dds"},
           {"Guardián", "CerconeAddon/Assets/Grimoire/Warden.dds"},
@@ -73,7 +73,7 @@ function CerconeAddon.AssignText(item, i)
     valuesControl:SetText(item.Valores or "")
 end
 
-function FilterData(filter, vista)
+local function FilterData(filter, vista)
     local filteredData1 = {}
     local filteredData2 = {}
 
@@ -189,7 +189,7 @@ function CerconeAddon.BackToIndex()
     CerconeAddon.ShowGrimorio()
 end
 
-function CalculatePagesPerTitle(currentTitle)
+local function CalculatePagesPerTitle(currentTitle)
     local pages = 0
     local currentSubtitle = ""
     for _, item in ipairs(CerconeGrimoireData) do

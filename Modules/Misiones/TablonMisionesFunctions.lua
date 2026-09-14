@@ -2,7 +2,7 @@
 local LibChatMessage = LibChatMessage
 local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
 
-Estilos = {
+local Estilos = {
   ["Custodes"] = "CerconeAddon/Assets/MissionBoard/PergaminoCustodes.dds",
   ["Clan"] = "CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds",
   ["Frumentarii"] = "CerconeAddon/Assets/MissionBoard/PergaminoFrumentarii.dds",

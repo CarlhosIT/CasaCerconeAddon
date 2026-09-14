@@ -2,7 +2,7 @@
 local LibChatMessage = LibChatMessage
 local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
 
-Siglas = {
+local Siglas = {
   ["X"] = "CerconeAddon/Assets/Scroll/Academy/AcademiaX.dds",
   ["AG"] = "CerconeAddon/Assets/Scroll/Academy/AcademiaAG.dds",
   ["AL"] = "CerconeAddon/Assets/Scroll/Academy/AcademiaAL.dds",
@@ -62,7 +62,7 @@ function CerconeAddon.AcademyInfo()
     end
   end
 
-  function ShowInsignia(insignias)
+  local function ShowInsignia(insignias)
     for i, item in ipairs(insignias) do
       local insigniaControl = WINDOW_MANAGER:GetControlByName("Insignia"..i)
       if item ~= "" then
@@ -71,7 +71,7 @@ function CerconeAddon.AcademyInfo()
     end
   end
   
-  function SetAcademyTexture(classSkills, textureName)
+  local function SetAcademyTexture(classSkills, textureName)
     for i, item in ipairs(classSkills) do
       local mark = WINDOW_MANAGER:GetControlByName(textureName .. i)
       if item ~= "" then
@@ -81,7 +81,7 @@ function CerconeAddon.AcademyInfo()
     end
   end
 
-  function SetOrderTexture(orderName)
+  local function SetOrderTexture(orderName)
     local mark = WINDOW_MANAGER:GetControlByName("MarkOrden1")
     if orderName ~= "" then
       local ucItem = string.upper(orderName)
