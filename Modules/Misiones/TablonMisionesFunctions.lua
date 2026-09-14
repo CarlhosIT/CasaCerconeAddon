@@ -27,10 +27,12 @@ function CerconeAddon.ShowMissionBoard(page)
   local totalPages = 0
 
   for i, mission in ipairs(boardData) do
-
     if mission.Texto ~= "" then
       totalPages = mission.Pagina > totalPages and mission.Pagina or totalPages
     end
+  end
+
+  for i, mission in ipairs(boardData) do
     if mission.Pagina > page then break end
 
     local scroll = GetControl("Pergamino" .. mission.Slot)
@@ -68,7 +70,7 @@ function CerconeAddon.ShowMissionBoard(page)
 
   if totalPages > page then
     nextButton:SetHidden(false)
-  elseif totalPages == page then
+  else
     nextButton:SetHidden(true)
   end
 
