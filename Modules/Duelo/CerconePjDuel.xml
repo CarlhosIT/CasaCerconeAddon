@@ -21,6 +21,11 @@
                     <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
                     <Dimensions x="250" y="250"/>
                 </Texture>
+
+                <Texture name="MasHpTexture" textureFile="CerconeAddon/Assets/Combat/boton_mas.dds">
+                    <Anchor point="TOP" relativeTo="PjHPDuel" relativePoint="CENTER" offsetX="50"  offsetY="-11" />
+                    <Dimensions x="25" y="25" />
+                </Texture>
                 
                 <Button name="MasHpButton" mouseover="CerconeAddon/Assets/Combat/boton_mas.dds" mouseDown="CerconeAddon/Assets/Combat/boton_mas.dds">
                     <Anchor point="TOP" relativeTo="PjHPDuel" relativePoint="CENTER" offsetX="50"  offsetY="-11" />
