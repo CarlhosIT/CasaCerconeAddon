@@ -24,15 +24,15 @@ function CerconeAddon.FormatDescriptionMultiline(description)
 
     local parts = {}
 
-    local formattedLine = description:gsub("^%s*([^:]+):", "|c" .. TextColor.Hover .. "%1:|r")
     -- Dividir por líneas
     for line in description:gmatch("[^\n]+") do
+        local formattedLine = line:gsub("^%s*([^:]+):", "|c" .. TextColor.Hover .. "%1:|r")
         -- Procesar cada línea independientemente
         table.insert(parts, formattedLine)
     end
 
     -- Unir las líneas procesadas
-    return formattedLine
+    return table.concat(parts, "\n")
 end
 
 function CerconeAddon.SelectLogoNTitle(title)
