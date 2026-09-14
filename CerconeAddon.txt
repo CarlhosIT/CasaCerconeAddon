@@ -4,19 +4,19 @@
 ## SavedVariables: CerconeAddonVars
 ## DependsOn: LibChatMessage>=118
 
-Main.lua
-UIMenuFunctions.lua
-PjDuelFunctions.lua
-SlashCommands.lua
-GrimorioFunctions.lua
-TablonMisionesFunctions.lua
+Core/Main.lua
+Modules/FichaPj/UIMenuFunctions.lua
+Modules/Duelo/PjDuelFunctions.lua
+Core/SlashCommands.lua
+Modules/Grimorio/GrimorioFunctions.lua
+Modules/Misiones/TablonMisionesFunctions.lua
 CerconeClient/CerconePjData.lua
 CerconeClient/CerconeGrimData.lua
 CerconeClient/CerconeTablonMisiones.lua
-Bindings.xml
-CerconePjSimpleUI.xml
-Grimorio.xml
-GrimorioIndice.xml
-CerconePjDuel.xml
-TablonMisiones.xml
-Mision.xml
+Core/Bindings.xml
+Modules/FichaPj/CerconePjSimpleUI.xml
+Modules/Grimorio/Grimorio.xml
+Modules/Grimorio/GrimorioIndice.xml
+Modules/Duelo/CerconePjDuel.xml
+Modules/Misiones/TablonMisiones.xml
+Modules/Misiones/Mision.xml
