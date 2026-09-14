@@ -1,6 +1,6 @@
 ## Title: |c800020CerconeAddon|r
 ## Author: |cA01641@CC77|r, |cFF0000@Josh-CR|r, |cA020F0ulasp|r
-## APIVersion: 101045
+## APIVersion: 101050
 ## SavedVariables: CerconeAddonVars
 ## DependsOn: LibChatMessage>=118
 
