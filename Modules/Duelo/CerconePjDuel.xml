@@ -18,7 +18,7 @@
                     <Anchor point="TOP" relativeTo="PjDefDuel" relativePoint="BOTTOM" offsetX="0" offsetY="7" />
                 </Label>
                 <Texture name="CombatUI" textureFile="CerconeAddon/Assets/Combat/Combat_Interface.dds">
-                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                    <Anchor point="CENTER" relativeTo="$(parent)" relativePoint="CENTER" offsetX="0" offsetY="0" />
                     <Dimensions x="250" y="250"/>
                 </Texture>
 

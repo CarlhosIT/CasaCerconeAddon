@@ -6,7 +6,7 @@
             <Controls>
                 <!-- Mision en grande -->
                 <Texture name="MGrande" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds">
-                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0"/>
+                    <Anchor point="CENTER" relativeTo="$(parent)" relativePoint="CENTER" offsetX="0" offsetY="0"/>
                     <Dimensions x="620" y="892"/>
                 </Texture>
 

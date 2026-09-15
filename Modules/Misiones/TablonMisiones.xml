@@ -5,7 +5,7 @@
             <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
             <Controls>
                 <Texture name="TablonMisiones" textureFile="CerconeAddon/Assets/MissionBoard/TablondeMisiones.dds">
-                    <Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+                    <Anchor point="CENTER" relativeTo="$(parent)" relativePoint="CENTER" offsetX="0" offsetY="0" />
                     <Dimensions x="1346" y="938"/>
                 </Texture>
 

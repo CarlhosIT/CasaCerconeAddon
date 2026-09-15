@@ -114,7 +114,7 @@
 				</Button>
 
 				<Texture name="TexturePergamino" textureFile="CerconeAddon/Assets/Scroll/CerconeCharacterSheetUI.dds">
-					<Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
+					<Anchor point="CENTER" relativeTo="$(parent)" relativePoint="CENTER" offsetX="0" offsetY="0" />
 					<Dimensions x="1100" y="1100"/>
 				</Texture>
 
