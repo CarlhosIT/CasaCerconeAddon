@@ -15,6 +15,8 @@ local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")
 -- Método de arranque
 function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
   if(addOnName ~= CerconeAddon.name) then return end
+  EVENT_MANAGER:UnregisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED)
+  CerconeAddon.InitWindowPositions()
   CerconeAddon.ClosePjUI()
   CerconeAddon.haveDuelUI = false
   CerconeAddon.InitializeKeybindings()

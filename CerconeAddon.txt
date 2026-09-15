@@ -5,6 +5,7 @@
 ## DependsOn: LibChatMessage>=118
 
 Core/Main.lua
+Core/WindowPositions.lua
 Modules/FichaPj/UIMenuFunctions.lua
 Modules/Duelo/PjDuelFunctions.lua
 Core/SlashCommands.lua
