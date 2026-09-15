@@ -17,7 +17,7 @@
                 <Button name="P1Boton" hidden="true">
                     <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="-350" offsetY="80" />
                     <Dimensions x="280" y="402"/>
-                    <OnClicked>CerconeAddon.SelectMission(1)</OnClicked>
+                    <OnClicked>ValkAddon.SelectMission(1)</OnClicked>
                 </Button>
 
                 <Texture name="Pergamino2" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds" hidden="true">
@@ -27,7 +27,7 @@
                 <Button name="P2Boton" hidden="true">
                     <Anchor point="CENTER" relativeTo="Pergamino1" relativePoint="CENTER" offsetX="350" offsetY="-100" />
                     <Dimensions x="280" y="402"/>
-                    <OnClicked>CerconeAddon.SelectMission(2)</OnClicked>
+                    <OnClicked>ValkAddon.SelectMission(2)</OnClicked>
                 </Button>
 
                 <Texture name="Pergamino3" textureFile="CerconeAddon/Assets/MissionBoard/PergaminodelClan.dds" hidden="true">
@@ -37,7 +37,7 @@
                 <Button name="P3Boton" hidden="true">
                     <Anchor point="CENTER" relativeTo="Pergamino2" relativePoint="CENTER" offsetX="350" offsetY="100" />
                     <Dimensions x="280" y="402"/>
-                    <OnClicked>CerconeAddon.SelectMission(3)</OnClicked>
+                    <OnClicked>ValkAddon.SelectMission(3)</OnClicked>
                 </Button>
                 
                 <!-- Texto - Pergamino 1 -->
@@ -94,13 +94,13 @@
                     <Textures normal="CerconeAddon/Assets/MissionBoard/FlechaIZQ.dds" />
                     <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="-590" offsetY="390" />
                     <Dimensions x="80" y="60"/>
-                    <OnClicked> CerconeAddon.ChangePage(-1)</OnClicked>
+                    <OnClicked> ValkAddon.ChangePage(-1)</OnClicked>
                 </Button>
                 <Button name="FlechaDER" hidden="true">
                     <Textures normal="CerconeAddon/Assets/MissionBoard/FlechaDER.dds" />
                     <Anchor point="CENTER" relativeTo="TablonMisiones" relativePoint="CENTER" offsetX="580" offsetY="390" />
                     <Dimensions x="80" y="60"/>
-                    <OnClicked> CerconeAddon.ChangePage(1)</OnClicked>
+                    <OnClicked> ValkAddon.ChangePage(1)</OnClicked>
                 </Button>
             </Controls>
         </TopLevelControl>

@@ -15,7 +15,7 @@
                     <Dimensions x="85" y="90" />
                     <Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-325" offsetY="0" />
                     <Textures normal="CerconeAddon/Assets/Scroll/Boton_X.dds" pressed="CerconeAddon/Assets/Scroll/X.dds" disabled="CerconeAddon/Assets/Scroll/Boton_X.dds"/>
-                    <OnClicked>CerconeAddon.CloseMissionPanel()</OnClicked>
+                    <OnClicked>ValkAddon.CloseMissionPanel()</OnClicked>
                 </Button>
 
                 <!-- Textos -->

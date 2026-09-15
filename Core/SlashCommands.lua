@@ -1,16 +1,16 @@
 local LibChatMessage = LibChatMessage
-local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+local chat = LibChatMessage("|cFF0020Valk Addon|r", "|cFF0020CA|r")  
 
 SLASH_COMMANDS["/pjinfo"] = function(name)
-    CerconeAddon.ShowSimpleData(name)
+    ValkAddon.ShowSimpleData(name)
   end
   
   SLASH_COMMANDS["/cerrarpj"] = function(extra)
-    CerconeAddon.ClosePjUI()
+    ValkAddon.ClosePjUI()
   end
   
   SLASH_COMMANDS["/selectpj"] = function(namePj)
-    CerconeAddon.SelectPjForDuel(namePj)
+    ValkAddon.SelectPjForDuel(namePj)
   end
   
   SLASH_COMMANDS["/sethp"] = function(hpValue)

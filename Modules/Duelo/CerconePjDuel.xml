@@ -31,7 +31,7 @@
                     <Anchor point="TOP" relativeTo="PjHPDuel" relativePoint="CENTER" offsetX="50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.AddHp()
+                        ValkAddon.AddHp()
                     </OnClicked>
                 </Button>
 
@@ -49,7 +49,7 @@
                     <Anchor point="TOP" relativeTo="PjHPDuel" relativePoint="CENTER" offsetX="-50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.DiscHp()
+                        ValkAddon.DiscHp()
                     </OnClicked>
                 </Button>
 
@@ -67,7 +67,7 @@
                     <Anchor point="TOP" relativeTo="PjDefDuel" relativePoint="CENTER" offsetX="50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.AddDef()
+                        ValkAddon.AddDef()
                     </OnClicked>
                 </Button>
 
@@ -85,7 +85,7 @@
                     <Anchor point="TOP" relativeTo="PjDefDuel" relativePoint="CENTER" offsetX="-50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.DiscDefp()
+                        ValkAddon.DiscDefp()
                     </OnClicked>
                 </Button>
 
@@ -103,7 +103,7 @@
                     <Anchor point="TOP" relativeTo="PjMagickaDuel" relativePoint="CENTER" offsetX="50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.AddMag()
+                        ValkAddon.AddMag()
                     </OnClicked>
                 </Button>
 
@@ -121,7 +121,7 @@
                     <Anchor point="TOP" relativeTo="PjMagickaDuel" relativePoint="CENTER" offsetX="-50"  offsetY="-11" />
                     <Dimensions x="25" y="25" />
                     <OnClicked>
-                        CerconeAddon.DiscMag()
+                        ValkAddon.DiscMag()
                     </OnClicked>
                 </Button>
             </Controls>            

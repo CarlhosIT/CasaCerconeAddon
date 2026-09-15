@@ -1,7 +1,7 @@
-## Title: |c800020CerconeAddon|r
+## Title: |c800020Valk Addon|r
 ## Author: |cA01641@CC77|r, |cFF0000@Josh-CR|r, |cA020F0ulasp|r
 ## APIVersion: 101050
-## SavedVariables: CerconeAddonVars
+## SavedVariables: ValkAddonVars
 ## DependsOn: LibChatMessage>=118
 
 Core/Main.lua

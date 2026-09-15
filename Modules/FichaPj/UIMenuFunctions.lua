@@ -1,6 +1,6 @@
 -- UIFunctions.lua
 local LibChatMessage = LibChatMessage
-local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+local chat = LibChatMessage("|cFF0020Valk Addon|r", "|cFF0020CA|r")  
 
 local Siglas = {
   ["X"] = "CerconeAddon/Assets/Scroll/Academy/AcademiaX.dds",
@@ -24,7 +24,7 @@ local Siglas = {
   ["FRU"] = "CerconeAddon/Assets/Scroll/Academy/Frumentari.dds",
 }
 
-function CerconeAddon.AcademyInfo()
+function ValkAddon.AcademyInfo()
     local academyTexs = {
       "MarkClass1", "MarkClass2", "MarkClass3", "MarkClass4", "MarkClass5", "MarkClass6", "MarkClass7", "MarkClass8", "MarkClass9",
       "MarkWar1", "MarkWar2", "MarkWar3", "MarkWar4", "MarkWar5", "MarkWar6", "MarkWar7",
@@ -52,10 +52,10 @@ function CerconeAddon.AcademyInfo()
     end
   end
   
-  function CerconeAddon.ClosePjUI()
+  function ValkAddon.ClosePjUI()
     local panel = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
     if panel then
-      CerconeAddon.AcademyInfo()
+      ValkAddon.AcademyInfo()
       panel:SetHidden(true)
     else
       chat:Print("No se encontró el control 'CerconePjSimpleUI'")
@@ -94,7 +94,7 @@ function CerconeAddon.AcademyInfo()
     end
   end
   
-  function CerconeAddon.SearchpjByName(namePj)
+  function ValkAddon.SearchpjByName(namePj)
     local searchTerm = string.lower(namePj)
     for index, pjInfo in ipairs(CerconePjData) do
       local pjName = string.lower(pjInfo.Personaje)
@@ -105,15 +105,15 @@ function CerconeAddon.AcademyInfo()
     chat:Print("No se encontraron coincidencias para el término de búsqueda: " .. namePj)
   end
   
-  function CerconeAddon.ShowSimpleData(name)
+  function ValkAddon.ShowSimpleData(name)
     local scroll = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
     
     if not name and not scroll:IsHidden() then return scroll:SetHidden(true) end
     if not name then name = GetUnitName("player") end 
 
-    local numPj = CerconeAddon.SearchpjByName(name)
+    local numPj = ValkAddon.SearchpjByName(name)
     local index = tonumber(numPj)
-    CerconeAddon.AcademyInfo()
+    ValkAddon.AcademyInfo()
     if index and index >= 1 and index <= #CerconePjData then
       local pj = CerconePjData[index]
       local panel = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")

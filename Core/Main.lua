@@ -1,7 +1,7 @@
 -- Main.lua
-CerconeAddon = {}
-CerconeAddon.name = "CerconeAddon"
-CerconeAddon.haveDuelUI = false
+ValkAddon = {}
+ValkAddon.name = "CerconeAddon"
+ValkAddon.haveDuelUI = false
 -- Cargar funciones de otros archivos
 --dofile("UIFunctions.lua")
 --dofile("SlashCommands.lua")
@@ -10,36 +10,36 @@ CerconeAddon.haveDuelUI = false
 local LibChatMessage = LibChatMessage
 
 -- Crear una instancia de ChatProxy con etiquetas
-local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+local chat = LibChatMessage("|cFF0020Valk Addon|r", "|cFF0020CA|r")  
 
 -- Método de arranque
-function CerconeAddon.OnAddOnLoaded(eventCode, addOnName)
-  if(addOnName ~= CerconeAddon.name) then return end
-  EVENT_MANAGER:UnregisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED)
-  CerconeAddon.InitWindowPositions()
-  CerconeAddon.ClosePjUI()
-  CerconeAddon.haveDuelUI = false
-  CerconeAddon.InitializeKeybindings()
-  CerconeAddon.ShowGrimorio()
-  CerconeAddon.ShowMissionBoard()
+function ValkAddon.OnAddOnLoaded(eventCode, addOnName)
+  if(addOnName ~= ValkAddon.name) then return end
+  EVENT_MANAGER:UnregisterForEvent(ValkAddon.name, EVENT_ADD_ON_LOADED)
+  ValkAddon.InitWindowPositions()
+  ValkAddon.ClosePjUI()
+  ValkAddon.haveDuelUI = false
+  ValkAddon.InitializeKeybindings()
+  ValkAddon.ShowGrimorio()
+  ValkAddon.ShowMissionBoard()
 end
 
-function CerconeAddon.NB1KeyBindToggle()
+function ValkAddon.NB1KeyBindToggle()
     local panel = WINDOW_MANAGER:GetControlByName("CerconePjDuel")
     if panel then
         local isHidden = panel:IsHidden()
         panel:SetHidden(not isHidden)
         if isHidden then
-            CerconeAddon.OnCombatMenuOpen()
+            ValkAddon.OnCombatMenuOpen()
         else
-            CerconeAddon.OnCombatMenuClose()
+            ValkAddon.OnCombatMenuClose()
         end
     else
         chat:Print("No se encontró el control 'CerconePjDuel'")
     end
 end
 
-function CerconeAddon.ArbriGrimorio()
+function ValkAddon.ArbriGrimorio()
     local panel = WINDOW_MANAGER:GetControlByName("GrimorioIndice")
     local panel2 = WINDOW_MANAGER:GetControlByName("Grimorio")
     if panel then
@@ -57,12 +57,12 @@ function CerconeAddon.ArbriGrimorio()
     SetGameCameraUIMode(not panel:IsHidden())
 end
 
-function CerconeAddon.ArbriTablon()
+function ValkAddon.ArbriTablon()
     local panel = WINDOW_MANAGER:GetControlByName("Tablon")
     if panel then
         local isHidden = panel:IsHidden()
         panel:SetHidden(not isHidden)
-        CerconeAddon.ShowMissionBoard()
+        ValkAddon.ShowMissionBoard()
     else
         chat:Print("No se encontró el control 'Tablon'")
     end
@@ -70,11 +70,11 @@ function CerconeAddon.ArbriTablon()
     SetGameCameraUIMode(not panel:IsHidden())
 end
 
-function CerconeAddon.InitializeKeybindings()
-    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_NB1TOGGLE", "Cercone Combate")
-    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_GRIMORIO", "Cercone Grimorio")
-    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_TABLON", "Cercone Tablon")
-    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_PJINFO", "Cercone Pergamino")
+function ValkAddon.InitializeKeybindings()
+    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_NB1TOGGLE", "Valk Addon Combate")
+    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_GRIMORIO", "Valk Addon Grimorio")
+    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_TABLON", "Valk Addon Tablon")
+    ZO_CreateStringId("SI_BINDING_NAME_CERCONEADDON_PJINFO", "Valk Addon Pergamino")
 end
 -- Registro del addon
-EVENT_MANAGER:RegisterForEvent(CerconeAddon.name, EVENT_ADD_ON_LOADED, CerconeAddon.OnAddOnLoaded)
+EVENT_MANAGER:RegisterForEvent(ValkAddon.name, EVENT_ADD_ON_LOADED, ValkAddon.OnAddOnLoaded)

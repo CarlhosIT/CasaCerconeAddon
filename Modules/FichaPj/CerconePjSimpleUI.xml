@@ -5,7 +5,7 @@
 			<Anchor point="CENTER" relativeTo="GUI_ROOT" relativePoint="CENTER" offsetX="0" offsetY="0" />
 			<Controls>
 
-				<Label name="PjName" text="Cercone Pj UI" font="$(ANTIQUE_FONT)|30|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="CENTER" fontSize="50">
+				<Label name="PjName" text="ValkAddon Pj UI" font="$(ANTIQUE_FONT)|30|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="CENTER" fontSize="50">
 					<Anchor point="TOP" relativeTo="CerconePjSimpleUI" relativePoint="CENTER" offsetY="-297" />
 				</Label>
 				<Label name="DatosLabel" text="DATOS" font="$(ANTIQUE_FONT)|22|soft-shadow-thin" verticalAlignment="TOP" horizontalAlignment="LEFT" fontSize="30">
@@ -109,7 +109,7 @@
 					<Anchor point="TOPRIGHT" relativeTo="$(parent)" relativePoint="TOPRIGHT" offsetX="-180" offsetY="230" />
 					<Textures normal="CerconeAddon/Assets/Scroll/Boton_X.dds" pressed="CerconeAddon/Assets/Scroll/X.dds" disabled="CerconeAddon/Assets/Scroll/Boton_X.dds"/>
 					<OnClicked>
-                        CerconeAddon.ClosePjUI()
+                        ValkAddon.ClosePjUI()
 					</OnClicked>
 				</Button>
 

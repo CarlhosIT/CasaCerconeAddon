@@ -17,7 +17,7 @@ local Assets = {{"Hoja de la Noche", "CerconeAddon/Assets/Grimoire/NB.dds"}, {"A
           {"Habilidades de la orden", "CerconeAddon/Assets/Grimoire/Habilidades_de_la_Orden.dds"}}
 
 -- Función para formatear la descripción en varias líneas
-function CerconeAddon.FormatDescriptionMultiline(description)
+function ValkAddon.FormatDescriptionMultiline(description)
     if not description then
         return ""
     end
@@ -35,7 +35,7 @@ function CerconeAddon.FormatDescriptionMultiline(description)
     return table.concat(parts, "\n")
 end
 
-function CerconeAddon.SelectLogoNTitle(title)
+function ValkAddon.SelectLogoNTitle(title)
     local logoControl = GetControl("LogoRamas")
     for i = 1, #Assets do
         if title == Assets[i][1] then
@@ -46,14 +46,14 @@ function CerconeAddon.SelectLogoNTitle(title)
     GetControl("GrimorioTitulo"):SetText(title)
 end
 
-function CerconeAddon.AssignText(item, i)
+function ValkAddon.AssignText(item, i)
     -- Controles
     local subtitleControl = GetControl("GrimorioNombreRama" .. i)
     local descriptionControl = GetControl("GrimorioDescripcion" .. i)
     local valuesControl = GetControl("GrimorioValores" .. i)
 
     -- Formateamos el texto de la descripción con color
-    local description = CerconeAddon.FormatDescriptionMultiline(item.Descripcion)
+    local description = ValkAddon.FormatDescriptionMultiline(item.Descripcion)
 
     -- Verificamos el tamaño de la descripción y valores para cambiar las dimensiones del control
     local descLength = string.len(description)
@@ -85,7 +85,7 @@ local function FilterData(filter, vista)
     end
 
     -- Guardamos el rango de la data filtrada
-    CerconeAddon.maxFilteredData = #filteredData1
+    ValkAddon.maxFilteredData = #filteredData1
 
     local subTitle = ""
     local helper = 0
@@ -104,19 +104,19 @@ local function FilterData(filter, vista)
     return filteredData2
 end
 
-function CerconeAddon.ShowGrimorioPage(title, vista)
+function ValkAddon.ShowGrimorioPage(title, vista)
     local i = 1
-    local vistaBackup = CerconeAddon.currentVista
+    local vistaBackup = ValkAddon.currentVista
 
-    CerconeAddon.currentVista = vista
-    CerconeAddon.currentTitle = title
+    ValkAddon.currentVista = vista
+    ValkAddon.currentTitle = title
     -- Filtramos la data de acuerdo al titulo
-    CerconeAddon.filteredData = {}
-    CerconeAddon.filteredData = FilterData(title, vista)
+    ValkAddon.filteredData = {}
+    ValkAddon.filteredData = FilterData(title, vista)
 
-    if #CerconeAddon.filteredData == 0 then
+    if #ValkAddon.filteredData == 0 then
         -- d("No se encontraron más datos para el título: " .. title)
-        CerconeAddon.currentVista = vistaBackup
+        ValkAddon.currentVista = vistaBackup
         return
     end
 
@@ -135,10 +135,10 @@ function CerconeAddon.ShowGrimorioPage(title, vista)
 
     if vista[2] < 2 then
         GetControl("GrimorioTitulo"):SetText(title)
-        CerconeAddon.SelectLogoNTitle(title)
+        ValkAddon.SelectLogoNTitle(title)
         -- Datos para la vista principal del titulo
         i = 4
-        for _, item in ipairs(CerconeAddon.filteredData) do
+        for _, item in ipairs(ValkAddon.filteredData) do
             if item.Nombre == title then
                 if item.NombreRama ~= subTitle and subTitle ~= "" then
                     break
@@ -146,14 +146,14 @@ function CerconeAddon.ShowGrimorioPage(title, vista)
                 if i > 6 then
                     break
                 end
-                CerconeAddon.AssignText(item, i)
+                ValkAddon.AssignText(item, i)
                 subTitle = item.NombreRama
                 i = i + 1
             end
         end
     else
         -- Datos en las páginas
-        for _, item in ipairs(CerconeAddon.filteredData) do
+        for _, item in ipairs(ValkAddon.filteredData) do
             if item.Nombre == title then
                 if i > 6 then
                     break
@@ -161,7 +161,7 @@ function CerconeAddon.ShowGrimorioPage(title, vista)
                 if item.NombreRama ~= subTitle and subTitle ~= "" then
                     i = 4
                 end
-                CerconeAddon.AssignText(item, i)
+                ValkAddon.AssignText(item, i)
                 subTitle = item.NombreRama
                 i = i + 1
             end
@@ -183,10 +183,10 @@ function CerconeAddon.ShowGrimorioPage(title, vista)
     grimoire:SetHidden(false)
 end
 
-function CerconeAddon.BackToIndex()
+function ValkAddon.BackToIndex()
     GetControl("Grimorio"):SetHidden(true)
     GetControl("GrimorioIndice"):SetHidden(false)
-    CerconeAddon.ShowGrimorio()
+    ValkAddon.ShowGrimorio()
 end
 
 local function CalculatePagesPerTitle(currentTitle)
@@ -210,7 +210,7 @@ local function CalculatePagesPerTitle(currentTitle)
     return pages
 end
 
-function CerconeAddon.ShowGrimorio()
+function ValkAddon.ShowGrimorio()
     local indexData = CerconeGrimoireData
     if not indexData or #indexData == 0 then
         d("No hay datos para mostrar en el índice")
@@ -248,26 +248,26 @@ function CerconeAddon.ShowGrimorio()
         if not GetControl("Indice_Titulo" .. i) then
             break
         end
-        CerconeAddon.AddHoverEffect(GetControl("Indice_Titulo" .. i):GetName(), TextColor.Normal, TextColor.Hover)
+        ValkAddon.AddHoverEffect(GetControl("Indice_Titulo" .. i):GetName(), TextColor.Normal, TextColor.Hover)
     end
 end
 
-function CerconeAddon.NavigateGrimorio(direction)
+function ValkAddon.NavigateGrimorio(direction)
 
     local newVista = {}
 
     if direction == 0 then
-        newVista[1] = CerconeAddon.currentVista[1] - 2
-        newVista[2] = CerconeAddon.currentVista[2] - 2
+        newVista[1] = ValkAddon.currentVista[1] - 2
+        newVista[2] = ValkAddon.currentVista[2] - 2
     elseif direction == 1 then
-        newVista[1] = CerconeAddon.currentVista[1] + 2
-        newVista[2] = CerconeAddon.currentVista[2] + 2
+        newVista[1] = ValkAddon.currentVista[1] + 2
+        newVista[2] = ValkAddon.currentVista[2] + 2
     end
 
-    CerconeAddon.ShowGrimorioPage(CerconeAddon.currentTitle, newVista)
+    ValkAddon.ShowGrimorioPage(ValkAddon.currentTitle, newVista)
 end
 
-function CerconeAddon.AddHoverEffect(label, normalColor, hoverColor)
+function ValkAddon.AddHoverEffect(label, normalColor, hoverColor)
     local labelControl = GetControl(label)
     if not labelControl then
         d("|cFF0000Error:|r Control no encontrado: " .. label)
@@ -296,7 +296,7 @@ function CerconeAddon.AddHoverEffect(label, normalColor, hoverColor)
     end)
 
     labelControl:SetHandler("OnMouseUp", function()
-        CerconeAddon.ShowGrimorioPage(labelControl:GetText(), {0, 1})
+        ValkAddon.ShowGrimorioPage(labelControl:GetText(), {0, 1})
         GetControl("GrimorioIndice"):SetHidden(true)
     end)
 end

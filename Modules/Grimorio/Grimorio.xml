@@ -95,21 +95,21 @@
                     <Anchor point="BOTTOMLEFT" relativeTo="Libro" relativePoint="BOTTOMLEFT" offsetX="50" offsetY="-195"/>
                     <Dimensions x="100" y="100"/>
                     <OnClicked>
-                        CerconeAddon.NavigateGrimorio(0)
+                        ValkAddon.NavigateGrimorio(0)
                     </OnClicked>
                 </Button>
                 <Button name="Grimorio_BtnNext" text="Siguiente">
                     <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-50" offsetY="-195"/>
                     <Dimensions x="100" y="100"/>
                     <OnClicked>
-                        CerconeAddon.NavigateGrimorio(1)
+                        ValkAddon.NavigateGrimorio(1)
                     </OnClicked>
                 </Button>
                 <Button name="Grimorio_BtnIndex" text="Índice">
                     <Anchor point="BOTTOMRIGHT" relativeTo="Libro" relativePoint="BOTTOMRIGHT" offsetX="-470" offsetY="0"/>
                     <Dimensions x="120" y="200"/>
                     <OnClicked>
-                        CerconeAddon.BackToIndex()
+                        ValkAddon.BackToIndex()
                     </OnClicked>
                 </Button>
             </Controls>

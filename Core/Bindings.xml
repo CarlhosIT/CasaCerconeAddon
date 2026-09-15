@@ -1,19 +1,19 @@
 <Bindings>
     <Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
-        <Category name="|c800020Cercone Addon|r">
+        <Category name="|c800020Valk Addon|r">
             <Action name="CERCONEADDON_NB1TOGGLE">
-                <Up>CerconeAddon.SelectPjForDuel()</Up>
+                <Up>ValkAddon.SelectPjForDuel()</Up>
             </Action>  
             <Action name="CERCONEADDON_GRIMORIO">
                 <Up>
-                    CerconeAddon.ArbriGrimorio()
+                    ValkAddon.ArbriGrimorio()
                 </Up>
             </Action>   
             <Action name="CERCONEADDON_TABLON">
-                <Up>CerconeAddon.ArbriTablon()</Up>
+                <Up>ValkAddon.ArbriTablon()</Up>
             </Action>        
             <Action name="CERCONEADDON_PJINFO">
-                <Up>CerconeAddon.ShowSimpleData()</Up>
+                <Up>ValkAddon.ShowSimpleData()</Up>
             </Action>        
         </Category>
     </Layer>

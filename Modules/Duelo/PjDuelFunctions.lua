@@ -2,20 +2,20 @@
 local LibChatMessage = LibChatMessage
 
 -- Crear una instancia de ChatProxy con etiquetas
-local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+local chat = LibChatMessage("|cFF0020Valk Addon|r", "|cFF0020CA|r")  
 
-function CerconeAddon.SelectPjForDuel(namePj)
+function ValkAddon.SelectPjForDuel(namePj)
     
     local panel = WINDOW_MANAGER:GetControlByName("CerconePjDuel")
     
     if not namePj and not panel:IsHidden() then return panel:SetHidden(true) end
     if not namePj then namePj = GetUnitName("player") end 
     
-    local numPj = CerconeAddon.SearchpjByName(namePj)
+    local numPj = ValkAddon.SearchpjByName(namePj)
     if not numPj then return end
     
     local index = tonumber(numPj)
-    CerconeAddon.AcademyInfo()
+    ValkAddon.AcademyInfo()
     
     if index and index >= 1 and index <= #CerconePjData then
         local pj = CerconePjData[index]
@@ -37,9 +37,9 @@ function CerconeAddon.SelectPjForDuel(namePj)
             PjNameDuel:SetText(displayName)
 
             if panel then
-                CerconeAddon.haveDuelUI = true
+                ValkAddon.haveDuelUI = true
                 panel:SetHidden(false)
-                CerconeAddon.OnCombatMenuOpen()
+                ValkAddon.OnCombatMenuOpen()
             else
                 chat:Print("No se encontró el control 'CerconePjDuel'")
             end
@@ -48,13 +48,13 @@ function CerconeAddon.SelectPjForDuel(namePj)
         end
 
         -- Guardar el nombre del personaje seleccionado
-        CerconeAddon.selectedPjName = displayName
+        ValkAddon.selectedPjName = displayName
     else
         chat:Print("Sin resultados")
     end
 end
 
-function CerconeAddon.AddHp()
+function ValkAddon.AddHp()
   local currentText = PjHPDuel:GetText()
   if currentText == "--" then
         chat:Print("Seleccione un personaje antes de usar este comando.")
@@ -68,7 +68,7 @@ function CerconeAddon.AddHp()
       chat:Print("El valor actual no es válido.")
   end
 end
-function CerconeAddon.DiscHp()
+function ValkAddon.DiscHp()
   local currentText = PjHPDuel:GetText()
   if currentText == "--" then
         chat:Print("Seleccione un personaje antes de usar este comando.")
@@ -83,7 +83,7 @@ function CerconeAddon.DiscHp()
   end
 end
 
-function CerconeAddon.AddDef()
+function ValkAddon.AddDef()
   local currentText = PjDefDuel:GetText()
   if currentText == "--" then
         chat:Print("Seleccione un personaje antes de usar este comando.")
@@ -97,7 +97,7 @@ function CerconeAddon.AddDef()
       chat:Print("El valor actual no es válido.")
   end
 end
-function CerconeAddon.DiscDefp()
+function ValkAddon.DiscDefp()
   local currentText = PjDefDuel:GetText()
   if currentText == "--" then
         chat:Print("Seleccione un personaje antes de usar este comando.")
@@ -112,7 +112,7 @@ function CerconeAddon.DiscDefp()
   end
 end
 
-function CerconeAddon.AddMag()
+function ValkAddon.AddMag()
   local currentText = PjMagickaDuel:GetText()
   if currentText == "--" then
         chat:Print("Seleccione un personaje antes de usar este comando.")
@@ -127,7 +127,7 @@ function CerconeAddon.AddMag()
   end
 end
 
-function CerconeAddon.DiscMag()
+function ValkAddon.DiscMag()
   local currentText = PjMagickaDuel:GetText()
   if currentText == "--" then
         return
@@ -141,7 +141,7 @@ function CerconeAddon.DiscMag()
   end
 end
 
-function CerconeAddon.UpdateStat(statType, operation, amount)
+function ValkAddon.UpdateStat(statType, operation, amount)
     local controlName
     local labelPrefix
 
@@ -184,12 +184,12 @@ function CerconeAddon.UpdateStat(statType, operation, amount)
     end
 end
 
-function CerconeAddon.OnCombatMenuOpen()
-    EVENT_MANAGER:RegisterForEvent("CerconeAddonGroupChatListener", EVENT_CHAT_MESSAGE_CHANNEL, CerconeAddon.OnChatMessage)
+function ValkAddon.OnCombatMenuOpen()
+    EVENT_MANAGER:RegisterForEvent("ValkAddonGroupChatListener", EVENT_CHAT_MESSAGE_CHANNEL, ValkAddon.OnChatMessage)
 end
 
-function CerconeAddon.OnCombatMenuClose()
-    EVENT_MANAGER:UnregisterForEvent("CerconeAddonGroupChatListener", EVENT_CHAT_MESSAGE_CHANNEL)
+function ValkAddon.OnCombatMenuClose()
+    EVENT_MANAGER:UnregisterForEvent("ValkAddonGroupChatListener", EVENT_CHAT_MESSAGE_CHANNEL)
 end
 
 local function SendMessageToChat(message, chatType)
@@ -204,10 +204,10 @@ local function SendMessageToChat(message, chatType)
 end
 
 
-function CerconeAddon.OnChatMessage(eventCode, messageType, fromName, text)
+function ValkAddon.OnChatMessage(eventCode, messageType, fromName, text)
     -- if messageType == CHAT_CHANNEL_EMOTE then
     --     if string.find(string.lower(text), "ataque") then
-    --         CerconeAddon.UpdateStat("HP","add", 1)
+    --         ValkAddon.UpdateStat("HP","add", 1)
     --         SendMessageToChat("Este es un mensaje de prueba.",CHAT_CHANNEL_SAY)
     --     end
     -- end

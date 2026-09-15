@@ -1,6 +1,6 @@
 -- UIFunctions.lua
 local LibChatMessage = LibChatMessage
-local chat = LibChatMessage("|cFF0020CerconeAddon|r", "|cFF0020CA|r")  
+local chat = LibChatMessage("|cFF0020Valk Addon|r", "|cFF0020CA|r")  
 
 local Estilos = {
   ["Custodes"] = "CerconeAddon/Assets/MissionBoard/PergaminoCustodes.dds",
@@ -11,12 +11,12 @@ local Estilos = {
   ["Sanguinaris"] = "CerconeAddon/Assets/MissionBoard/PergaminoSanguinaris.dds",
 }
 
-CerconeAddon.currentPage = 0
-CerconeAddon.Missions = {}
+ValkAddon.currentPage = 0
+ValkAddon.Missions = {}
 
-function CerconeAddon.ShowMissionBoard(page)
-  CerconeAddon.currentPage = page or 1
-  CerconeAddon.Missions = {}
+function ValkAddon.ShowMissionBoard(page)
+  ValkAddon.currentPage = page or 1
+  ValkAddon.Missions = {}
   local boardData = CerconeTablonMisiones
   if not page then page = 1 end
   if not boardData or #boardData == 0 then
@@ -53,7 +53,7 @@ function CerconeAddon.ShowMissionBoard(page)
       text:SetText(mission.Texto)
       requirements:SetText(mission.Requisitos)
 
-      CerconeAddon.Missions[mission.Slot] = {
+      ValkAddon.Missions[mission.Slot] = {
         Estilo = mission.Estilo,
         Titulo = mission.Titulo,
         Texto = mission.Texto,
@@ -81,12 +81,12 @@ function CerconeAddon.ShowMissionBoard(page)
   end
 end
 
-function CerconeAddon.ChangePage(value)
-  local page = CerconeAddon.currentPage + value
-  CerconeAddon.ShowMissionBoard(page)
+function ValkAddon.ChangePage(value)
+  local page = ValkAddon.currentPage + value
+  ValkAddon.ShowMissionBoard(page)
 end
 
-function CerconeAddon.SelectMission(slot)
+function ValkAddon.SelectMission(slot)
   local panel = GetControl("Mision")
   local mGrande = GetControl("MGrande")
 
@@ -94,17 +94,17 @@ function CerconeAddon.SelectMission(slot)
   local text = GetControl("MisionTexto")
   local requirements = GetControl("MisionReq")
 
-  title:SetText(CerconeAddon.Missions[slot].Titulo)
-  text:SetText(CerconeAddon.Missions[slot].Texto)
-  requirements:SetText(CerconeAddon.Missions[slot].Requisitos)
-  mGrande:SetTexture(Estilos[CerconeAddon.Missions[slot].Estilo])
+  title:SetText(ValkAddon.Missions[slot].Titulo)
+  text:SetText(ValkAddon.Missions[slot].Texto)
+  requirements:SetText(ValkAddon.Missions[slot].Requisitos)
+  mGrande:SetTexture(Estilos[ValkAddon.Missions[slot].Estilo])
 
   panel:SetDrawTier(DT_HIGH)
   PlaySound(SOUNDS.BOOK_PAGE_TURN)
   panel:SetHidden(false)
 end
 
-function CerconeAddon.CloseMissionPanel()
+function ValkAddon.CloseMissionPanel()
   local panel = GetControl("Mision")
   panel:SetHidden(true)
   panel:SetDrawTier(DT_LOW)
