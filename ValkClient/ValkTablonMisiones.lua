@@ -1,11 +1,11 @@
-CerconeTablonMisiones = {
+ValkTablonMisiones = {
     {
         Pagina=1,
         Slot=1,
-        Estilo="Sanguinaris",
-        Titulo="Entrenamiento Sanguinaris",
-        Texto="Se abre una nueva convocatoria de entrenamiento. El siguiente es un llamado para todos los Sanguinaris que no hayan realizado el entrenamiento básico de formaciones militares.",
-        Requisitos="Requisito: Ser Sanguinaris\nSin limite de participantes",
+        Estilo="",
+        Titulo="",
+        Texto="",
+        Requisitos="",
     },
     {
         Pagina=1,
@@ -18,15 +18,15 @@ CerconeTablonMisiones = {
     {
         Pagina=1,
         Slot=3,
-        Estilo="Inquisidores",
-        Titulo="",
-        Texto="",
-        Requisitos="",
+        Estilo="Clan",
+        Titulo="Velo sobre Belkarth",
+        Texto="La orden Frumentarii solicita la ayuda a los miembros del Clan para su primera operación en una importante campaña para cimentar la influencia a nivel diplomático y económico en Tamriel. \nObjetivos para completar la misión: Obtener la invitación a una importante reunión secreta.",
+        Requisitos="Cantidad de participantes: 3\nRequisitos: Mínimo 1 Frumentarii. \nLugar: Ad Victoriam\nRecompensa: 50.000 de Oro.",
     },
     {
         Pagina=2,
         Slot=1,
-        Estilo="Custodes",
+        Estilo="",
         Titulo="",
         Texto="",
         Requisitos="",
@@ -34,7 +34,7 @@ CerconeTablonMisiones = {
     {
         Pagina=2,
         Slot=2,
-        Estilo="Frumentarii",
+        Estilo="",
         Titulo="",
         Texto="",
         Requisitos="",
@@ -42,7 +42,7 @@ CerconeTablonMisiones = {
     {
         Pagina=2,
         Slot=3,
-        Estilo="Indomito",
+        Estilo="",
         Titulo="",
         Texto="",
         Requisitos="",

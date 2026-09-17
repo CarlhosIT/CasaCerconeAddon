@@ -11,9 +11,9 @@ Modules/Duelo/PjDuelFunctions.lua
 Core/SlashCommands.lua
 Modules/Grimorio/GrimorioFunctions.lua
 Modules/Misiones/TablonMisionesFunctions.lua
-CerconeClient/CerconePjData.lua
-CerconeClient/CerconeGrimData.lua
-CerconeClient/CerconeTablonMisiones.lua
+ValkClient/ValkPjData.lua
+ValkClient/ValkGrimData.lua
+ValkClient/ValkTablonMisiones.lua
 Core/Bindings.xml
 Modules/FichaPj/CerconePjSimpleUI.xml
 Modules/Grimorio/Grimorio.xml
