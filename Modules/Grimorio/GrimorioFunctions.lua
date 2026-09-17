@@ -78,7 +78,7 @@ local function FilterData(filter, vista)
     local filteredData2 = {}
 
     -- Filtramos la data por el nombre de la lección
-    for _, item in ipairs(CerconeGrimoireData) do
+    for _, item in ipairs(ValkGrimoireData) do
         if item.Nombre == filter then
             table.insert(filteredData1, item)
         end
@@ -192,7 +192,7 @@ end
 local function CalculatePagesPerTitle(currentTitle)
     local pages = 0
     local currentSubtitle = ""
-    for _, item in ipairs(CerconeGrimoireData) do
+    for _, item in ipairs(ValkGrimoireData) do
         if item.Nombre == currentTitle then
 
             if item.NombreRama ~= currentSubtitle or currentSubtitle == "" then
@@ -211,7 +211,7 @@ local function CalculatePagesPerTitle(currentTitle)
 end
 
 function ValkAddon.ShowGrimorio()
-    local indexData = CerconeGrimoireData
+    local indexData = ValkGrimoireData
     if not indexData or #indexData == 0 then
         d("No hay datos para mostrar en el índice")
         return

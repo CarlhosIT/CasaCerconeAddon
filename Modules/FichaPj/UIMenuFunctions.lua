@@ -96,7 +96,7 @@ function ValkAddon.AcademyInfo()
   
   function ValkAddon.SearchpjByName(namePj)
     local searchTerm = string.lower(namePj)
-    for index, pjInfo in ipairs(CerconePjData) do
+    for index, pjInfo in ipairs(ValkPjData) do
       local pjName = string.lower(pjInfo.Personaje)
       if string.find(pjName, searchTerm, 1, true) then
         return index
@@ -114,8 +114,8 @@ function ValkAddon.AcademyInfo()
     local numPj = ValkAddon.SearchpjByName(name)
     local index = tonumber(numPj)
     ValkAddon.AcademyInfo()
-    if index and index >= 1 and index <= #CerconePjData then
-      local pj = CerconePjData[index]
+    if index and index >= 1 and index <= #ValkPjData then
+      local pj = ValkPjData[index]
       local panel = WINDOW_MANAGER:GetControlByName("CerconePjSimpleUI")
       if panel then
         PjName:SetText(pj.Personaje)

@@ -17,7 +17,7 @@ ValkAddon.Missions = {}
 function ValkAddon.ShowMissionBoard(page)
   ValkAddon.currentPage = page or 1
   ValkAddon.Missions = {}
-  local boardData = CerconeTablonMisiones
+  local boardData = ValkTablonMisiones
   if not page then page = 1 end
   if not boardData or #boardData == 0 then
     chat:Print("No hay misiones.")

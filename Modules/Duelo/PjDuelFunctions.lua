@@ -17,8 +17,8 @@ function ValkAddon.SelectPjForDuel(namePj)
     local index = tonumber(numPj)
     ValkAddon.AcademyInfo()
     
-    if index and index >= 1 and index <= #CerconePjData then
-        local pj = CerconePjData[index]
+    if index and index >= 1 and index <= #ValkPjData then
+        local pj = ValkPjData[index]
         local maxLength = 19
         local displayName = pj.Personaje
         if string.len(displayName) > maxLength then
